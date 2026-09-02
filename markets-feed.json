@@ -1,18 +1,18 @@
 {
-  "GENERATED_AT": "2026-09-02T16:04:36-04:00",
+  "GENERATED_AT": "2026-09-02T17:05:26-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
     "12:05p",
     "1:05p",
-    "2:05p"
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC.",
     "ten-year holds near 4.81% at midsession as oil stays bid near $90 on Iran risk",
     "ten-year and S&P hold steady into early afternoon as oil eases back from session highs",
-    "ten-year holds near 4.81% into midafternoon as Dow adds half a point, oil stalls near $90"
+    "ten-year eases to 4.79% at the close as stocks snap a three-day skid, Dow adds 295 points"
   ],
   "MARKS": [
     {
@@ -22,66 +22,66 @@
     }
   ],
   "UST10": {
-    "close": 4.814,
-    "display": "4.81%",
-    "chg_bp": 2,
+    "close": 4.79,
+    "display": "4.79%",
+    "chg_bp": -1,
     "tape": [
       4.81,
       4.81,
       4.81,
-      4.81
+      4.79
     ],
-    "as_of": "Sep 2 2:05p print",
-    "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
+    "as_of": "Sep 2 close",
+    "url": "https://tradingeconomics.com/united-states/government-bond-yield"
   },
   "SPX": {
-    "close": 7647.61,
+    "close": 7666.6,
     "prior_close": 7634.33,
     "tape": [
       7647.61,
       7647.61,
       7647.61,
-      7647.61
+      7666.6
     ],
-    "as_of": "Sep 2 2:05p print",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
+    "as_of": "Sep 2 close",
+    "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,647.61",
-      "chg": 0.21,
+      "val": "7,666.60",
+      "chg": 0.46,
       "unit": "%",
       "history": [
         7634.33,
-        7647.61
+        7666.6
       ],
-      "as_of": "Sep 2 2:05p print",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
+      "as_of": "Sep 2 close",
+      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,110.72",
-      "chg": 0.04,
+      "val": "26,217.83",
+      "chg": 0.45,
       "unit": "%",
       "history": [
         26090,
-        26110.72
+        26217.83
       ],
-      "as_of": "Sep 2 2:05p print",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
+      "as_of": "Sep 2 close",
+      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
     },
     {
       "sym": "DOW",
-      "val": "53,060.57",
+      "val": "53,061.95",
       "chg": 0.56,
       "unit": "%",
       "history": [
         52794.6,
-        53060.57
+        53061.95
       ],
-      "as_of": "Sep 2 2:05p print",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
+      "as_of": "Sep 2 close",
+      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
     },
     {
       "sym": "WTI",
@@ -95,25 +95,27 @@
     },
     {
       "sym": "VIX",
-      "val": null,
+      "val": "16.34",
       "chg": null,
       "unit": "%",
       "inverse": true,
-      "history": [],
-      "as_of": "pending, source unreachable",
-      "url": null
+      "history": [
+        16.34
+      ],
+      "as_of": "Sep 2 close",
+      "url": "https://www.cnbc.com/quotes/.VIX"
     },
     {
       "sym": "10-YR",
-      "val": "4.81%",
-      "chg": 2,
+      "val": "4.79%",
+      "chg": -1,
       "unit": " bp",
       "inverse": true,
       "history": [
-        4.81
+        4.79
       ],
-      "as_of": "Sep 2 2:05p print",
-      "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
+      "as_of": "Sep 2 close",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
       "sym": "2-YR",
@@ -128,21 +130,21 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.28%",
+      "val": "5.27%",
       "chg": null,
       "unit": "",
       "history": [
-        5.28
+        5.27
       ],
-      "as_of": "Sep 1 close, per treasury.gov daily par yield curve",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
+      "as_of": "Sep 2 close, per tradingeconomics.com",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     }
   ],
   "CURVE": {
     "two": 4.4,
-    "ten": 4.814,
-    "thirty": 5.28,
-    "as_of": "10-yr Sep 2 2:05p print; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
+    "ten": 4.79,
+    "thirty": 5.27,
+    "as_of": "10-yr Sep 2 close; 30-yr Sep 2 close, per tradingeconomics.com; 2-yr Sep 1 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
@@ -234,9 +236,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is trading at 4.81 percent today, its highest level since November 2023, and that is the number setting our cost of capital right now.",
-    "Oil is holding near $90 as the Iran escalation keeps a bid under crude, and that pressure is keeping yields elevated into the September 16 FOMC decision.",
-    "The S&P is up modestly on the day, but the curve is the real story: the ten-year has moved well past our 4.50 percent underwriting base, and every basis point above it raises our cost of capital."
+    "The ten-year closed today at 4.79 percent, easing off its intraday high near 4.81 percent but still well above our 4.50 percent underwriting base.",
+    "Oil held near $90 through the close as the Iran standoff keeps a floor under crude, and that pressure is what keeps yields elevated into the September 16 FOMC decision.",
+    "The S&P closed up almost half a percent today, but the number that sets our cost of capital is the ten-year: every basis point above our 4.50 percent base raises it."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
