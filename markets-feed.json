@@ -1,0 +1,269 @@
+{
+  "GENERATED_AT": "2026-09-01T16:52:00-04:00",
+  "UNDERWRITING_BASE_10YR": 4.5,
+  "LOCK_TRIGGER_BP": 20,
+  "TAPE_TIMES": [
+    "9:41a",
+    "10:40a",
+    "11:45a",
+    "12:35p",
+    "1:50p",
+    "2:35p",
+    "3:35p",
+    "4:00p"
+  ],
+  "TAPE_NOTES": [
+    "September opens risk-off, oil into rates and Barr floats a hike",
+    "stocks pare losses after cool ISM 54.6 and in-line JOLTS",
+    "sideways drift, oil bid keeps yields pinned near the highs",
+    "sellers reload as oil jumps ~4.5% and VIX tops 16",
+    "stocks hold near the lows as oil tags $90 and VIX sits at 16",
+    "afternoon stall near the lows, oil holds $90 and VIX at 16",
+    "late fade to fresh lows, oil tops $90 and VIX jumps past 16.5",
+    "closes just off the lows, oil holds ~$90 and 10-yr ends at a 19-month high"
+  ],
+  "MARKS": [
+    {
+      "label": "Mon open",
+      "value": 4.75,
+      "as_of": "10-yr post-open print, Aug 31"
+    }
+  ],
+  "UST10": {
+    "close": 4.795,
+    "display": "4.80%",
+    "chg_bp": 4,
+    "tape": [
+      4.78,
+      4.78,
+      4.77,
+      4.79,
+      4.79,
+      4.79,
+      4.79,
+      4.8
+    ],
+    "as_of": "Sep 1 close · highest close since Jan 2025",
+    "url": "https://www.wsj.com/market-data/quotes/bond/BX/TMUBMUSD10Y"
+  },
+  "SPX": {
+    "close": 7634.33,
+    "prior_close": 7686.14,
+    "tape": [
+      7633,
+      7659,
+      7659,
+      7635,
+      7633,
+      7633,
+      7627,
+      7634.33
+    ],
+    "as_of": "Sep 1 close",
+    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+  },
+  "QUOTES": [
+    {
+      "sym": "S&P 500",
+      "val": "7,634.33",
+      "chg": -0.67,
+      "unit": "%",
+      "history": [
+        7686.14,
+        7634.33
+      ],
+      "as_of": "Sep 1 close",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+    },
+    {
+      "sym": "NASDAQ",
+      "val": "≈26,090",
+      "chg": -1.1,
+      "unit": "%",
+      "history": [
+        26370.89,
+        26090
+      ],
+      "as_of": "Sep 1 close, official print unverified",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+    },
+    {
+      "sym": "DOW",
+      "val": "52,794.60",
+      "chg": -0.74,
+      "unit": "%",
+      "history": [
+        53185.9,
+        52794.6
+      ],
+      "as_of": "Sep 1 close · prints vary a few points across sources",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+    },
+    {
+      "sym": "WTI",
+      "val": "$89.7",
+      "chg": 4.6,
+      "unit": "%",
+      "inverse": true,
+      "history": [],
+      "as_of": "Sep 1, settlement unverified",
+      "url": "https://www.mitrade.com/insights/news/live-news/article-4-2047564-20260901"
+    },
+    {
+      "sym": "VIX",
+      "val": "15.9",
+      "chg": 6.0,
+      "unit": "%",
+      "inverse": true,
+      "history": [],
+      "as_of": "Sep 1 close, unverified",
+      "url": null
+    },
+    {
+      "sym": "10-YR",
+      "val": "4.80%",
+      "chg": 4,
+      "unit": " bp",
+      "inverse": true,
+      "history": [
+        4.78,
+        4.78,
+        4.77,
+        4.79,
+        4.79,
+        4.79,
+        4.79,
+        4.8
+      ],
+      "as_of": "Sep 1 close · highest close since Jan 2025",
+      "url": "https://www.wsj.com/market-data/quotes/bond/BX/TMUBMUSD10Y"
+    },
+    {
+      "sym": "2-YR",
+      "val": "4.36%",
+      "chg": null,
+      "unit": "",
+      "history": [
+        4.36
+      ],
+      "as_of": "Sep 1 AM print",
+      "url": null
+    },
+    {
+      "sym": "30-YR",
+      "val": "5.27%",
+      "chg": null,
+      "unit": "",
+      "history": [
+        5.27
+      ],
+      "as_of": "Sep 1 AM print",
+      "url": null
+    }
+  ],
+  "CURVE": {
+    "two": 4.36,
+    "ten": 4.795,
+    "thirty": 5.27,
+    "as_of": "Sep 1 (2s/30s from AM prints)"
+  },
+  "CURVE_2S10S": {
+    "history": [
+      44
+    ],
+    "as_of": "accrues daily from Sep 1"
+  },
+  "ODDS": {
+    "polymarket": {
+      "enabled": true,
+      "slug": "fed-decision-in-september-2026",
+      "marketUrl": "https://polymarket.com/event/fed-decision-in-september-2026",
+      "fallback": null,
+      "fallback_as_of": null
+    },
+    "fedwatch": {
+      "value": 58,
+      "as_of": "Aug 31, unverified",
+      "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+    },
+    "mode": "hybrid"
+  },
+  "FOMC": {
+    "label": "FOMC decision",
+    "at": "2026-09-16T14:00:00-04:00"
+  },
+  "TRIPWIRES": [
+    {
+      "label": "10-yr ≥ 4.85%",
+      "metric": "UST10",
+      "value": 4.85
+    },
+    {
+      "label": "VIX ≥ 20",
+      "metric": "VIX",
+      "value": 20
+    },
+    {
+      "label": "WTI ≥ $95",
+      "metric": "WTI",
+      "value": 95
+    },
+    {
+      "label": "Hike odds ≥ 70%",
+      "metric": "ODDS",
+      "value": 70
+    }
+  ],
+  "DESK": [
+    {
+      "sym": "SOFR",
+      "value": null
+    },
+    {
+      "sym": "30-day avg SOFR",
+      "value": null
+    },
+    {
+      "sym": "10-yr swap",
+      "value": null
+    }
+  ],
+  "EVENTS": [
+    {
+      "label": "ISM + JOLTS",
+      "at": "2026-09-01T10:00:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "ADP + Beige Bk",
+      "at": "2026-09-02T08:15:00-04:00",
+      "tier1": false
+    },
+    {
+      "label": "ISM Services",
+      "at": "2026-09-03T10:00:00-04:00",
+      "tier1": false
+    },
+    {
+      "label": "Payrolls",
+      "at": "2026-09-04T08:30:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "Labor Day · mkts closed",
+      "at": "2026-09-07T09:30:00-04:00",
+      "tier1": false
+    },
+    {
+      "label": "FOMC decision",
+      "at": "2026-09-16T14:00:00-04:00",
+      "tier1": true
+    }
+  ],
+  "CALL_LINES": [
+    "The ten-year closed at 4.80% today, its highest close since January 2025. Cost of capital, not cap rates, is what is moving our basis right now.",
+    "Oil finished up better than 4% on the Gulf flare-up, and the bond market translated it straight into higher-for-longer financing.",
+    "Stocks were down under a percent, that part is noise; Friday's payrolls decides whether September is live. Nobody signs a rate lock before that print."
+  ],
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
+}
