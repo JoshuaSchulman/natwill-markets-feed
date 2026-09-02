@@ -1,26 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-02T09:07:18-04:00",
+  "GENERATED_AT": "2026-09-02T10:07:19-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "9:41a",
-    "10:40a",
-    "11:45a",
-    "12:35p",
-    "1:50p",
-    "2:35p",
-    "3:35p",
-    "4:00p"
+    "10:05a"
   ],
   "TAPE_NOTES": [
-    "September opens risk-off, oil into rates and Barr floats a hike",
-    "stocks pare losses after cool ISM 54.6 and in-line JOLTS",
-    "sideways drift, oil bid keeps yields pinned near the highs",
-    "sellers reload as oil jumps ~4.5% and VIX tops 16",
-    "stocks hold near the lows as oil tags $90 and VIX sits at 16",
-    "afternoon stall near the lows, oil holds $90 and VIX at 16",
-    "late fade to fresh lows, oil tops $90 and VIX jumps past 16.5",
-    "closes just off the lows, oil holds ~$90 and 10-yr ends at a 19-month high"
+    "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC."
   ],
   "MARKS": [
     {
@@ -30,84 +16,70 @@
     }
   ],
   "UST10": {
-    "close": 4.795,
-    "display": "4.80%",
-    "chg_bp": 4,
+    "close": 4.814,
+    "display": "4.81%",
+    "chg_bp": 2,
     "tape": [
-      4.78,
-      4.78,
-      4.77,
-      4.79,
-      4.79,
-      4.79,
-      4.79,
-      4.8
+      4.81
     ],
-    "as_of": "Sep 1 close · highest close since Jan 2025",
-    "url": "https://www.wsj.com/market-data/quotes/bond/BX/TMUBMUSD10Y"
+    "as_of": "Sep 2 midday print, highest close since Nov 2023",
+    "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
   },
   "SPX": {
-    "close": 7634.33,
-    "prior_close": 7686.14,
+    "close": 7647.61,
+    "prior_close": 7634.33,
     "tape": [
-      7633,
-      7659,
-      7659,
-      7635,
-      7633,
-      7633,
-      7627,
-      7634.33
+      7647.61
     ],
-    "as_of": "Sep 1 close",
-    "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+    "as_of": "Sep 2 midday",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,634.33",
-      "chg": -0.67,
+      "val": "7,647.61",
+      "chg": 0.21,
       "unit": "%",
       "history": [
-        7686.14,
-        7634.33
+        7634.33,
+        7647.61
       ],
-      "as_of": "Sep 1 close",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+      "as_of": "Sep 2 midday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
       "sym": "NASDAQ",
-      "val": "≈26,090",
-      "chg": -1.1,
+      "val": "26,110.72",
+      "chg": 0.04,
       "unit": "%",
       "history": [
-        26370.89,
-        26090
+        26090,
+        26110.72
       ],
-      "as_of": "Sep 1 close, official print unverified",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+      "as_of": "Sep 2 midday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
       "sym": "DOW",
-      "val": "52,794.60",
-      "chg": -0.74,
+      "val": "53,060.57",
+      "chg": 0.56,
       "unit": "%",
       "history": [
-        53185.9,
-        52794.6
+        52794.6,
+        53060.57
       ],
-      "as_of": "Sep 1 close · prints vary a few points across sources",
-      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-trim-losses-but-end-sharply-lower-as-wall-street-assesses-iran-war-worries-210028258.html"
+      "as_of": "Sep 2 midday",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
       "sym": "WTI",
-      "val": "$90.22",
-      "chg": 5.2,
+      "val": "$89.62",
+      "chg": -0.7,
       "unit": "%",
       "inverse": true,
       "history": [],
-      "as_of": "Sep 1 settlement",
-      "url": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-september-1-2026/"
+      "as_of": "Sep 2 midday, unverified",
+      "url": "https://www.oilpriceapi.com/live/wti-crude-oil-price"
     },
     {
       "sym": "VIX",
@@ -121,22 +93,15 @@
     },
     {
       "sym": "10-YR",
-      "val": "4.80%",
-      "chg": 4,
+      "val": "4.81%",
+      "chg": 2,
       "unit": " bp",
       "inverse": true,
       "history": [
-        4.78,
-        4.78,
-        4.77,
-        4.79,
-        4.79,
-        4.79,
-        4.79,
-        4.8
+        4.81
       ],
-      "as_of": "Sep 1 close · highest close since Jan 2025",
-      "url": "https://www.wsj.com/market-data/quotes/bond/BX/TMUBMUSD10Y"
+      "as_of": "Sep 2 midday print, highest close since Nov 2023",
+      "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
     },
     {
       "sym": "2-YR",
@@ -163,9 +128,9 @@
   ],
   "CURVE": {
     "two": 4.4,
-    "ten": 4.795,
+    "ten": 4.814,
     "thirty": 5.28,
-    "as_of": "10-yr Sep 1 close; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
+    "as_of": "10-yr Sep 2 midday; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
@@ -230,11 +195,6 @@
   ],
   "EVENTS": [
     {
-      "label": "ISM + JOLTS",
-      "at": "2026-09-01T10:00:00-04:00",
-      "tier1": true
-    },
-    {
       "label": "ADP + Beige Bk",
       "at": "2026-09-02T08:15:00-04:00",
       "tier1": false
@@ -261,9 +221,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Tuesday at 4.80%, its highest close since January 2025, and that print is still setting our cost of capital heading into today's open.",
-    "Oil remains pinned near $90 and CME FedWatch still shows a 66% probability of a September hike, both keeping pressure on the curve overnight.",
-    "ADP and the Fed's Beige Book are out this morning, ISM Services follows tomorrow, and Friday's payrolls print will be the next real test for that hike odds."
+    "The ten-year is trading at 4.81 percent this morning, its highest print since November 2023, and that is the number setting our cost of capital right now.",
+    "Oil is holding near $90 as the Iran escalation keeps a bid under crude, and that pressure is keeping yields elevated into the September 16 FOMC decision.",
+    "The S&P is up modestly on the day, but the curve is the real story: the ten-year has moved well past our 4.50 percent underwriting base, and every basis point above it raises our cost of capital."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
