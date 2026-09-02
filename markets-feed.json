@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-02T14:04:30-04:00",
+  "GENERATED_AT": "2026-09-02T16:04:36-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -146,9 +146,10 @@
   },
   "CURVE_2S10S": {
     "history": [
-      44
+      44,
+      41
     ],
-    "as_of": "accrues daily from Sep 1"
+    "as_of": "accrues daily from Sep 1, last Sep 2"
   },
   "ODDS": {
     "polymarket": {
