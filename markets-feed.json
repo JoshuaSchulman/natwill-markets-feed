@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-01T16:52:00-04:00",
+  "GENERATED_AT": "2026-09-01T20:19:52-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -101,13 +101,13 @@
     },
     {
       "sym": "WTI",
-      "val": "$89.7",
-      "chg": 4.6,
+      "val": "$90.22",
+      "chg": 5.2,
       "unit": "%",
       "inverse": true,
       "history": [],
-      "as_of": "Sep 1, settlement unverified",
-      "url": "https://www.mitrade.com/insights/news/live-news/article-4-2047564-20260901"
+      "as_of": "Sep 1 settlement",
+      "url": "https://fxdailyreport.com/wti-crude-oil-price-analysis-for-september-1-2026/"
     },
     {
       "sym": "VIX",
@@ -182,9 +182,9 @@
       "fallback_as_of": null
     },
     "fedwatch": {
-      "value": 58,
-      "as_of": "Aug 31, unverified",
-      "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"
+      "value": 66,
+      "as_of": "Aug 31, per CME FedWatch",
+      "url": "https://www.forbes.com/sites/digital-assets/2026/08/31/cme-fedwatch-provides-a-66-chance-fed-will-hike-rates-in-september/"
     },
     "mode": "hybrid"
   },
@@ -262,8 +262,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 4.80% today, its highest close since January 2025. Cost of capital, not cap rates, is what is moving our basis right now.",
-    "Oil finished up better than 4% on the Gulf flare-up, and the bond market translated it straight into higher-for-longer financing.",
-    "Stocks were down under a percent, that part is noise; Friday's payrolls decides whether September is live. Nobody signs a rate lock before that print."
+    "Oil settled up better than 5% on the Iran conflict, and CME FedWatch now prices a 66% chance of a September hike.",
+    "Stocks closed down under a percent, that part is noise; Friday's payrolls decides whether September is live. Nobody signs a rate lock before that print."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
