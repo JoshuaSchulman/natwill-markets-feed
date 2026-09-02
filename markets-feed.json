@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-02T07:07:28-04:00",
+  "GENERATED_AT": "2026-09-02T08:13:21-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -261,9 +261,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Tuesday at 4.80%, its highest close since January 2025, and that print is what's setting today's cost of capital, not where cap rates sit.",
-    "Overnight the two-year firmed to 4.40% and the thirty-year to 5.28% on the official Treasury close, both up from yesterday's morning prints as the curve keeps pricing hike risk.",
-    "CME FedWatch still prices a 66% chance of a September hike, and Friday's payrolls print is what decides whether that call survives the week."
+    "The ten-year closed Tuesday at 4.80%, its highest close since January 2025, and that print sets today's cost of capital before the opening bell.",
+    "Oil holding near $90 and a 66% CME FedWatch probability of a September hike are keeping the curve pinned near those highs into this morning's open.",
+    "Today brings ADP and the Fed's Beige Book at 8:15, ISM Services tomorrow, and Friday's payrolls print will decide whether that hike odds holds."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
