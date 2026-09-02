@@ -1,16 +1,18 @@
 {
-  "GENERATED_AT": "2026-09-02T13:04:41-04:00",
+  "GENERATED_AT": "2026-09-02T14:04:30-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
     "12:05p",
-    "1:05p"
+    "1:05p",
+    "2:05p"
   ],
   "TAPE_NOTES": [
     "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC.",
     "ten-year holds near 4.81% at midsession as oil stays bid near $90 on Iran risk",
-    "ten-year and S&P hold steady into early afternoon as oil eases back from session highs"
+    "ten-year and S&P hold steady into early afternoon as oil eases back from session highs",
+    "ten-year holds near 4.81% into midafternoon as Dow adds half a point, oil stalls near $90"
   ],
   "MARKS": [
     {
@@ -26,9 +28,10 @@
     "tape": [
       4.81,
       4.81,
+      4.81,
       4.81
     ],
-    "as_of": "Sep 2 12:05p print",
+    "as_of": "Sep 2 2:05p print",
     "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
   },
   "SPX": {
@@ -37,9 +40,10 @@
     "tape": [
       7647.61,
       7647.61,
+      7647.61,
       7647.61
     ],
-    "as_of": "Sep 2 12:05p print",
+    "as_of": "Sep 2 2:05p print",
     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
   },
   "QUOTES": [
@@ -52,7 +56,7 @@
         7634.33,
         7647.61
       ],
-      "as_of": "Sep 2 12:05p print",
+      "as_of": "Sep 2 2:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
@@ -64,7 +68,7 @@
         26090,
         26110.72
       ],
-      "as_of": "Sep 2 12:05p print",
+      "as_of": "Sep 2 2:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
@@ -76,7 +80,7 @@
         52794.6,
         53060.57
       ],
-      "as_of": "Sep 2 12:05p print",
+      "as_of": "Sep 2 2:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
@@ -108,7 +112,7 @@
       "history": [
         4.81
       ],
-      "as_of": "Sep 2 12:05p print",
+      "as_of": "Sep 2 2:05p print",
       "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
     },
     {
@@ -138,7 +142,7 @@
     "two": 4.4,
     "ten": 4.814,
     "thirty": 5.28,
-    "as_of": "10-yr Sep 2 12:05p print; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
+    "as_of": "10-yr Sep 2 2:05p print; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
