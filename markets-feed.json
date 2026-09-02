@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-01T20:19:52-04:00",
+  "GENERATED_AT": "2026-09-02T07:07:28-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -140,32 +140,32 @@
     },
     {
       "sym": "2-YR",
-      "val": "4.36%",
+      "val": "4.40%",
       "chg": null,
       "unit": "",
       "history": [
-        4.36
+        4.4
       ],
-      "as_of": "Sep 1 AM print",
-      "url": null
+      "as_of": "Sep 1 close, per treasury.gov daily par yield curve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
     },
     {
       "sym": "30-YR",
-      "val": "5.27%",
+      "val": "5.28%",
       "chg": null,
       "unit": "",
       "history": [
-        5.27
+        5.28
       ],
-      "as_of": "Sep 1 AM print",
-      "url": null
+      "as_of": "Sep 1 close, per treasury.gov daily par yield curve",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026"
     }
   ],
   "CURVE": {
-    "two": 4.36,
+    "two": 4.4,
     "ten": 4.795,
-    "thirty": 5.27,
-    "as_of": "Sep 1 (2s/30s from AM prints)"
+    "thirty": 5.28,
+    "as_of": "10-yr Sep 1 close; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
@@ -261,9 +261,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 4.80% today, its highest close since January 2025. Cost of capital, not cap rates, is what is moving our basis right now.",
-    "Oil settled up better than 5% on the Iran conflict, and CME FedWatch now prices a 66% chance of a September hike.",
-    "Stocks closed down under a percent, that part is noise; Friday's payrolls decides whether September is live. Nobody signs a rate lock before that print."
+    "The ten-year closed Tuesday at 4.80%, its highest close since January 2025, and that print is what's setting today's cost of capital, not where cap rates sit.",
+    "Overnight the two-year firmed to 4.40% and the thirty-year to 5.28% on the official Treasury close, both up from yesterday's morning prints as the curve keeps pricing hike risk.",
+    "CME FedWatch still prices a 66% chance of a September hike, and Friday's payrolls print is what decides whether that call survives the week."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
