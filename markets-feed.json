@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-09-02T10:07:19-04:00",
+  "GENERATED_AT": "2026-09-02T12:06:27-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a"
+    "10:05a",
+    "12:05p"
   ],
   "TAPE_NOTES": [
-    "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC."
+    "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC.",
+    "ten-year holds near 4.81% at midsession as oil stays bid near $90 on Iran risk"
   ],
   "MARKS": [
     {
@@ -20,18 +22,20 @@
     "display": "4.81%",
     "chg_bp": 2,
     "tape": [
+      4.81,
       4.81
     ],
-    "as_of": "Sep 2 midday print, highest close since Nov 2023",
+    "as_of": "Sep 2 12:05p print",
     "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
   },
   "SPX": {
     "close": 7647.61,
     "prior_close": 7634.33,
     "tape": [
+      7647.61,
       7647.61
     ],
-    "as_of": "Sep 2 midday",
+    "as_of": "Sep 2 12:05p print",
     "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
   },
   "QUOTES": [
@@ -44,7 +48,7 @@
         7634.33,
         7647.61
       ],
-      "as_of": "Sep 2 midday",
+      "as_of": "Sep 2 12:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
@@ -56,7 +60,7 @@
         26090,
         26110.72
       ],
-      "as_of": "Sep 2 midday",
+      "as_of": "Sep 2 12:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
@@ -68,27 +72,27 @@
         52794.6,
         53060.57
       ],
-      "as_of": "Sep 2 midday",
+      "as_of": "Sep 2 12:05p print",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-2-134032621.html"
     },
     {
       "sym": "WTI",
-      "val": "$89.62",
-      "chg": -0.7,
+      "val": null,
+      "chg": null,
       "unit": "%",
       "inverse": true,
       "history": [],
-      "as_of": "Sep 2 midday, unverified",
+      "as_of": "pending, source unreachable",
       "url": "https://www.oilpriceapi.com/live/wti-crude-oil-price"
     },
     {
       "sym": "VIX",
-      "val": "15.9",
-      "chg": 6.0,
+      "val": null,
+      "chg": null,
       "unit": "%",
       "inverse": true,
       "history": [],
-      "as_of": "Sep 1 close, unverified",
+      "as_of": "pending, source unreachable",
       "url": null
     },
     {
@@ -100,7 +104,7 @@
       "history": [
         4.81
       ],
-      "as_of": "Sep 2 midday print, highest close since Nov 2023",
+      "as_of": "Sep 2 12:05p print",
       "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
     },
     {
@@ -130,7 +134,7 @@
     "two": 4.4,
     "ten": 4.814,
     "thirty": 5.28,
-    "as_of": "10-yr Sep 2 midday; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
+    "as_of": "10-yr Sep 2 12:05p print; 2s/30s Sep 1 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
@@ -221,7 +225,7 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is trading at 4.81 percent this morning, its highest print since November 2023, and that is the number setting our cost of capital right now.",
+    "The ten-year is trading at 4.81 percent today, its highest level since November 2023, and that is the number setting our cost of capital right now.",
     "Oil is holding near $90 as the Iran escalation keeps a bid under crude, and that pressure is keeping yields elevated into the September 16 FOMC decision.",
     "The S&P is up modestly on the day, but the curve is the real story: the ten-year has moved well past our 4.50 percent underwriting base, and every basis point above it raises our cost of capital."
   ],
