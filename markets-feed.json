@@ -1,18 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-03T09:07:19-04:00",
+  "GENERATED_AT": "2026-09-03T11:06:57-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a",
-    "12:05p",
-    "1:05p",
-    "4:00p"
+    "11:05a"
   ],
   "TAPE_NOTES": [
-    "The ten-year prints 4.81% in the first hour, the highest level since November 2023, as the Iran escalation keeps oil bid near $90 and yields elevated into the FOMC.",
-    "ten-year holds near 4.81% at midsession as oil stays bid near $90 on Iran risk",
-    "ten-year and S&P hold steady into early afternoon as oil eases back from session highs",
-    "ten-year eases to 4.79% at the close as stocks snap a three-day skid, Dow adds 295 points"
+    "ten-year eases to 4.74% as Waller opens the door to a hold, S&P adds four tenths"
   ],
   "MARKS": [
     {
@@ -22,78 +16,72 @@
     }
   ],
   "UST10": {
-    "close": 4.79,
-    "display": "4.79%",
-    "chg_bp": -1,
+    "close": 4.74,
+    "display": "4.74%",
+    "chg_bp": -5,
     "tape": [
-      4.81,
-      4.81,
-      4.81,
-      4.79
+      4.74
     ],
-    "as_of": "Sep 2 close",
-    "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+    "as_of": "Sep 3 11:05a print",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026"
   },
   "SPX": {
-    "close": 7666.6,
-    "prior_close": 7634.33,
+    "close": 7699.62,
+    "prior_close": 7666.6,
     "tape": [
-      7647.61,
-      7647.61,
-      7647.61,
-      7666.6
+      7699.62
     ],
-    "as_of": "Sep 2 close",
-    "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
+    "as_of": "Sep 3 11:05a print",
+    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,666.60",
-      "chg": 0.46,
+      "val": "7,699.62",
+      "chg": 0.43,
       "unit": "%",
       "history": [
         7634.33,
         7666.6
       ],
-      "as_of": "Sep 2 close",
-      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
+      "as_of": "Sep 3 11:05a print",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,217.83",
-      "chg": 0.45,
+      "val": "26,349.92",
+      "chg": 0.5,
       "unit": "%",
       "history": [
         26090,
         26217.83
       ],
-      "as_of": "Sep 2 close",
-      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
+      "as_of": "Sep 3 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html"
     },
     {
       "sym": "DOW",
-      "val": "53,061.95",
-      "chg": 0.56,
+      "val": "53,485.60",
+      "chg": 0.8,
       "unit": "%",
       "history": [
         52794.6,
         53061.95
       ],
-      "as_of": "Sep 2 close",
-      "url": "https://247wallst.com/cards/all-three-major-indexes-finished-green-with-the-dow-s-324-p-gspc-market-bell-01m1hvgqqs9pk4pyhq877zm73r"
+      "as_of": "Sep 3 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-3-dow-sp-500-nasdaq-futures-081525933.html"
     },
     {
       "sym": "WTI",
-      "val": "90.63",
-      "chg": -0.42,
+      "val": "91.15",
+      "chg": 0.15,
       "unit": "%",
       "inverse": true,
       "history": [
         90.63
       ],
-      "as_of": "Sep 3 premarket print, per Reuters via investing.com",
-      "url": "https://www.investing.com/news/commodities-news/oil-edges-down-as-investors-weigh-uncertainty-over-usiran-strikes-4886907"
+      "as_of": "Sep 3 11:05a print",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026"
     },
     {
       "sym": "VIX",
@@ -109,15 +97,15 @@
     },
     {
       "sym": "10-YR",
-      "val": "4.79%",
-      "chg": -1,
+      "val": "4.74%",
+      "chg": -5,
       "unit": " bp",
       "inverse": true,
       "history": [
         4.79
       ],
-      "as_of": "Sep 2 close",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+      "as_of": "Sep 3 11:05a print",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026"
     },
     {
       "sym": "2-YR",
@@ -133,21 +121,21 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.27%",
+      "val": "5.24%",
       "chg": null,
       "unit": "",
       "history": [
         5.27
       ],
-      "as_of": "Sep 2 close, per tradingeconomics.com",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
+      "as_of": "Sep 3 11:05a print, per cnbc.com",
+      "url": "https://www.cnbc.com/2026/09/03/us-treasury-yields-bonds.html"
     }
   ],
   "CURVE": {
     "two": 4.38,
-    "ten": 4.79,
-    "thirty": 5.27,
-    "as_of": "10-yr Sep 2 close; 30-yr Sep 2 close, per tradingeconomics.com; 2-yr Sep 2 close, per treasury.gov daily par yield curve"
+    "ten": 4.74,
+    "thirty": 5.24,
+    "as_of": "10-yr Sep 3 11:05a print; 30-yr Sep 3 11:05a print, per cnbc.com; 2-yr Sep 2 close, per treasury.gov daily par yield curve"
   },
   "CURVE_2S10S": {
     "history": [
@@ -213,11 +201,6 @@
   ],
   "EVENTS": [
     {
-      "label": "ADP + Beige Bk",
-      "at": "2026-09-02T08:15:00-04:00",
-      "tier1": false
-    },
-    {
       "label": "ISM Services",
       "at": "2026-09-03T10:00:00-04:00",
       "tier1": false
@@ -239,9 +222,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Wednesday at 4.79 percent, roughly 29 basis points above our 4.50 percent underwriting base, with ISM Services due at 10 this morning and payrolls tomorrow.",
-    "Oil is holding near 90 dollars a barrel on the Iran standoff, and that premium is keeping the ten-year elevated into the September 16 FOMC decision.",
-    "The S&P closed Wednesday at 7,666, but the ten-year sets our cost of capital, and every basis point above our 4.50 percent base raises it."
+    "The ten-year is trading at 4.74 percent this morning, about 24 basis points above our 4.50 percent underwriting base, as Fed Governor Waller opens the door to holding rates steady this month.",
+    "Oil is holding just above 91 dollars a barrel on the Iran standoff, and every basis point that premium keeps in the ten-year raises our cost of capital into the September 16 FOMC decision.",
+    "The S&P is near 7,700, up about four tenths of a percent, but the ten-year sets our cost of capital, and today's pullback in yields is the number that matters for locks."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
