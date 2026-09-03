@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-02T18:05:49-04:00",
+  "GENERATED_AT": "2026-09-03T07:06:33-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -236,9 +236,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed today at 4.79 percent, having touched its highest level since November 2023 earlier in the session, still well above our 4.50 percent underwriting base.",
-    "Oil pushed toward 91 dollars a barrel as fresh US-Iran hostilities cloud any reopening of the Strait of Hormuz, and that premium is why the ten-year stayed elevated into the September 16 FOMC decision.",
-    "The S&P closed up 0.46 percent today at 7,666, but the ten-year is what sets our cost of capital, and every basis point above our 4.50 percent base raises it."
+    "The ten-year closed Wednesday at 4.79 percent, nearly 30 basis points above our 4.50 percent underwriting base, with ISM Services due at 10 this morning and payrolls tomorrow.",
+    "Oil is holding near 91 dollars a barrel on the Iran standoff, and that premium is keeping the ten-year elevated into the September 16 FOMC decision.",
+    "The S&P closed Wednesday at 7,666, but the ten-year sets our cost of capital, and every basis point above our 4.50 percent base raises it."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
