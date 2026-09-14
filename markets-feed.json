@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-09-14T10:57:36-04:00",
+  "GENERATED_AT": "2026-09-14T11:05:33-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:45a"
+    "10:45a",
+    "11:05a"
   ],
   "TAPE_NOTES": [
-    "ten-year holds near 4.96% as oil jumps on Mideast supply fears, VIX pops above 17"
+    "ten-year holds near 4.96% as oil jumps on Mideast supply fears, VIX pops above 17",
+    "ten-year holds near 5% as Nasdaq extends AI-led slide, oil ticks up near $104"
   ],
   "MARKS": [
     {
@@ -16,73 +18,75 @@
     }
   ],
   "UST10": {
-    "close": 4.96,
-    "display": "4.96%",
-    "chg_bp": 0,
+    "close": 4.99,
+    "display": "4.99%",
+    "chg_bp": 3,
     "tape": [
-      4.96
+      4.96,
+      4.99
     ],
-    "as_of": "Sep 14 10:45a print",
+    "as_of": "Sep 14 11:05a print",
     "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
   },
   "SPX": {
-    "close": 7615.41,
+    "close": 7619.0,
     "prior_close": 7656.98,
     "tape": [
-      7615.41
+      7615.41,
+      7619.0
     ],
-    "as_of": "Sep 14 10:45a print",
-    "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
+    "as_of": "Sep 14 11:05a print",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,615.41",
-      "chg": -0.54,
+      "val": "7,619.00",
+      "chg": -0.5,
       "unit": "%",
       "history": [
         7699.62,
         7656.98
       ],
-      "as_of": "Sep 14 10:45a print",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
+      "as_of": "Sep 14 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,114.36",
-      "chg": -0.83,
+      "val": "26,072.42",
+      "chg": -0.99,
       "unit": "%",
       "history": [
         26349.92,
         26333.04
       ],
-      "as_of": "Sep 14 10:45a print",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
+      "as_of": "Sep 14 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
     },
     {
       "sym": "DOW",
-      "val": "52,464.62",
-      "chg": -0.21,
+      "val": "52,361.25",
+      "chg": -0.4,
       "unit": "%",
       "history": [
         53485.6,
         52573.29
       ],
-      "as_of": "Sep 14 10:45a print",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
+      "as_of": "Sep 14 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
     },
     {
       "sym": "WTI",
-      "val": "103.90",
-      "chg": 3.85,
+      "val": "104.07",
+      "chg": 4.02,
       "unit": "%",
       "inverse": true,
       "history": [
         91.15,
         100.05
       ],
-      "as_of": "Sep 14 10:45a print",
-      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-14-2026"
+      "as_of": "Sep 14 11:05a print",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html"
     },
     {
       "sym": "VIX",
@@ -94,20 +98,20 @@
         16.34,
         15.84
       ],
-      "as_of": "Sep 14 10:41a print",
+      "as_of": "Sep 14 11:05a print, unverified",
       "url": "https://www.cnbc.com/quotes/.VIX"
     },
     {
       "sym": "10-YR",
-      "val": "4.96%",
-      "chg": 0,
+      "val": "4.99%",
+      "chg": 3,
       "unit": " bp",
       "inverse": true,
       "history": [
         4.74,
         4.96
       ],
-      "as_of": "Sep 14 10:45a print",
+      "as_of": "Sep 14 11:05a print",
       "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
     },
     {
@@ -119,27 +123,27 @@
         4.4,
         4.38
       ],
-      "as_of": "Sep 14 10:45a print, unverified",
+      "as_of": "Sep 14 11:05a print, unverified",
       "url": "https://www.cnbc.com/quotes/US2Y"
     },
     {
       "sym": "30-YR",
-      "val": "5.38%",
+      "val": "5.35%",
       "chg": null,
       "unit": "",
       "history": [
         5.27,
         5.36
       ],
-      "as_of": "Sep 14 10:45a print, per press report",
-      "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
+      "as_of": "Sep 14 11:05a print, per press report",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield"
     }
   ],
   "CURVE": {
     "two": 4.65,
-    "ten": 4.96,
-    "thirty": 5.38,
-    "as_of": "10-yr Sep 14 10:45a print; 30-yr Sep 14 10:45a print, per press report; 2-yr Sep 14 10:45a print, unverified"
+    "ten": 4.99,
+    "thirty": 5.35,
+    "as_of": "10-yr Sep 14 11:05a print; 30-yr Sep 14 11:05a print, per press report; 2-yr Sep 14 11:05a print, unverified"
   },
   "CURVE_2S10S": {
     "history": [
@@ -169,22 +173,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -211,9 +215,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is trading at 4.96 percent this morning, about 46 basis points above our 4.50 percent underwriting base, its highest level since October 2023.",
-    "Oil has jumped almost 4 percent to just under 104 dollars a barrel on Middle East supply fears, and every basis point that keeps in the ten-year raises our cost of capital into Wednesday's FOMC decision.",
-    "The S&P is down about half a percent near 7,615, but the ten-year sets our cost of capital, and a rate pinned near 5 percent is the number that matters for locks."
+    "The ten-year is trading at 4.99 percent this morning, a hair under 5 percent and about 49 basis points above our 4.50 percent underwriting base, its highest level since October 2023.",
+    "Oil is holding near 104 dollars a barrel on Middle East supply fears, and every basis point that keeps in the ten-year raises our cost of capital into Wednesday's FOMC decision.",
+    "The Nasdaq is down about 1 percent on an AI-led selloff, but the ten-year sets our cost of capital, and a rate parked at the 5 percent line is the number that matters for locks."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
