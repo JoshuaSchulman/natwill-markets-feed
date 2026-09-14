@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-14T16:08:48-04:00",
+  "GENERATED_AT": "2026-09-14T17:04:47-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -16,7 +16,7 @@
     "ten-year eases to 4.95% as oil retreats from its highs, equities hold modest losses",
     "ten-year eases to 4.94% as oil drifts to $101 and equities hold modest losses",
     "ten-year ticks up to 4.96% as oil holds near $101 and stocks stay under modest pressure",
-    "ten-year closes at 4.97% as VIX jumps 6.5% and oil tops $101 into the Fed"
+    "ten-year closes at 4.97% as VIX finishes up nearly 8% and oil settles near $101.88"
   ],
   "MARKS": [
     {
@@ -93,28 +93,28 @@
     },
     {
       "sym": "WTI",
-      "val": "101.74",
-      "chg": 1.69,
+      "val": "101.88",
+      "chg": 1.83,
       "unit": "%",
       "inverse": true,
       "history": [
         91.15,
         100.05
       ],
-      "as_of": "Sep 14 3:55p print",
+      "as_of": "Sep 14 4:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "16.87",
-      "chg": 6.5,
+      "val": "17.10",
+      "chg": 7.95,
       "unit": "%",
       "inverse": true,
       "history": [
         16.34,
         15.84
       ],
-      "as_of": "Sep 14 3:50p print",
+      "as_of": "Sep 14 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -190,22 +190,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -233,8 +233,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 4.97 percent today, 47 basis points above our 4.50 percent underwriting base with Wednesday's FOMC decision two days out.",
-    "Oil settled near 101.74 dollars a barrel today, but the number that sets our cost of capital is the ten-year, and it closed the session at 4.97 percent, up a basis point on the day.",
-    "Equities closed lower for a second straight session, with the S&P down about half a percent and the VIX up more than six percent, while the ten-year holds at 4.97 percent heading into the Fed."
+    "Oil settled near 101.88 dollars a barrel today, but the number that sets our cost of capital is the ten-year, and it closed the session at 4.97 percent, up a basis point on the day.",
+    "Equities closed lower for a second straight session, with the S&P down about half a percent and the VIX up nearly eight percent, while the ten-year holds at 4.97 percent heading into the Fed."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
