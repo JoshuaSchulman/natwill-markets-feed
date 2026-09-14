@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-14T17:04:47-04:00",
+  "GENERATED_AT": "2026-09-14T18:07:32-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,15 +93,15 @@
     },
     {
       "sym": "WTI",
-      "val": "101.88",
-      "chg": 1.83,
+      "val": "101.89",
+      "chg": 1.84,
       "unit": "%",
       "inverse": true,
       "history": [
         91.15,
         100.05
       ],
-      "as_of": "Sep 14 4:55p print",
+      "as_of": "Sep 14 4:59p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -178,9 +178,9 @@
       "fallback_as_of": null
     },
     "fedwatch": {
-      "value": 85.5,
+      "value": 86.3,
       "as_of": "Sep 12, per CME FedWatch",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-163505675.html"
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-rate-hike-odds-surge-161700473.html"
     },
     "mode": "hybrid"
   },
@@ -190,22 +190,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
