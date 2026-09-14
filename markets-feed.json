@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-14T15:04:36-04:00",
+  "GENERATED_AT": "2026-09-14T16:08:48-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -8,7 +8,7 @@
     "12:05p",
     "1:05p",
     "2:05p",
-    "3:05p"
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "ten-year holds near 4.96% as oil jumps on Mideast supply fears, VIX pops above 17",
@@ -16,7 +16,7 @@
     "ten-year eases to 4.95% as oil retreats from its highs, equities hold modest losses",
     "ten-year eases to 4.94% as oil drifts to $101 and equities hold modest losses",
     "ten-year ticks up to 4.96% as oil holds near $101 and stocks stay under modest pressure",
-    "ten-year holds near 4.96% as VIX jumps above 16.7 and stocks slip into the close"
+    "ten-year closes at 4.97% as VIX jumps 6.5% and oil tops $101 into the Fed"
   ],
   "MARKS": [
     {
@@ -26,22 +26,22 @@
     }
   ],
   "UST10": {
-    "close": 4.96,
-    "display": "4.96%",
-    "chg_bp": 0,
+    "close": 4.97,
+    "display": "4.97%",
+    "chg_bp": 1,
     "tape": [
       4.96,
       4.99,
       4.95,
       4.94,
       4.96,
-      4.96
+      4.97
     ],
-    "as_of": "Sep 14 3:05p print",
-    "url": "https://finance.yahoo.com/quote/%5ETNX/"
+    "as_of": "Sep 14 close, per treasury.gov",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
   },
   "SPX": {
-    "close": 7632.03,
+    "close": 7619.98,
     "prior_close": 7656.98,
     "tape": [
       7615.41,
@@ -49,86 +49,86 @@
       7626.67,
       7640.4,
       7636.09,
-      7632.03
+      7619.98
     ],
-    "as_of": "Sep 14 3:05p print",
+    "as_of": "Sep 14 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,632.03",
-      "chg": -0.33,
+      "val": "7,619.98",
+      "chg": -0.48,
       "unit": "%",
       "history": [
         7699.62,
         7656.98
       ],
-      "as_of": "Sep 14 3:05p print",
+      "as_of": "Sep 14 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,264.09",
-      "chg": -0.26,
+      "val": "26,186.41",
+      "chg": -0.56,
       "unit": "%",
       "history": [
         26349.92,
         26333.04
       ],
-      "as_of": "Sep 14 3:05p print",
+      "as_of": "Sep 14 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,460.34",
-      "chg": -0.21,
+      "val": "52,421.20",
+      "chg": -0.29,
       "unit": "%",
       "history": [
         53485.6,
         52573.29
       ],
-      "as_of": "Sep 14 3:05p print",
+      "as_of": "Sep 14 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "100.67",
-      "chg": 0.62,
+      "val": "101.74",
+      "chg": 1.69,
       "unit": "%",
       "inverse": true,
       "history": [
         91.15,
         100.05
       ],
-      "as_of": "Sep 14 3:05p print",
+      "as_of": "Sep 14 3:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "16.73",
-      "chg": 5.62,
+      "val": "16.87",
+      "chg": 6.5,
       "unit": "%",
       "inverse": true,
       "history": [
         16.34,
         15.84
       ],
-      "as_of": "Sep 14 3:05p print",
+      "as_of": "Sep 14 3:50p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "4.96%",
-      "chg": 0,
+      "val": "4.97%",
+      "chg": 1,
       "unit": " bp",
       "inverse": true,
       "history": [
         4.74,
         4.96
       ],
-      "as_of": "Sep 14 3:05p print",
-      "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      "as_of": "Sep 14 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "2-YR",
@@ -139,34 +139,35 @@
         4.4,
         4.38
       ],
-      "as_of": "Sep 14 11:05a print, unverified",
-      "url": "https://www.cnbc.com/quotes/US2Y"
+      "as_of": "Sep 14 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "30-YR",
-      "val": "5.33%",
+      "val": "5.34%",
       "chg": null,
       "unit": "",
       "history": [
         5.27,
         5.36
       ],
-      "as_of": "Sep 14 3:05p print",
-      "url": "https://finance.yahoo.com/quote/%5ETYX/"
+      "as_of": "Sep 14 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     }
   ],
   "CURVE": {
     "two": 4.65,
-    "ten": 4.96,
-    "thirty": 5.33,
-    "as_of": "10-yr Sep 14 3:05p print; 30-yr Sep 14 3:05p print; 2-yr Sep 14 11:05a print, unverified"
+    "ten": 4.97,
+    "thirty": 5.34,
+    "as_of": "10-yr Sep 14 close, per treasury.gov; 30-yr Sep 14 close, per treasury.gov; 2-yr Sep 14 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
       44,
-      41
+      41,
+      32
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 2"
+    "as_of": "accrues daily from Sep 1, last Sep 14"
   },
   "ODDS": {
     "polymarket": {
@@ -231,9 +232,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year sits at 4.96 percent this afternoon, 46 basis points above our 4.50 percent underwriting base with two days to go before Wednesday's FOMC decision.",
-    "Oil has eased to just above 100 dollars a barrel, but the number that sets our cost of capital is the ten-year, and it is holding near 4.96 percent heading into the Fed.",
-    "Equities are modestly lower again today and volatility is climbing, with the VIX up more than 5 percent, while the ten-year sits flat versus Friday's close: still the only line that matters for locks."
+    "The ten-year closed at 4.97 percent today, 47 basis points above our 4.50 percent underwriting base with Wednesday's FOMC decision two days out.",
+    "Oil settled near 101.74 dollars a barrel today, but the number that sets our cost of capital is the ten-year, and it closed the session at 4.97 percent, up a basis point on the day.",
+    "Equities closed lower for a second straight session, with the S&P down about half a percent and the VIX up more than six percent, while the ten-year holds at 4.97 percent heading into the Fed."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
