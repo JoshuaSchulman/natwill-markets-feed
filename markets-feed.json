@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-14T18:07:32-04:00",
+  "GENERATED_AT": "2026-09-15T07:05:32-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,28 +93,28 @@
     },
     {
       "sym": "WTI",
-      "val": "101.89",
-      "chg": 1.84,
+      "val": "102.72",
+      "chg": 0.81,
       "unit": "%",
       "inverse": true,
       "history": [
-        91.15,
-        100.05
+        100.05,
+        101.89
       ],
-      "as_of": "Sep 14 4:59p print",
+      "as_of": "Sep 15 6:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "17.10",
-      "chg": 7.95,
+      "val": "17.20",
+      "chg": 0.58,
       "unit": "%",
       "inverse": true,
       "history": [
-        16.34,
-        15.84
+        15.84,
+        17.1
       ],
-      "as_of": "Sep 14 close",
+      "as_of": "Sep 15 6:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -232,9 +232,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 4.97 percent today, 47 basis points above our 4.50 percent underwriting base with Wednesday's FOMC decision two days out.",
-    "Oil settled near 101.88 dollars a barrel today, but the number that sets our cost of capital is the ten-year, and it closed the session at 4.97 percent, up a basis point on the day.",
-    "Equities closed lower for a second straight session, with the S&P down about half a percent and the VIX up nearly eight percent, while the ten-year holds at 4.97 percent heading into the Fed."
+    "The ten-year closed at 4.97 percent last night, 47 basis points above our 4.50 percent underwriting base with the Fed's decision one day out.",
+    "Oil is trading near 102.72 dollars a barrel this morning and the VIX sits at 17.20, but the number that sets our cost of capital is the ten-year, still at 4.97 percent heading into tomorrow's FOMC.",
+    "The desk opens quiet ahead of Wednesday's Fed decision, and until that number crosses the tape our underwriting rate stays anchored to a ten-year at 4.97 percent."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
