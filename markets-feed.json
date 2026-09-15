@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-15T16:04:40-04:00",
+  "GENERATED_AT": "2026-09-15T17:04:27-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -195,22 +195,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
