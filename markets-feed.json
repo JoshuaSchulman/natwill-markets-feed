@@ -1,22 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-15T09:05:30-04:00",
+  "GENERATED_AT": "2026-09-15T10:09:43-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:45a",
-    "11:05a",
-    "12:05p",
-    "1:05p",
-    "2:05p",
-    "4:00p"
+    "10:05a"
   ],
   "TAPE_NOTES": [
-    "ten-year holds near 4.96% as oil jumps on Mideast supply fears, VIX pops above 17",
-    "ten-year holds near 5% as Nasdaq extends AI-led slide, oil ticks up near $104",
-    "ten-year eases to 4.95% as oil retreats from its highs, equities hold modest losses",
-    "ten-year eases to 4.94% as oil drifts to $101 and equities hold modest losses",
-    "ten-year ticks up to 4.96% as oil holds near $101 and stocks stay under modest pressure",
-    "ten-year closes at 4.97% as VIX finishes up nearly 8% and oil settles near $101.88"
+    "ten-year climbs to 5.00% as oil jumps near $103 and stocks soften into Fed decision"
   ],
   "MARKS": [
     {
@@ -26,109 +16,99 @@
     }
   ],
   "UST10": {
-    "close": 4.97,
-    "display": "4.97%",
-    "chg_bp": 1,
+    "close": 5.0,
+    "display": "5.00%",
+    "chg_bp": 3,
     "tape": [
-      4.96,
-      4.99,
-      4.95,
-      4.94,
-      4.96,
-      4.97
+      5.0
     ],
-    "as_of": "Sep 14 close, per treasury.gov",
-    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+    "as_of": "Sep 15 9:51a print",
+    "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7619.98,
-    "prior_close": 7656.98,
+    "close": 7600.49,
+    "prior_close": 7619.98,
     "tape": [
-      7615.41,
-      7619.0,
-      7626.67,
-      7640.4,
-      7636.09,
-      7619.98
+      7600.49
     ],
-    "as_of": "Sep 14 close",
+    "as_of": "Sep 15 10:05a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,619.98",
-      "chg": -0.48,
+      "val": "7,600.49",
+      "chg": -0.26,
       "unit": "%",
       "history": [
-        7699.62,
-        7656.98
+        7656.98,
+        7619.98
       ],
-      "as_of": "Sep 14 close",
+      "as_of": "Sep 15 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,186.41",
-      "chg": -0.56,
+      "val": "26,092.59",
+      "chg": -0.36,
       "unit": "%",
       "history": [
-        26349.92,
-        26333.04
+        26333.04,
+        26186.41
       ],
-      "as_of": "Sep 14 close",
+      "as_of": "Sep 15 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,421.20",
-      "chg": -0.29,
+      "val": "52,038.44",
+      "chg": -0.73,
       "unit": "%",
       "history": [
-        53485.6,
-        52573.29
+        52573.29,
+        52421.2
       ],
-      "as_of": "Sep 14 close",
+      "as_of": "Sep 15 10:06a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "101.36",
-      "chg": -0.03,
+      "val": "102.98",
+      "chg": 1.57,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 15 8:55a print",
+      "as_of": "Sep 15 9:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "16.86",
-      "chg": -1.4,
+      "val": "17.09",
+      "chg": -0.06,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 15 8:50a print",
+      "as_of": "Sep 15 9:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "4.97%",
-      "chg": 1,
+      "val": "5.00%",
+      "chg": 3,
       "unit": " bp",
       "inverse": true,
       "history": [
-        4.74,
-        4.96
+        4.96,
+        4.97
       ],
-      "as_of": "Sep 14 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 15 9:51a print",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "sym": "2-YR",
@@ -144,22 +124,22 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.36%",
+      "val": "5.38%",
       "chg": 2,
       "unit": " bp",
       "history": [
         5.27,
         5.36
       ],
-      "as_of": "Sep 15 8:50a print",
+      "as_of": "Sep 15 9:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.65,
-    "ten": 4.97,
-    "thirty": 5.36,
-    "as_of": "10-yr Sep 14 close, per treasury.gov; 30-yr Sep 15 8:50a print; 2-yr Sep 14 close, per treasury.gov"
+    "ten": 5.0,
+    "thirty": 5.38,
+    "as_of": "10-yr Sep 15 9:51a print; 30-yr Sep 15 9:50a print; 2-yr Sep 14 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -190,22 +170,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -232,9 +212,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 4.97 percent last night, 47 basis points above our 4.50 percent underwriting base with the Fed's decision landing tomorrow afternoon.",
-    "Oil sits near 101.36 dollars a barrel this morning and the VIX has eased to 16.86, with CME FedWatch still pricing a 90.7 percent chance of a hike, but our cost of capital is set by the ten-year, still parked at 4.97 percent.",
-    "The desk opens quiet into Wednesday's Fed decision, and until that number crosses the tape our underwriting rate stays anchored to a ten-year at 4.97 percent."
+    "The ten-year sits at 5.00 percent this morning, 50 basis points above our 4.50 percent underwriting base with the Fed's decision landing tomorrow afternoon.",
+    "Oil has pushed to 102.98 dollars a barrel and equities are softer across the board, but CME FedWatch still prices a 90.7 percent chance of a hike tomorrow, so our cost of capital stays set by the ten-year at 5.00 percent.",
+    "Until Wednesday's number crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
