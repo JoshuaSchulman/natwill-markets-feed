@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-15T08:05:27-04:00",
+  "GENERATED_AT": "2026-09-15T09:05:30-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,28 +93,28 @@
     },
     {
       "sym": "WTI",
-      "val": "102.28",
-      "chg": 0.38,
+      "val": "101.36",
+      "chg": -0.03,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 15 7:55a print",
+      "as_of": "Sep 15 8:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "17.09",
-      "chg": -0.06,
+      "val": "16.86",
+      "chg": -1.4,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 15 7:50a print",
+      "as_of": "Sep 15 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -144,22 +144,22 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.34%",
-      "chg": null,
-      "unit": "",
+      "val": "5.36%",
+      "chg": 2,
+      "unit": " bp",
       "history": [
         5.27,
         5.36
       ],
-      "as_of": "Sep 14 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 15 8:50a print",
+      "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.65,
     "ten": 4.97,
-    "thirty": 5.34,
-    "as_of": "10-yr Sep 14 close, per treasury.gov; 30-yr Sep 14 close, per treasury.gov; 2-yr Sep 14 close, per treasury.gov"
+    "thirty": 5.36,
+    "as_of": "10-yr Sep 14 close, per treasury.gov; 30-yr Sep 15 8:50a print; 2-yr Sep 14 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -232,9 +232,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 4.97 percent last night, 47 basis points above our 4.50 percent underwriting base with the Fed's decision one day out.",
-    "Oil sits near 102.28 dollars a barrel this morning and the VIX is at 17.09, with CME FedWatch pricing a 90.7 percent chance of a hike tomorrow, but our cost of capital is set by the ten-year, still parked at 4.97 percent.",
-    "The desk opens quiet ahead of Wednesday's Fed decision, and until that number crosses the tape our underwriting rate stays anchored to a ten-year at 4.97 percent."
+    "The ten-year closed at 4.97 percent last night, 47 basis points above our 4.50 percent underwriting base with the Fed's decision landing tomorrow afternoon.",
+    "Oil sits near 101.36 dollars a barrel this morning and the VIX has eased to 16.86, with CME FedWatch still pricing a 90.7 percent chance of a hike, but our cost of capital is set by the ten-year, still parked at 4.97 percent.",
+    "The desk opens quiet into Wednesday's Fed decision, and until that number crosses the tape our underwriting rate stays anchored to a ten-year at 4.97 percent."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
 }
