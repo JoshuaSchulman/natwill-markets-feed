@@ -1,14 +1,16 @@
 {
-  "GENERATED_AT": "2026-09-15T11:05:30-04:00",
+  "GENERATED_AT": "2026-09-15T12:05:25-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
-    "11:05a"
+    "11:05a",
+    "12:05p"
   ],
   "TAPE_NOTES": [
     "ten-year climbs to 5.00% as oil jumps near $103 and stocks soften into Fed decision",
-    "equities extend the slide as oil pushes near $104 into tomorrow's Fed decision"
+    "equities extend the slide as oil pushes near $104 into tomorrow's Fed decision",
+    "equities grind lower as oil holds near $105 and desks brace for tomorrow's Fed decision"
   ],
   "MARKS": [
     {
@@ -23,82 +25,84 @@
     "chg_bp": 3,
     "tape": [
       5.0,
+      5.0,
       5.0
     ],
-    "as_of": "Sep 15 10:50a print",
+    "as_of": "Sep 15 11:50a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7582.94,
+    "close": 7583.35,
     "prior_close": 7619.98,
     "tape": [
       7600.49,
-      7582.94
+      7582.94,
+      7583.35
     ],
-    "as_of": "Sep 15 11:05a print",
+    "as_of": "Sep 15 12:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,582.94",
-      "chg": -0.49,
+      "val": "7,583.35",
+      "chg": -0.48,
       "unit": "%",
       "history": [
         7656.98,
         7619.98
       ],
-      "as_of": "Sep 15 11:05a print",
+      "as_of": "Sep 15 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,008.37",
+      "val": "26,007.62",
       "chg": -0.68,
       "unit": "%",
       "history": [
         26333.04,
         26186.41
       ],
-      "as_of": "Sep 15 11:05a print",
+      "as_of": "Sep 15 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,909.09",
-      "chg": -0.98,
+      "val": "51,933.15",
+      "chg": -0.93,
       "unit": "%",
       "history": [
         52573.29,
         52421.2
       ],
-      "as_of": "Sep 15 11:05a print",
+      "as_of": "Sep 15 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "104.43",
-      "chg": 2.49,
+      "val": "104.74",
+      "chg": 3.3,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 15 10:55a print",
+      "as_of": "Sep 15 11:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": "17.09",
-      "chg": -0.06,
+      "val": null,
+      "chg": null,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 15 9:51a print, unverified",
+      "as_of": "pending, source unreachable",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -111,7 +115,7 @@
         4.96,
         4.97
       ],
-      "as_of": "Sep 15 10:50a print",
+      "as_of": "Sep 15 11:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -135,7 +139,7 @@
         5.27,
         5.36
       ],
-      "as_of": "Sep 15 10:50a print",
+      "as_of": "Sep 15 11:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -143,7 +147,7 @@
     "two": 4.65,
     "ten": 5.0,
     "thirty": 5.36,
-    "as_of": "10-yr Sep 15 10:50a print; 30-yr Sep 15 10:50a print; 2-yr Sep 14 close, per treasury.gov"
+    "as_of": "10-yr Sep 15 11:50a print; 30-yr Sep 15 11:50a print; 2-yr Sep 14 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -216,8 +220,8 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is holding at 5.00 percent this morning, 50 basis points above our 4.50 percent underwriting base with the Fed's decision landing tomorrow afternoon.",
-    "Oil has pushed to 104.43 dollars a barrel and equities have extended their slide, while CME FedWatch still prices a 90.7 percent chance of a hike tomorrow, so our cost of capital stays set by the ten-year at 5.00 percent.",
+    "The ten-year is holding at 5.00 percent heading into midday, 50 basis points above our 4.50 percent underwriting base with the Fed's decision landing tomorrow afternoon.",
+    "Oil has pushed to 104.74 dollars a barrel and equities are extending their slide, while CME FedWatch still prices a 90.7 percent chance of a hike tomorrow, so our cost of capital stays set by the ten-year at 5.00 percent.",
     "Until Wednesday's number crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
