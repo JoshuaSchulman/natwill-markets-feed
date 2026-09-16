@@ -1,24 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-16T09:05:14-04:00",
+  "GENERATED_AT": "2026-09-16T10:05:16-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a",
-    "11:05a",
-    "12:05p",
-    "1:05p",
-    "2:04p",
-    "3:04p",
-    "4:00p"
+    "10:05a"
   ],
   "TAPE_NOTES": [
-    "ten-year climbs to 5.00% as oil jumps near $103 and stocks soften into Fed decision",
-    "equities extend the slide as oil pushes near $104 into tomorrow's Fed decision",
-    "equities grind lower as oil holds near $105 and desks brace for tomorrow's Fed decision",
-    "oil surges to $106 as equities extend the slide into tomorrow's Fed decision",
-    "oil tops $106 as ten-year ticks to 5.01% and stocks steady into tomorrow's Fed decision",
-    "oil holds near $106 as the ten-year eases to 5.00% and equities stay pinned lower",
-    "stocks close lower as oil tops $105 and the ten-year holds 5.00% into the Fed"
+    "stocks open higher and oil slides 2% as the ten-year eases to 4.97% ahead of the Fed"
   ],
   "MARKS": [
     {
@@ -28,111 +16,99 @@
     }
   ],
   "UST10": {
-    "close": 5.0,
-    "display": "5.00%",
-    "chg_bp": 3,
+    "close": 4.97,
+    "display": "4.97%",
+    "chg_bp": -3,
     "tape": [
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.01,
-      5.0,
-      5.0
+      4.97
     ],
-    "as_of": "Sep 15 close, per treasury.gov",
-    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+    "as_of": "Sep 16 10:05a print",
+    "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7585.73,
-    "prior_close": 7619.98,
+    "close": 7608.06,
+    "prior_close": 7585.73,
     "tape": [
-      7600.49,
-      7582.94,
-      7583.35,
-      7584.64,
-      7586.27,
-      7585.25,
-      7585.73
+      7608.06
     ],
-    "as_of": "Sep 15 close",
+    "as_of": "Sep 16 10:05a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,585.73",
-      "chg": -0.45,
+      "val": "7,608.06",
+      "chg": 0.29,
       "unit": "%",
       "history": [
         7656.98,
         7619.98
       ],
-      "as_of": "Sep 15 close",
+      "as_of": "Sep 16 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "25,981.57",
-      "chg": -0.78,
+      "val": "26,144.36",
+      "chg": 0.63,
       "unit": "%",
       "history": [
         26333.04,
         26186.41
       ],
-      "as_of": "Sep 15 close",
+      "as_of": "Sep 16 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,093.11",
-      "chg": -0.63,
+      "val": "51,992.36",
+      "chg": -0.19,
       "unit": "%",
       "history": [
         52573.29,
         52421.2
       ],
-      "as_of": "Sep 15 close",
+      "as_of": "Sep 16 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "104.02",
-      "chg": -1.71,
+      "val": "103.35",
+      "chg": -2.34,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 16 8:55a print",
+      "as_of": "Sep 16 10:05a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.58,
-      "chg": -3.6,
+      "val": 16.77,
+      "chg": -2.49,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 16 8:50a print",
+      "as_of": "Sep 16 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.00%",
-      "chg": 3,
+      "val": "4.97%",
+      "chg": -3,
       "unit": " bp",
       "inverse": true,
       "history": [
         4.96,
         4.97
       ],
-      "as_of": "Sep 15 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 16 10:05a print",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "sym": "2-YR",
@@ -155,15 +131,15 @@
         5.27,
         5.36
       ],
-      "as_of": "Sep 16 8:48a print",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 16 10:05a print",
+      "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.67,
-    "ten": 5.0,
-    "thirty": 5.36,
-    "as_of": "10-yr Sep 15 close, per treasury.gov; 30-yr Sep 15 close, per treasury.gov; 2-yr Sep 15 close, per treasury.gov"
+    "ten": 4.97,
+    "thirty": 5.35,
+    "as_of": "10-yr Sep 16 10:05a print; 30-yr Sep 16 10:05a print; 2-yr Sep 15 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -237,9 +213,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed yesterday at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing today at 2 PM.",
-    "CME FedWatch prices a 93 percent chance of a hike today, oil eases to 104.02 dollars a barrel and the VIX slips to 16.58 in early trading.",
-    "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
+    "The ten-year sits at 4.97 percent this morning, 47 basis points above our 4.50 percent underwriting base, with the Fed's decision landing this afternoon at 2 PM.",
+    "CME FedWatch still prices a 93 percent chance of a hike today, oil eases to 103.35 dollars a barrel and the VIX slips to 16.77 in early trading.",
+    "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 4.97 percent, 47 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed sets the tone this afternoon."
 }
