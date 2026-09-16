@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T16:04:46-04:00",
+  "GENERATED_AT": "2026-09-16T17:04:23-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -16,7 +16,7 @@
     "stocks hold gains, oil slides near 102 as vix eases to 16.6 into 2pm FOMC decision",
     "stocks hold gains, oil ticks up near 103, vix ticks up to 16.8 ahead of 2pm FOMC",
     "stocks push higher and oil sinks 3% as Fed hikes 25bp for first time since 2023",
-    "stocks close lower as Dow sheds 630 points and the ten-year settles above 5%"
+    "stocks close lower as Dow sheds 630 points, ten-year tops 5%, vix jumps near 3%"
   ],
   "MARKS": [
     {
@@ -93,28 +93,28 @@
     },
     {
       "sym": "WTI",
-      "val": "101.85",
-      "chg": -3.76,
+      "val": "102.06",
+      "chg": -3.56,
       "unit": "%",
       "inverse": true,
       "history": [
         102.28,
-        101.85
+        102.06
       ],
-      "as_of": "Sep 16 3:56p print",
+      "as_of": "Sep 16 4:54p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.97,
-      "chg": -1.34,
+      "val": 17.71,
+      "chg": 2.97,
       "unit": "%",
       "inverse": true,
       "history": [
         16.87,
-        16.97
+        17.71
       ],
-      "as_of": "Sep 16 2:49p print, unverified",
+      "as_of": "Sep 16 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -235,7 +235,7 @@
   ],
   "CALL_LINES": [
     "The Fed hiked rates a quarter point today, its first increase since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
-    "The Dow fell 630 points into the close, the S&P slipped half a percent, and oil settled down nearly 4 percent as the market digested Chairman Warsh's hawkish tone.",
+    "The Dow fell 630 points into the close, the S&P slipped nearly half a percent, oil settled down more than 3.5 percent, and the VIX jumped almost 3 percent as the market digested Chairman Warsh's hawkish tone.",
     "Our underwriting rate closes the day at a ten-year of 5.01 percent, 51 basis points wide of base, and today's hike sets the tone for financing costs into year end."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and today's hike just widened the gap to 51 basis points."
