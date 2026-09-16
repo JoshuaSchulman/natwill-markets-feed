@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T17:04:23-04:00",
+  "GENERATED_AT": "2026-09-16T18:04:18-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -192,22 +192,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -230,6 +230,26 @@
     {
       "label": "FOMC decision",
       "at": "2026-09-16T14:00:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "PCE price index",
+      "at": "2026-09-30T08:30:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "Nonfarm payrolls",
+      "at": "2026-10-02T08:30:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "CPI report",
+      "at": "2026-10-14T08:30:00-04:00",
+      "tier1": true
+    },
+    {
+      "label": "FOMC decision",
+      "at": "2026-10-28T14:00:00-04:00",
       "tier1": true
     }
   ],
