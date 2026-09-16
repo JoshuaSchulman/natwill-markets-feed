@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T07:05:06-04:00",
+  "GENERATED_AT": "2026-09-16T08:05:40-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -97,28 +97,28 @@
     },
     {
       "sym": "WTI",
-      "val": "103.71",
-      "chg": 1.79,
+      "val": "103.29",
+      "chg": -2.4,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 16 6:55a print",
+      "as_of": "Sep 16 7:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.97,
-      "chg": -0.76,
+      "val": 16.78,
+      "chg": -2.44,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 16 6:50a print",
+      "as_of": "Sep 16 7:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -195,22 +195,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -237,8 +237,8 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed yesterday at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing this afternoon at 2 PM.",
-    "CME FedWatch now prices a 93 percent chance of a hike today, up from 90.7 percent Monday, while oil has eased to 103.71 dollars a barrel overnight.",
+    "The ten-year closed yesterday at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing today at 2 PM.",
+    "CME FedWatch prices a 93 percent chance of a hike today, while oil has pulled back to 103.29 dollars a barrel and the VIX eases to 16.78 overnight.",
     "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed sets the tone this afternoon."
