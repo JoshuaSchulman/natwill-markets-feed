@@ -1,14 +1,16 @@
 {
-  "GENERATED_AT": "2026-09-16T11:05:08-04:00",
+  "GENERATED_AT": "2026-09-16T12:04:45-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
-    "11:05a"
+    "11:05a",
+    "12:05p"
   ],
   "TAPE_NOTES": [
     "stocks open higher and oil slides 2% as the ten-year eases to 4.97% ahead of the Fed",
-    "stocks extend gains, oil holds near 103 as ten-year eases to 4.96% ahead of the Fed"
+    "stocks extend gains, oil holds near 103 as ten-year eases to 4.96% ahead of the Fed",
+    "stocks hold gains, oil slides near 102 as vix eases to 16.6 into 2pm FOMC decision"
   ],
   "MARKS": [
     {
@@ -23,82 +25,84 @@
     "chg_bp": -4,
     "tape": [
       4.97,
+      4.96,
       4.96
     ],
-    "as_of": "Sep 16 11:05a print",
+    "as_of": "Sep 16 11:49a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7615.55,
+    "close": 7614.82,
     "prior_close": 7585.73,
     "tape": [
       7608.06,
-      7615.55
+      7615.55,
+      7614.82
     ],
-    "as_of": "Sep 16 11:05a print",
+    "as_of": "Sep 16 12:04p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,615.55",
-      "chg": 0.39,
+      "val": "7,614.82",
+      "chg": 0.38,
       "unit": "%",
       "history": [
-        7656.98,
-        7619.98
+        7619.98,
+        7614.82
       ],
-      "as_of": "Sep 16 11:05a print",
+      "as_of": "Sep 16 12:04p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,187.71",
-      "chg": 0.79,
+      "val": "26,168.31",
+      "chg": 0.72,
       "unit": "%",
       "history": [
-        26333.04,
-        26186.41
+        26186.41,
+        26168.31
       ],
-      "as_of": "Sep 16 11:05a print",
+      "as_of": "Sep 16 12:04p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,101.16",
-      "chg": 0.02,
+      "val": "52,113.00",
+      "chg": 0.04,
       "unit": "%",
       "history": [
-        52573.29,
-        52421.2
+        52421.2,
+        52113.0
       ],
-      "as_of": "Sep 16 11:05a print",
+      "as_of": "Sep 16 12:04p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "102.99",
-      "chg": -2.68,
+      "val": "101.97",
+      "chg": -3.65,
       "unit": "%",
       "inverse": true,
       "history": [
-        100.05,
-        101.89
+        101.89,
+        101.97
       ],
-      "as_of": "Sep 16 10:55a print",
+      "as_of": "Sep 16 11:54a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.79,
-      "chg": -2.39,
+      "val": 16.63,
+      "chg": -3.32,
       "unit": "%",
       "inverse": true,
       "history": [
-        15.84,
-        17.1
+        17.1,
+        16.63
       ],
-      "as_of": "Sep 16 10:50a print",
+      "as_of": "Sep 16 11:49a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -108,10 +112,10 @@
       "unit": " bp",
       "inverse": true,
       "history": [
-        4.96,
-        4.97
+        4.97,
+        4.96
       ],
-      "as_of": "Sep 16 10:49a print",
+      "as_of": "Sep 16 11:49a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -132,10 +136,10 @@
       "chg": -2,
       "unit": " bp",
       "history": [
-        5.27,
-        5.36
+        5.36,
+        5.34
       ],
-      "as_of": "Sep 16 10:49a print",
+      "as_of": "Sep 16 11:49a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -143,7 +147,7 @@
     "two": 4.67,
     "ten": 4.96,
     "thirty": 5.34,
-    "as_of": "10-yr Sep 16 10:49a print; 30-yr Sep 16 10:49a print; 2-yr Sep 15 close, per treasury.gov"
+    "as_of": "10-yr Sep 16 11:49a print; 30-yr Sep 16 11:49a print; 2-yr Sep 15 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -217,8 +221,8 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year sits at 4.96 percent this morning, 46 basis points above our 4.50 percent underwriting base, with the Fed's decision landing this afternoon at 2 PM.",
-    "CME FedWatch prices a 92.7 percent chance of a hike today, oil holds near 103 dollars a barrel and the VIX sits at 16.79 in late-morning trading.",
+    "The ten-year sits at 4.96 percent into midday, 46 basis points above our 4.50 percent underwriting base, with the Fed's decision landing at 2 PM.",
+    "CME FedWatch prices a 92.7 percent chance of a hike today, oil has slid to 102 dollars a barrel and the VIX sits near 16.6 into the decision.",
     "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 4.96 percent, 46 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed sets the tone this afternoon."
