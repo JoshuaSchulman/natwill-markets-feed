@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T15:04:37-04:00",
+  "GENERATED_AT": "2026-09-16T16:04:46-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -8,7 +8,7 @@
     "12:05p",
     "1:05p",
     "2:05p",
-    "3:05p"
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "stocks open higher and oil slides 2% as the ten-year eases to 4.97% ahead of the Fed",
@@ -16,7 +16,7 @@
     "stocks hold gains, oil slides near 102 as vix eases to 16.6 into 2pm FOMC decision",
     "stocks hold gains, oil ticks up near 103, vix ticks up to 16.8 ahead of 2pm FOMC",
     "stocks push higher and oil sinks 3% as Fed hikes 25bp for first time since 2023",
-    "stocks reverse as Dow sheds 530 points and the ten-year ticks up to 4.98%"
+    "stocks close lower as Dow sheds 630 points and the ten-year settles above 5%"
   ],
   "MARKS": [
     {
@@ -26,22 +26,22 @@
     }
   ],
   "UST10": {
-    "close": 4.98,
-    "display": "4.98%",
-    "chg_bp": -2,
+    "close": 5.01,
+    "display": "5.01%",
+    "chg_bp": 1,
     "tape": [
       4.97,
       4.96,
       4.96,
       4.96,
       4.95,
-      4.98
+      5.01
     ],
-    "as_of": "Sep 16 2:49p print",
-    "url": "https://finance.yahoo.com/quote/%5ETNX/"
+    "as_of": "Sep 16 close, per treasury.gov",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
   },
   "SPX": {
-    "close": 7559.96,
+    "close": 7551.81,
     "prior_close": 7585.73,
     "tape": [
       7608.06,
@@ -49,59 +49,59 @@
       7614.82,
       7604.35,
       7613.03,
-      7559.96
+      7551.81
     ],
-    "as_of": "Sep 16 3:04p print",
+    "as_of": "Sep 16 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,559.96",
-      "chg": -0.34,
+      "val": "7,551.81",
+      "chg": -0.45,
       "unit": "%",
       "history": [
         7613.03,
-        7559.96
+        7551.81
       ],
-      "as_of": "Sep 16 3:04p print",
+      "as_of": "Sep 16 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "25,990.43",
-      "chg": 0.03,
+      "val": "25,978.42",
+      "chg": -0.01,
       "unit": "%",
       "history": [
         26163.9,
-        25990.43
+        25978.42
       ],
-      "as_of": "Sep 16 3:05p print",
+      "as_of": "Sep 16 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,562.96",
-      "chg": -1.02,
+      "val": "51,461.90",
+      "chg": -1.21,
       "unit": "%",
       "history": [
         52065.28,
-        51562.96
+        51461.9
       ],
-      "as_of": "Sep 16 3:04p print",
+      "as_of": "Sep 16 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "102.40",
-      "chg": -3.24,
+      "val": "101.85",
+      "chg": -3.76,
       "unit": "%",
       "inverse": true,
       "history": [
         102.28,
-        102.4
+        101.85
       ],
-      "as_of": "Sep 16 2:54p print",
+      "as_of": "Sep 16 3:56p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -114,61 +114,62 @@
         16.87,
         16.97
       ],
-      "as_of": "Sep 16 2:49p print",
+      "as_of": "Sep 16 2:49p print, unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "4.98%",
-      "chg": -2,
+      "val": "5.01%",
+      "chg": 1,
       "unit": " bp",
       "inverse": true,
       "history": [
         4.95,
-        4.98
+        5.01
       ],
-      "as_of": "Sep 16 2:49p print",
-      "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      "as_of": "Sep 16 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "2-YR",
-      "val": "4.67%",
-      "chg": 2,
+      "val": "4.74%",
+      "chg": 7,
       "unit": " bp",
       "history": [
-        4.4,
-        4.38
+        4.67,
+        4.74
       ],
-      "as_of": "Sep 15 close, per treasury.gov",
+      "as_of": "Sep 16 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "30-YR",
-      "val": "5.33%",
-      "chg": -3,
+      "val": "5.35%",
+      "chg": -1,
       "unit": " bp",
       "history": [
         5.33,
-        5.33
+        5.35
       ],
-      "as_of": "Sep 16 2:49p print",
-      "url": "https://finance.yahoo.com/quote/%5ETYX/"
+      "as_of": "Sep 16 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     }
   ],
   "CURVE": {
-    "two": 4.67,
-    "ten": 4.98,
-    "thirty": 5.33,
-    "as_of": "10-yr Sep 16 2:49p print; 30-yr Sep 16 2:49p print; 2-yr Sep 15 close, per treasury.gov"
+    "two": 4.74,
+    "ten": 5.01,
+    "thirty": 5.35,
+    "as_of": "10-yr Sep 16 close, per treasury.gov; 30-yr Sep 16 close, per treasury.gov; 2-yr Sep 16 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
       44,
       41,
       32,
-      33
+      33,
+      27
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 15"
+    "as_of": "accrues daily from Sep 1, last Sep 16"
   },
   "ODDS": {
     "polymarket": {
@@ -191,22 +192,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -233,9 +234,9 @@
     }
   ],
   "CALL_LINES": [
-    "The Fed hiked rates a quarter point today, its first increase since 2023, and the ten-year sits at 4.98 percent, 48 basis points above our 4.50 percent underwriting base.",
-    "Stocks have given back their post-Fed gains, with the Dow down over 500 points, while oil holds a 3 percent drop and the VIX sits near 17.",
-    "Our underwriting rate holds at a ten-year of 4.98 percent, 48 basis points wide of base, now that today's Fed decision is behind us."
+    "The Fed hiked rates a quarter point today, its first increase since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
+    "The Dow fell 630 points into the close, the S&P slipped half a percent, and oil settled down nearly 4 percent as the market digested Chairman Warsh's hawkish tone.",
+    "Our underwriting rate closes the day at a ten-year of 5.01 percent, 51 basis points wide of base, and today's hike sets the tone for financing costs into year end."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed just proved it with today's hike."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and today's hike just widened the gap to 51 basis points."
 }
