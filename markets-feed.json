@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-15T18:04:35-04:00",
+  "GENERATED_AT": "2026-09-16T07:05:06-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -97,28 +97,28 @@
     },
     {
       "sym": "WTI",
-      "val": "105.48",
-      "chg": 3.52,
+      "val": "103.71",
+      "chg": 1.79,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 15 4:59p print",
+      "as_of": "Sep 16 6:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 17.20,
-      "chg": 0.58,
+      "val": 16.97,
+      "chg": -0.76,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 15 close",
+      "as_of": "Sep 16 6:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -183,9 +183,9 @@
       "fallback_as_of": null
     },
     "fedwatch": {
-      "value": 90.7,
-      "as_of": "Sep 14, per CME FedWatch",
-      "url": "https://finance.yahoo.com/economy/policy/articles/chances-first-fed-rate-hike-150301317.html"
+      "value": 93,
+      "as_of": "Sep 15, per CME FedWatch",
+      "url": "https://www.benzinga.com/markets/economic-data/26/09/61788155/fed-rate-hike-september-2026-dot-plot-projections-what-to-watch"
     },
     "mode": "hybrid"
   },
@@ -237,9 +237,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed today at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing tomorrow afternoon.",
-    "Oil settled near 105.48 dollars a barrel while the ten-year held at 5.00 percent, and CME FedWatch still prices a 90.7 percent chance of a hike tomorrow.",
-    "Until tomorrow's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
+    "The ten-year closed yesterday at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing this afternoon at 2 PM.",
+    "CME FedWatch now prices a 93 percent chance of a hike today, up from 90.7 percent Monday, while oil has eased to 103.71 dollars a barrel overnight.",
+    "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis"
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed sets the tone this afternoon."
 }
