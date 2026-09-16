@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T08:05:40-04:00",
+  "GENERATED_AT": "2026-09-16T09:05:14-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -97,28 +97,28 @@
     },
     {
       "sym": "WTI",
-      "val": "103.29",
-      "chg": -2.4,
+      "val": "104.02",
+      "chg": -1.71,
       "unit": "%",
       "inverse": true,
       "history": [
         100.05,
         101.89
       ],
-      "as_of": "Sep 16 7:55a print",
+      "as_of": "Sep 16 8:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.78,
-      "chg": -2.44,
+      "val": 16.58,
+      "chg": -3.6,
       "unit": "%",
       "inverse": true,
       "history": [
         15.84,
         17.1
       ],
-      "as_of": "Sep 16 7:51a print",
+      "as_of": "Sep 16 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -148,14 +148,14 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.36%",
-      "chg": 2,
+      "val": "5.35%",
+      "chg": -1,
       "unit": " bp",
       "history": [
         5.27,
         5.36
       ],
-      "as_of": "Sep 15 close, per treasury.gov",
+      "as_of": "Sep 16 8:48a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     }
   ],
@@ -238,7 +238,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed yesterday at 5.00 percent, 50 basis points above our 4.50 percent underwriting base, with the Fed's decision landing today at 2 PM.",
-    "CME FedWatch prices a 93 percent chance of a hike today, while oil has pulled back to 103.29 dollars a barrel and the VIX eases to 16.78 overnight.",
+    "CME FedWatch prices a 93 percent chance of a hike today, oil eases to 104.02 dollars a barrel and the VIX slips to 16.58 in early trading.",
     "Until this afternoon's decision crosses the tape, our underwriting rate stays anchored to a ten-year at 5.00 percent, 50 basis points wide of base."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the Fed sets the tone this afternoon."
