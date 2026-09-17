@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-17T15:04:32-04:00",
+  "GENERATED_AT": "2026-09-17T16:09:26-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -8,7 +8,8 @@
     "12:05p",
     "1:00p",
     "2:00p",
-    "3:00p"
+    "3:00p",
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "stocks surge and vix sinks near 16 as ten-year eases to 4.94% after the hike",
@@ -16,7 +17,8 @@
     "rally extends into midday, nasdaq up 1.6% as vix eases to 15.67",
     "afternoon grinds sideways as ten-year holds 4.95% and vix eases toward 15.5",
     "rally steadies at 2pm as ten-year holds 4.95% and s&p pushes to fresh session highs",
-    "rally holds late as ten-year steadies at 4.95% and vix stays pinned near 15.5"
+    "rally holds late as ten-year steadies at 4.95% and vix stays pinned near 15.5",
+    "stocks close near session highs as ten-year settles at 4.94% and vix eases near 15.5"
   ],
   "MARKS": [
     {
@@ -26,22 +28,23 @@
     }
   ],
   "UST10": {
-    "close": 4.95,
-    "display": "4.95%",
-    "chg_bp": -6,
+    "close": 4.94,
+    "display": "4.94%",
+    "chg_bp": -7,
     "tape": [
       4.94,
       4.95,
       4.95,
       4.95,
       4.95,
-      4.95
+      4.95,
+      4.94
     ],
-    "as_of": "Sep 17 2:49p print",
-    "url": "https://finance.yahoo.com/quote/%5ETNX/"
+    "as_of": "Sep 17 close, per treasury.gov",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
   },
   "SPX": {
-    "close": 7639.63,
+    "close": 7637.76,
     "prior_close": 7551.81,
     "tape": [
       7615.49,
@@ -49,59 +52,60 @@
       7635.55,
       7636.86,
       7638.58,
-      7639.63
+      7639.63,
+      7637.76
     ],
-    "as_of": "Sep 17 3:04p print",
+    "as_of": "Sep 17 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,639.63",
-      "chg": 1.16,
+      "val": "7,637.76",
+      "chg": 1.14,
       "unit": "%",
       "history": [
         7551.81,
-        7639.63
+        7637.76
       ],
-      "as_of": "Sep 17 3:04p print",
+      "as_of": "Sep 17 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,408.74",
-      "chg": 1.66,
+      "val": "26,418.30",
+      "chg": 1.69,
       "unit": "%",
       "history": [
         25978.42,
-        26408.74
+        26418.3
       ],
-      "as_of": "Sep 17 3:04p print",
+      "as_of": "Sep 17 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,838.38",
-      "chg": 0.73,
+      "val": "51,778.04",
+      "chg": 0.61,
       "unit": "%",
       "history": [
         51461.9,
-        51838.38
+        51778.04
       ],
-      "as_of": "Sep 17 3:04p print",
+      "as_of": "Sep 17 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "101.82",
-      "chg": 2.08,
+      "val": "101.25",
+      "chg": 1.5,
       "unit": "%",
       "inverse": true,
       "history": [
         99.75,
-        101.82
+        101.25
       ],
-      "as_of": "Sep 17 2:54p print",
+      "as_of": "Sep 17 3:54p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -119,47 +123,47 @@
     },
     {
       "sym": "10-YR",
-      "val": "4.95%",
-      "chg": -6,
+      "val": "4.94%",
+      "chg": -7,
       "unit": " bp",
       "inverse": true,
       "history": [
         5.01,
-        4.95
+        4.94
       ],
-      "as_of": "Sep 17 2:49p print",
+      "as_of": "Sep 17 close, per treasury.gov",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "sym": "2-YR",
-      "val": "4.74%",
-      "chg": 7,
+      "val": "4.67%",
+      "chg": -7,
       "unit": " bp",
       "history": [
-        4.67,
-        4.74
+        4.74,
+        4.67
       ],
-      "as_of": "Sep 16 close, per treasury.gov",
+      "as_of": "Sep 17 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "30-YR",
-      "val": "5.30%",
-      "chg": -2,
+      "val": "5.29%",
+      "chg": -6,
       "unit": " bp",
       "history": [
-        5.32,
-        5.30
+        5.35,
+        5.29
       ],
-      "as_of": "Sep 17 2:48p print",
+      "as_of": "Sep 17 close, per treasury.gov",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
-    "two": 4.74,
-    "ten": 4.95,
-    "thirty": 5.3,
-    "as_of": "10-yr Sep 17 2:49p print; 30-yr Sep 17 2:48p print; 2-yr Sep 16 close, per treasury.gov"
+    "two": 4.67,
+    "ten": 4.94,
+    "thirty": 5.29,
+    "as_of": "10-yr Sep 17 close, per treasury.gov; 30-yr Sep 17 close, per treasury.gov; 2-yr Sep 17 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -167,9 +171,10 @@
       41,
       32,
       33,
+      27,
       27
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 16"
+    "as_of": "accrues daily from Sep 1, last Sep 17"
   },
   "ODDS": {
     "polymarket": {
@@ -192,22 +197,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -249,9 +254,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is steady at 4.95 percent heading into the close, down 6 basis points on the session and still 45 basis points above our 4.50 percent underwriting base.",
-    "The S&P is up 1.16 percent and the Nasdaq up 1.66 percent late in the session, with the VIX pinned near 15.5.",
-    "Our underwriting rate into the close is a ten-year of 4.95 percent, 45 basis points wide of base, and that gap is still setting the terms for today's financing conversations."
+    "The ten-year closed at 4.94 percent today, down 7 basis points on the session and still 44 basis points above our 4.50 percent underwriting base.",
+    "The S&P closed up 1.14 percent, the Nasdaq up 1.69 percent and the Dow up 0.61 percent, with the VIX easing back near 15.5 as the post-hike rally held into the close.",
+    "Our underwriting rate at today's close is a ten-year of 4.94 percent, 44 basis points wide of base, and that gap is still setting the terms for tomorrow's financing conversations."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year sits 45 basis points wide of our 4.50 percent underwriting base heading into the close."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year closed 44 basis points wide of our 4.50 percent underwriting base today."
 }
