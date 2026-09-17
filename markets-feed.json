@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-17T08:04:47-04:00",
+  "GENERATED_AT": "2026-09-17T09:04:54-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,15 +93,15 @@
     },
     {
       "sym": "WTI",
-      "val": "100.43",
-      "chg": -1.95,
+      "val": "99.75",
+      "chg": -2.62,
       "unit": "%",
       "inverse": true,
       "history": [
-        100.75,
-        100.43
+        100.43,
+        99.75
       ],
-      "as_of": "Sep 17 7:54a print",
+      "as_of": "Sep 17 8:54a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -144,22 +144,22 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.35%",
-      "chg": -1,
+      "val": "5.32%",
+      "chg": -3,
       "unit": " bp",
       "history": [
-        5.33,
-        5.35
+        5.35,
+        5.32
       ],
-      "as_of": "Sep 16 close, per treasury.gov",
+      "as_of": "Sep 17 8:49a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     }
   ],
   "CURVE": {
     "two": 4.74,
     "ten": 5.01,
-    "thirty": 5.35,
-    "as_of": "10-yr Sep 16 close, per treasury.gov; 30-yr Sep 16 close, per treasury.gov; 2-yr Sep 16 close, per treasury.gov"
+    "thirty": 5.32,
+    "as_of": "10-yr Sep 16 close, per treasury.gov; 30-yr Sep 17 8:49a print; 2-yr Sep 16 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -192,22 +192,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -255,7 +255,7 @@
   ],
   "CALL_LINES": [
     "The Fed hiked a quarter point yesterday for the first time since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
-    "Oil is extending its slide this morning, down another two percent near $100.43 a barrel, as the market digests yesterday's hawkish hike from Chairman Warsh.",
+    "Oil is extending its slide again this morning, down another two and a half percent near $99.75 a barrel as crude keeps sliding after yesterday's hawkish hike.",
     "Our underwriting rate opens the day at a ten-year of 5.01 percent, 51 basis points wide of base, and that gap is setting the terms for today's financing conversations."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year sits 51 basis points wide of our 4.50 percent underwriting base this morning."
