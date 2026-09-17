@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-16T18:04:18-04:00",
+  "GENERATED_AT": "2026-09-17T07:04:56-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,15 +93,15 @@
     },
     {
       "sym": "WTI",
-      "val": "102.06",
-      "chg": -3.56,
+      "val": "100.75",
+      "chg": -1.64,
       "unit": "%",
       "inverse": true,
       "history": [
-        102.28,
-        102.06
+        102.06,
+        100.75
       ],
-      "as_of": "Sep 16 4:54p print",
+      "as_of": "Sep 17 6:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -192,22 +192,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -254,9 +254,9 @@
     }
   ],
   "CALL_LINES": [
-    "The Fed hiked rates a quarter point today, its first increase since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
-    "The Dow fell 630 points into the close, the S&P slipped nearly half a percent, oil settled down more than 3.5 percent, and the VIX jumped almost 3 percent as the market digested Chairman Warsh's hawkish tone.",
-    "Our underwriting rate closes the day at a ten-year of 5.01 percent, 51 basis points wide of base, and today's hike sets the tone for financing costs into year end."
+    "The Fed hiked a quarter point yesterday for the first time since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
+    "Oil is extending its slide this morning, down another 1.6 percent near $100.75 a barrel, as the market digests yesterday's hawkish tone from Chairman Warsh.",
+    "Our underwriting rate opens the day at a ten-year of 5.01 percent, 51 basis points wide of base, and that gap is setting the terms for today's financing conversations."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and today's hike just widened the gap to 51 basis points."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year sits 51 basis points wide of our 4.50 percent underwriting base this morning."
 }
