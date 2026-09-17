@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-17T07:04:56-04:00",
+  "GENERATED_AT": "2026-09-17T08:04:47-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -93,15 +93,15 @@
     },
     {
       "sym": "WTI",
-      "val": "100.75",
-      "chg": -1.64,
+      "val": "100.43",
+      "chg": -1.95,
       "unit": "%",
       "inverse": true,
       "history": [
-        102.06,
-        100.75
+        100.75,
+        100.43
       ],
-      "as_of": "Sep 17 6:55a print",
+      "as_of": "Sep 17 7:54a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -192,22 +192,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -255,7 +255,7 @@
   ],
   "CALL_LINES": [
     "The Fed hiked a quarter point yesterday for the first time since 2023, and the ten-year closed at 5.01 percent, 51 basis points above our 4.50 percent underwriting base.",
-    "Oil is extending its slide this morning, down another 1.6 percent near $100.75 a barrel, as the market digests yesterday's hawkish tone from Chairman Warsh.",
+    "Oil is extending its slide this morning, down another two percent near $100.43 a barrel, as the market digests yesterday's hawkish hike from Chairman Warsh.",
     "Our underwriting rate opens the day at a ten-year of 5.01 percent, 51 basis points wide of base, and that gap is setting the terms for today's financing conversations."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year sits 51 basis points wide of our 4.50 percent underwriting base this morning."
