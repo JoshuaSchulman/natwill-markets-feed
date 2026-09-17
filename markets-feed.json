@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-17T16:09:26-04:00",
+  "GENERATED_AT": "2026-09-17T17:08:02-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -97,28 +97,28 @@
     },
     {
       "sym": "WTI",
-      "val": "101.25",
-      "chg": 1.5,
+      "val": "101.02",
+      "chg": 1.27,
       "unit": "%",
       "inverse": true,
       "history": [
         99.75,
-        101.25
+        101.02
       ],
-      "as_of": "Sep 17 3:54p print",
+      "as_of": "Sep 17 4:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.53,
-      "chg": -12.31,
+      "val": 15.44,
+      "chg": -12.82,
       "unit": "%",
       "inverse": true,
       "history": [
         17.71,
-        15.53
+        15.44
       ],
-      "as_of": "Sep 17 2:49p print",
+      "as_of": "Sep 17 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -197,22 +197,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
