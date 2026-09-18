@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-18T15:04:46-04:00",
+  "GENERATED_AT": "2026-09-18T16:04:49-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -8,7 +8,8 @@
     "12:05p",
     "1:05p",
     "2:05p",
-    "3:05p"
+    "3:05p",
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "stocks slip at the open as the ten-year pushes back above 5% and vix eases to 15.3",
@@ -16,7 +17,8 @@
     "stocks slide as Dow drops four tenths of a percent, ten-year holds just under 5%",
     "stocks tick up off midday lows as oil slips toward $96, ten-year holds at 5%",
     "stocks extend the bounce as vix eases to 15.3, ten-year holds flat at 5%",
-    "stocks edge higher as oil slides toward $95 and vix cools, ten-year holds flat at 5%"
+    "stocks edge higher as oil slides toward $95 and vix cools, ten-year holds flat at 5%",
+    "stocks close mixed as the ten-year ticks to 5.01% and vix sinks near 15 into the bell"
   ],
   "MARKS": [
     {
@@ -26,22 +28,23 @@
     }
   ],
   "UST10": {
-    "close": 5.0,
-    "display": "5.00%",
-    "chg_bp": 6,
+    "close": 5.01,
+    "display": "5.01%",
+    "chg_bp": 7,
     "tape": [
       5.0,
       5.0,
       5.0,
       5.0,
       5.0,
-      5.0
+      5.0,
+      5.01
     ],
-    "as_of": "Sep 18 2:49p print",
-    "url": "https://finance.yahoo.com/quote/%5ETNX/"
+    "as_of": "Sep 18 close, per treasury.gov",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
   },
   "SPX": {
-    "close": 7643.77,
+    "close": 7650.5,
     "prior_close": 7637.76,
     "tape": [
       7623.73,
@@ -49,138 +52,139 @@
       7619.24,
       7624.21,
       7629.45,
-      7643.77
+      7643.77,
+      7650.5
     ],
-    "as_of": "Sep 18 3:04p print",
+    "as_of": "Sep 18 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,643.77",
-      "chg": 0.08,
+      "val": "7,650.50",
+      "chg": 0.17,
       "unit": "%",
       "history": [
-        7628.12,
         7619.24,
         7624.21,
         7629.45,
-        7643.77
+        7643.77,
+        7650.5
       ],
-      "as_of": "Sep 18 3:04p print",
+      "as_of": "Sep 18 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,469.69",
-      "chg": 0.19,
+      "val": "26,522.55",
+      "chg": 0.39,
       "unit": "%",
       "history": [
-        26423.52,
         26377.18,
         26393.32,
         26415.26,
-        26469.69
+        26469.69,
+        26522.55
       ],
-      "as_of": "Sep 18 3:04p print",
+      "as_of": "Sep 18 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,725.14",
-      "chg": -0.1,
+      "val": "51,682.64",
+      "chg": -0.18,
       "unit": "%",
       "history": [
-        51555.62,
         51545.69,
         51588.95,
         51624.89,
-        51725.14
+        51725.14,
+        51682.64
       ],
-      "as_of": "Sep 18 3:04p print",
+      "as_of": "Sep 18 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 95.5,
-      "chg": -1.78,
+      "val": 95.59,
+      "chg": -1.69,
       "unit": "%",
       "inverse": true,
       "history": [
-        97.04,
         97.05,
         95.99,
         96.01,
-        95.5
+        95.5,
+        95.59
       ],
-      "as_of": "Sep 18 2:55p print",
+      "as_of": "Sep 18 3:54p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.27,
-      "chg": -1.1,
+      "val": 14.88,
+      "chg": -3.63,
       "unit": "%",
       "inverse": true,
       "history": [
-        15.52,
         15.33,
         15.39,
         15.46,
-        15.27
+        15.27,
+        14.88
       ],
-      "as_of": "Sep 18 3:04p print, unverified",
+      "as_of": "Sep 18 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.00%",
-      "chg": 6,
+      "val": "5.01%",
+      "chg": 7,
       "unit": " bp",
       "inverse": true,
       "history": [
-        4.996,
         4.998,
         5.0,
         5.0,
-        5.0
+        5.0,
+        5.01
       ],
-      "as_of": "Sep 18 2:49p print",
-      "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      "as_of": "Sep 18 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "2-YR",
-      "val": "4.67%",
-      "chg": -7,
+      "val": "4.76%",
+      "chg": 9,
       "unit": " bp",
       "history": [
-        4.74,
-        4.67
+        4.67,
+        4.76
       ],
-      "as_of": "Sep 17 close, per treasury.gov",
+      "as_of": "Sep 18 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
       "sym": "30-YR",
-      "val": "5.33%",
-      "chg": 2,
+      "val": "5.34%",
+      "chg": 5,
       "unit": " bp",
       "history": [
         5.33,
+        5.34,
+        5.34,
         5.33,
-        5.34,
-        5.34,
-        5.33
+        5.34
       ],
-      "as_of": "Sep 18 2:49p print",
-      "url": "https://finance.yahoo.com/quote/%5ETYX/"
+      "as_of": "Sep 18 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     }
   ],
   "CURVE": {
-    "two": 4.67,
-    "ten": 5.0,
-    "thirty": 5.33,
-    "as_of": "10-yr Sep 18 2:49p print; 30-yr Sep 18 2:49p print; 2-yr Sep 17 close, per treasury.gov"
+    "two": 4.76,
+    "ten": 5.01,
+    "thirty": 5.34,
+    "as_of": "10-yr Sep 18 close, per treasury.gov; 30-yr Sep 18 close, per treasury.gov; 2-yr Sep 18 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -189,9 +193,10 @@
       32,
       33,
       27,
-      27
+      27,
+      25
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 17"
+    "as_of": "accrues daily from Sep 1, last Sep 18"
   },
   "ODDS": {
     "polymarket": {
@@ -271,9 +276,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is holding at 5.00 percent again this afternoon, and that keeps us fifty basis points wide of our 4.50 percent underwriting base.",
-    "The S&P and Nasdaq have ticked into positive territory while the Dow slips a tenth of a percent, and oil has slid to $95.50 a barrel.",
-    "Our underwriting rate sits at a ten-year of 5.00 percent, fifty basis points wide of base, and that spread is still setting the terms for today's financing conversations."
+    "The ten-year closed today at 5.01 percent, and that keeps us fifty-one basis points wide of our 4.50 percent underwriting base.",
+    "The S&P and Nasdaq closed higher on the day while the Dow slipped two tenths of a percent, and oil settled near $95.59 a barrel.",
+    "Our underwriting rate sits at a ten-year of 5.01 percent, fifty-one basis points wide of base, and that spread is still setting the terms for today's financing conversations."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year still sits fifty basis points wide of our 4.50 percent underwriting base heading into the close."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year closed the day fifty-one basis points wide of our 4.50 percent underwriting base."
 }
