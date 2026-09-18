@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-18T08:05:21-04:00",
+  "GENERATED_AT": "2026-09-18T09:05:13-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -110,15 +110,15 @@
     },
     {
       "sym": "VIX",
-      "val": 15.38,
-      "chg": -0.39,
+      "val": 15.52,
+      "chg": 0.91,
       "unit": "%",
       "inverse": true,
       "history": [
-        15.44,
-        15.38
+        15.38,
+        15.52
       ],
-      "as_of": "Sep 18 7:50a print",
+      "as_of": "Sep 18 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -148,22 +148,22 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.29%",
-      "chg": -6,
+      "val": "5.31%",
+      "chg": 2,
       "unit": " bp",
       "history": [
-        5.35,
-        5.29
+        5.29,
+        5.31
       ],
-      "as_of": "Sep 17 close, per treasury.gov",
+      "as_of": "Sep 18 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.67,
     "ten": 4.94,
-    "thirty": 5.29,
-    "as_of": "10-yr Sep 17 close, per treasury.gov; 30-yr Sep 17 close, per treasury.gov; 2-yr Sep 17 close, per treasury.gov"
+    "thirty": 5.31,
+    "as_of": "10-yr Sep 17 close, per treasury.gov; 30-yr Sep 18 8:50a print; 2-yr Sep 17 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -197,22 +197,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -254,8 +254,8 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Thursday at 4.94 percent, down 7 basis points on the day, and opens today still 44 basis points above our 4.50 percent underwriting base.",
-    "Pre-market signals are steady heading into the open: the VIX has eased further to 15.38 and WTI crude is holding near $101, both consistent with Thursday's post-hike rally carrying into today.",
+    "The ten-year closed Thursday at 4.94 percent, down 7 basis points on the day, and opens today, Friday, still 44 basis points above our 4.50 percent underwriting base.",
+    "Pre-market signals are steady heading into the open: the VIX has ticked up slightly to 15.52, WTI crude is holding near $101, and the thirty-year has edged up to 5.31 percent.",
     "Heading into today's session, our underwriting rate sits at a ten-year of 4.94 percent, 44 basis points wide of base, and that gap is still setting the terms for today's financing conversations."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year opens today 44 basis points wide of our 4.50 percent underwriting base."
