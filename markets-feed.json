@@ -1,24 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-18T09:05:13-04:00",
+  "GENERATED_AT": "2026-09-18T10:05:45-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a",
-    "11:05a",
-    "12:05p",
-    "1:00p",
-    "2:00p",
-    "3:00p",
-    "4:00p"
+    "10:05a"
   ],
   "TAPE_NOTES": [
-    "stocks surge and vix sinks near 16 as ten-year eases to 4.94% after the hike",
-    "rally holds as ten-year ticks to 4.95% and oil pushes above $101",
-    "rally extends into midday, nasdaq up 1.6% as vix eases to 15.67",
-    "afternoon grinds sideways as ten-year holds 4.95% and vix eases toward 15.5",
-    "rally steadies at 2pm as ten-year holds 4.95% and s&p pushes to fresh session highs",
-    "rally holds late as ten-year steadies at 4.95% and vix stays pinned near 15.5",
-    "stocks close near session highs as ten-year settles at 4.94% and vix eases near 15.5"
+    "stocks slip at the open as the ten-year pushes back above 5% and vix eases to 15.3"
   ],
   "MARKS": [
     {
@@ -28,110 +16,98 @@
     }
   ],
   "UST10": {
-    "close": 4.94,
-    "display": "4.94%",
-    "chg_bp": -7,
+    "close": 5.0,
+    "display": "5.00%",
+    "chg_bp": 6,
     "tape": [
-      4.94,
-      4.95,
-      4.95,
-      4.95,
-      4.95,
-      4.95,
-      4.94
+      5.0
     ],
-    "as_of": "Sep 17 close, per treasury.gov",
-    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+    "as_of": "Sep 18 9:51a print",
+    "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7637.76,
-    "prior_close": 7551.81,
+    "close": 7623.73,
+    "prior_close": 7637.76,
     "tape": [
-      7615.49,
-      7615.1,
-      7635.55,
-      7636.86,
-      7638.58,
-      7639.63,
-      7637.76
+      7623.73
     ],
-    "as_of": "Sep 17 close",
+    "as_of": "Sep 18 10:06a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,637.76",
-      "chg": 1.14,
+      "val": "7,623.73",
+      "chg": -0.18,
       "unit": "%",
       "history": [
-        7551.81,
-        7637.76
+        7637.76,
+        7623.73
       ],
-      "as_of": "Sep 17 close",
+      "as_of": "Sep 18 10:06a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,418.30",
-      "chg": 1.69,
+      "val": "26,415.69",
+      "chg": -0.01,
       "unit": "%",
       "history": [
-        25978.42,
-        26418.3
+        26418.3,
+        26415.69
       ],
-      "as_of": "Sep 17 close",
+      "as_of": "Sep 18 10:06a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,778.04",
-      "chg": 0.61,
+      "val": "51,538.40",
+      "chg": -0.46,
       "unit": "%",
       "history": [
-        51461.9,
-        51778.04
+        51778.04,
+        51538.4
       ],
-      "as_of": "Sep 17 close",
+      "as_of": "Sep 18 10:06a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": "101.21",
-      "chg": 0.12,
+      "val": null,
+      "chg": null,
       "unit": "%",
       "inverse": true,
       "history": [
         101.09,
         101.21
       ],
-      "as_of": "Sep 18 print, per CNBC, unverified",
+      "as_of": "pending, source unreachable",
       "url": "https://www.cnbc.com/2026/09/18/oil-prices-today-brent-wti-saudi-arabia-houthi.html"
     },
     {
       "sym": "VIX",
-      "val": 15.52,
-      "chg": 0.91,
+      "val": 15.31,
+      "chg": -1.35,
       "unit": "%",
       "inverse": true,
       "history": [
-        15.38,
-        15.52
+        15.52,
+        15.31
       ],
-      "as_of": "Sep 18 8:50a print",
+      "as_of": "Sep 18 9:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "4.94%",
-      "chg": -7,
+      "val": "5.00%",
+      "chg": 6,
       "unit": " bp",
       "inverse": true,
       "history": [
-        5.01,
-        4.94
+        4.94,
+        5.0
       ],
-      "as_of": "Sep 17 close, per treasury.gov",
+      "as_of": "Sep 18 9:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -148,22 +124,22 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.31%",
+      "val": "5.33%",
       "chg": 2,
       "unit": " bp",
       "history": [
-        5.29,
-        5.31
+        5.31,
+        5.33
       ],
-      "as_of": "Sep 18 8:50a print",
+      "as_of": "Sep 18 9:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.67,
-    "ten": 4.94,
-    "thirty": 5.31,
-    "as_of": "10-yr Sep 17 close, per treasury.gov; 30-yr Sep 18 8:50a print; 2-yr Sep 17 close, per treasury.gov"
+    "ten": 5.0,
+    "thirty": 5.33,
+    "as_of": "10-yr Sep 18 9:51a print; 30-yr Sep 18 9:51a print; 2-yr Sep 17 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -197,22 +173,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -254,9 +230,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Thursday at 4.94 percent, down 7 basis points on the day, and opens today, Friday, still 44 basis points above our 4.50 percent underwriting base.",
-    "Pre-market signals are steady heading into the open: the VIX has ticked up slightly to 15.52, WTI crude is holding near $101, and the thirty-year has edged up to 5.31 percent.",
-    "Heading into today's session, our underwriting rate sits at a ten-year of 4.94 percent, 44 basis points wide of base, and that gap is still setting the terms for today's financing conversations."
+    "The ten-year is back above 5 percent this morning, up 6 basis points on the day, and sits 50 basis points wide of our 4.50 percent underwriting base.",
+    "Equities are drifting lower into the session, the S&P off two tenths of a percent, while the VIX eases toward 15.3.",
+    "Our underwriting rate sits at a ten-year of 5.00 percent, fifty basis points wide of base, and that gap is setting the terms for today's financing conversations."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year opens today 44 basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year sits 50 basis points wide of our 4.50 percent underwriting base this morning."
 }
