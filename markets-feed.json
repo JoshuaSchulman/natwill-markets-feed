@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-21T07:05:11-04:00",
+  "GENERATED_AT": "2026-09-21T08:05:20-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -106,8 +106,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.96,
-      "chg": -3.25,
+      "val": 93.43,
+      "chg": -2.76,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -115,15 +115,15 @@
         96.01,
         95.5,
         95.45,
-        92.96
+        93.43
       ],
-      "as_of": "Sep 21 6:55a print",
+      "as_of": "Sep 21 7:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 14.89,
-      "chg": 0.54,
+      "val": 14.82,
+      "chg": 0.07,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -131,9 +131,9 @@
         15.46,
         15.27,
         14.81,
-        14.89
+        14.82
       ],
-      "as_of": "Sep 21 6:50a print",
+      "as_of": "Sep 21 7:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -277,7 +277,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed Friday at 5.01 percent, and that keeps us fifty-one basis points wide of our 4.50 percent underwriting base heading into the week.",
-    "Oil is down more than three percent in early trading to $92.96 a barrel, and the VIX sits little changed near 14.9 as futures point to a quiet open.",
+    "Oil is down nearly three percent in early trading to $93.43 a barrel, and the VIX sits little changed near 14.8 as futures point to a quiet open.",
     "Our underwriting rate sits at a ten-year of 5.01 percent, fifty-one basis points wide of base, and that spread is still setting the terms for today's financing conversations."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year starts the week fifty-one basis points wide of our 4.50 percent underwriting base."
