@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-23T08:06:10-04:00",
+  "GENERATED_AT": "2026-09-23T09:09:40-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -133,8 +133,8 @@
     },
     {
       "sym": "WTI",
-      "val": 90.68,
-      "chg": 0.92,
+      "val": 91.17,
+      "chg": 1.47,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -153,13 +153,13 @@
         90.7,
         89.85
       ],
-      "as_of": "Sep 23 7:56a print",
+      "as_of": "Sep 23 8:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 14.3,
-      "chg": 0.63,
+      "val": 14.31,
+      "chg": 0.7,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -178,7 +178,7 @@
         14.22,
         14.21
       ],
-      "as_of": "Sep 23 7:50a print",
+      "as_of": "Sep 23 8:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -222,8 +222,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.29%",
-      "chg": 0,
+      "val": "5.32%",
+      "chg": 3,
       "unit": " bp",
       "history": [
         5.3,
@@ -241,8 +241,8 @@
         5.3,
         5.29
       ],
-      "as_of": "Sep 22 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 23 8:50a print",
+      "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
@@ -274,9 +274,9 @@
       "fallback_as_of": null
     },
     "fedwatch": {
-      "value": 56.5,
-      "as_of": "Sep 18, per CME FedWatch",
-      "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html"
+      "value": 53.1,
+      "as_of": "Sep 23, per CME FedWatch",
+      "url": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html"
     },
     "mode": "hybrid"
   },
@@ -344,8 +344,8 @@
   ],
   "CALL_LINES": [
     "The ten-year enters today's session at 4.96 percent, forty-six basis points wide of our 4.50 percent underwriting base, and that is the spread we are pricing off.",
-    "Overnight, oil ticked higher to $90.68 and the VIX firmed to 14.30, so the volatility backdrop stays contained heading into the open.",
-    "Equities enter off yesterday's close, with the S&P at 7,764.64 and the Nasdaq the relative leader from yesterday's session."
+    "Overnight, oil firmed to $91.17 and the VIX ticked up to 14.31, so the volatility backdrop stays contained heading into the open.",
+    "October hike odds eased to 53.1 percent on CME FedWatch, and equities enter off yesterday's close, with the S&P at 7,764.64 and the Nasdaq the relative leader from yesterday's session."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year enters today forty-six basis points wide of our 4.50 percent underwriting base."
 }
