@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-22T18:05:42-04:00",
+  "GENERATED_AT": "2026-09-23T07:05:41-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -133,8 +133,8 @@
     },
     {
       "sym": "WTI",
-      "val": 89.85,
-      "chg": -2.73,
+      "val": 89.83,
+      "chg": -0.02,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -153,13 +153,13 @@
         90.7,
         89.85
       ],
-      "as_of": "Sep 22 4:56p print",
+      "as_of": "Sep 23 6:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 14.21,
-      "chg": -4.44,
+      "val": 14.18,
+      "chg": -0.21,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -178,7 +178,7 @@
         14.22,
         14.21
       ],
-      "as_of": "Sep 22 close",
+      "as_of": "Sep 23 6:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -286,22 +286,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -343,9 +343,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed today at 4.96 percent, forty-six basis points wide of our 4.50 percent underwriting base, and that is the spread we are pricing off.",
-    "The S&P 500 closed effectively unchanged at 7,764.64, the Dow finished down about four tenths of a percent, and the Nasdaq led again, closing up roughly four tenths of a point.",
-    "Oil settled near $89.85, down about three percent on the session, and the VIX closed at 14.21, so volatility stayed contained into the close."
+    "The ten-year enters today's session at 4.96 percent, forty-six basis points wide of our 4.50 percent underwriting base, and that is the spread we are pricing off.",
+    "Overnight, oil eased slightly to $89.83 and the VIX held near 14.18, so the volatility backdrop stays quiet into the open.",
+    "Equities enter flat off yesterday's close, with the S&P at 7,764.64 and the Nasdaq the relative leader coming into today's session."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year closed today forty-six basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis, and the ten-year enters today forty-six basis points wide of our 4.50 percent underwriting base."
 }
