@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-23T16:05:16-04:00",
+  "GENERATED_AT": "2026-09-23T17:05:20-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -16,7 +16,7 @@
     "stocks slide further as ten-year touches 5.08% and oil jumps to $92.67",
     "stocks deepen losses as ten-year ticks to 5.10% while oil eases to $91.47",
     "stocks pare losses as ten-year ticks to 5.12% and oil climbs to $91.78",
-    "stocks close lower as ten-year settles at 5.11% and hike odds hold near 70%"
+    "stocks close lower as ten-year settles at 5.11% and hike odds climb to 73%"
   ],
   "MARKS": [
     {
@@ -129,8 +129,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.55,
-      "chg": 2.24,
+      "val": 92.7,
+      "chg": 2.41,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -154,8 +154,8 @@
     },
     {
       "sym": "VIX",
-      "val": 15.26,
-      "chg": 7.39,
+      "val": 15.18,
+      "chg": 6.83,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -244,7 +244,7 @@
   "CURVE": {
     "two": 4.85,
     "ten": 5.11,
-    "thirty": 5.40,
+    "thirty": 5.4,
     "as_of": "Sep 23 close, per treasury.gov"
   },
   "CURVE_2S10S": {
@@ -271,9 +271,9 @@
       "fallback_as_of": null
     },
     "fedwatch": {
-      "value": 70,
+      "value": 73,
       "as_of": "Sep 23, per CME FedWatch",
-      "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+      "url": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html"
     },
     "mode": "hybrid"
   },
@@ -283,22 +283,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -342,7 +342,7 @@
   "CALL_LINES": [
     "The ten-year closed today at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base, its highest close since 2007.",
     "Equities closed lower across the board, with the S&P off 0.75 percent, the Nasdaq down 1.13 percent, and the Dow down 0.68 percent as long-end yields kept climbing.",
-    "Oil settled at $92.55, up 2.24 percent, and CME FedWatch now prices October hike odds at 70 percent, so financing costs are still moving against us into next week."
+    "Oil settled near $92.70, up about 2.4 percent, and CME FedWatch now prices October hike odds at 73 percent, so financing costs are still moving against us into next week."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.11 percent today, sixty-one basis points wide of our 4.50 percent underwriting base."
 }
