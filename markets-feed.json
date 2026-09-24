@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-23T18:05:45-04:00",
+  "GENERATED_AT": "2026-09-24T07:06:14-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -129,8 +129,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.7,
-      "chg": 2.41,
+      "val": 93.21,
+      "chg": 1.14,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -149,7 +149,7 @@
         90.7,
         89.85
       ],
-      "as_of": "Sep 23 close",
+      "as_of": "Sep 24 6:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -174,7 +174,7 @@
         14.22,
         14.21
       ],
-      "as_of": "Sep 23 close",
+      "as_of": "Sep 23 close, unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -283,22 +283,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -340,9 +340,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed today at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base, its highest close since 2007.",
-    "Equities closed lower across the board, with the S&P off 0.75 percent, the Nasdaq down 1.13 percent, and the Dow down 0.68 percent as long-end yields kept climbing.",
-    "Oil settled near $92.70, up about 2.4 percent, and CME FedWatch now prices October hike odds at 73 percent, so financing costs are still moving against us into next week."
+    "The ten-year enters today locked at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base.",
+    "Oil is bid near $93.21 in early trade and CME FedWatch still has October hike odds at 73 percent, so the setup into the open favors higher, not lower, financing costs.",
+    "Nothing in the overnight tape argues for easing the basis: we hold pricing at last night's ten-year print until the cash market gives us a new one."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.11 percent today, sixty-one basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year enters today at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base."
 }
