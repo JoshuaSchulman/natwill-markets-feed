@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-24T17:05:39-04:00",
+  "GENERATED_AT": "2026-09-24T18:05:32-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -208,16 +208,17 @@
     },
     {
       "sym": "2-YR",
-      "val": "4.85%",
-      "chg": 14,
+      "val": "4.87%",
+      "chg": 2,
       "unit": " bp",
       "history": [
         4.67,
         4.76,
         4.76,
-        4.71
+        4.71,
+        4.87
       ],
-      "as_of": "Sep 23 close, per treasury.gov",
+      "as_of": "Sep 24 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
@@ -246,7 +247,7 @@
     }
   ],
   "CURVE": {
-    "two": 4.85,
+    "two": 4.87,
     "ten": 5.18,
     "thirty": 5.47,
     "as_of": "Sep 24 close, per treasury.gov"
@@ -288,22 +289,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
