@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-24T16:05:36-04:00",
+  "GENERATED_AT": "2026-09-24T17:05:39-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -18,7 +18,7 @@
     "oil slips off session highs as stocks bounce and the ten-year eases to 5.14%",
     "oil clears $95 again as the ten-year ticks to 5.16% and the S&P gives back its bounce",
     "stocks claw back some losses as oil eases to $94 and the ten-year holds at 5.16%",
-    "stocks finish little changed as the ten-year closes at 5.18% and oil tops $95"
+    "stocks finish little changed as the ten-year closes at 5.18% and oil eases to $94.78"
   ],
   "MARKS": [
     {
@@ -133,8 +133,8 @@
     },
     {
       "sym": "WTI",
-      "val": 95.1,
-      "chg": 3.19,
+      "val": 94.78,
+      "chg": 2.84,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -151,9 +151,9 @@
         90.04,
         90.7,
         89.85,
-        95.1
+        94.78
       ],
-      "as_of": "Sep 24 3:55p print",
+      "as_of": "Sep 24 4:56p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -346,7 +346,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed today at 5.18 percent, sixty-eight basis points wide of our 4.50 percent underwriting base.",
-    "Oil pushed to 95 dollars a barrel and the S&P closed essentially flat at 7,704.",
+    "Oil pushed toward 95 dollars a barrel and the S&P closed essentially flat at 7,704.",
     "We are holding pricing at today's 5.18 percent close until the ten-year moves enough to change the basis."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.18 percent today, sixty-eight basis points wide of our 4.50 percent underwriting base."
