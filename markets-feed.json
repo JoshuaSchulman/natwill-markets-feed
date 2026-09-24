@@ -1,22 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-24T09:06:17-04:00",
+  "GENERATED_AT": "2026-09-24T10:06:12-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a",
-    "11:05a",
-    "12:05p",
-    "1:05p",
-    "2:05p",
-    "4:00p"
+    "10:05a"
   ],
   "TAPE_NOTES": [
-    "stocks open lower as ten-year jumps to 5.03% and oil tops $92",
-    "stocks extend losses as ten-year climbs to 5.07% and oil eases to $91.40",
-    "stocks slide further as ten-year touches 5.08% and oil jumps to $92.67",
-    "stocks deepen losses as ten-year ticks to 5.10% while oil eases to $91.47",
-    "stocks pare losses as ten-year ticks to 5.12% and oil climbs to $91.78",
-    "stocks close lower as ten-year settles at 5.11% and hike odds climb to 73%"
+    "stocks open lower as ten-year holds near 5.10% and oil clears $94"
   ],
   "MARKS": [
     {
@@ -26,39 +16,29 @@
     }
   ],
   "UST10": {
-    "close": 5.11,
-    "display": "5.11%",
-    "chg_bp": 15,
+    "close": 5.1,
+    "display": "5.10%",
+    "chg_bp": -1,
     "tape": [
-      5.03,
-      5.07,
-      5.08,
-      5.1,
-      5.12,
-      5.11
+      5.1
     ],
-    "as_of": "Sep 23 close, per treasury.gov",
-    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+    "as_of": "Sep 24 9:52a print",
+    "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7706.05,
-    "prior_close": 7764.64,
+    "close": 7691.39,
+    "prior_close": 7706.05,
     "tape": [
-      7733.46,
-      7726.71,
-      7713.62,
-      7699.19,
-      7710.88,
-      7706.05
+      7691.39
     ],
-    "as_of": "Sep 23 close",
+    "as_of": "Sep 24 10:07a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,706.05",
-      "chg": -0.75,
+      "val": "7,691.39",
+      "chg": -0.19,
       "unit": "%",
       "history": [
         7650.5,
@@ -76,13 +56,13 @@
         7768.62,
         7764.64
       ],
-      "as_of": "Sep 23 close",
+      "as_of": "Sep 24 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,936.04",
-      "chg": -1.13,
+      "val": "26,781.78",
+      "chg": -0.57,
       "unit": "%",
       "history": [
         26522.55,
@@ -100,13 +80,13 @@
         27236.96,
         27244.28
       ],
-      "as_of": "Sep 23 close",
+      "as_of": "Sep 24 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,511.59",
-      "chg": -0.68,
+      "val": "51,421.26",
+      "chg": -0.18,
       "unit": "%",
       "history": [
         51682.64,
@@ -124,13 +104,13 @@
         51896.37,
         51863.69
       ],
-      "as_of": "Sep 23 close",
+      "as_of": "Sep 24 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 93.65,
-      "chg": 1.49,
+      "val": 94.0,
+      "chg": 2.0,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -149,7 +129,7 @@
         90.7,
         89.85
       ],
-      "as_of": "Sep 24 8:56a print",
+      "as_of": "Sep 24 9:57a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -179,8 +159,8 @@
     },
     {
       "sym": "10-YR",
-      "val": "5.11%",
-      "chg": 15,
+      "val": "5.10%",
+      "chg": -1,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -199,8 +179,8 @@
         4.97,
         4.96
       ],
-      "as_of": "Sep 23 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Sep 24 9:52a print",
+      "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "sym": "2-YR",
@@ -218,8 +198,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.42%",
-      "chg": 2,
+      "val": "5.39%",
+      "chg": -3,
       "unit": " bp",
       "history": [
         5.3,
@@ -237,15 +217,15 @@
         5.3,
         5.29
       ],
-      "as_of": "Sep 24 8:51a print",
+      "as_of": "Sep 24 9:52a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.85,
-    "ten": 5.11,
-    "thirty": 5.4,
-    "as_of": "Sep 23 close, per treasury.gov"
+    "ten": 5.1,
+    "thirty": 5.39,
+    "as_of": "Sep 24 9:52a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -283,22 +263,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -340,9 +320,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year enters today locked at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base.",
-    "Oil is bid near $93.65 in early trade, the thirty-year has ticked up to 5.42 percent overnight, and CME FedWatch still has October hike odds at 73 percent, so the setup into the open favors higher, not lower, financing costs.",
-    "Nothing in the overnight tape argues for easing the basis: we hold pricing at last night's ten-year print until the cash market gives us a new one."
+    "The ten-year is trading at 5.10 percent this morning, sixty basis points wide of our 4.50 percent underwriting base.",
+    "The S&P is off about two tenths of a percent and oil has cleared $94 a barrel, so nothing in the tape is easing the financing-cost pressure from yesterday's close.",
+    "We are holding pricing at the 5.10 percent print until the ten-year moves enough to change the basis."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year enters today at 5.11 percent, sixty-one basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year trades at 5.10 percent this morning, sixty basis points wide of our 4.50 percent underwriting base."
 }
