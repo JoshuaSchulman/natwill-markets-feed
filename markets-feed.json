@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-25T16:05:41-04:00",
+  "GENERATED_AT": "2026-09-25T17:06:20-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -142,8 +142,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.3,
-      "chg": -2.44,
+      "val": 92.45,
+      "chg": -2.28,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -163,15 +163,15 @@
         92.08,
         92.2,
         92.13,
-        92.3
+        92.45
       ],
-      "as_of": "Sep 25 3:55p print",
+      "as_of": "Sep 25 4:56p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 14.79,
-      "chg": -5.62,
+      "val": 14.87,
+      "chg": -5.11,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -191,7 +191,7 @@
         15.18,
         15.42,
         15.42,
-        14.79
+        14.87
       ],
       "as_of": "Sep 25 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
@@ -370,7 +370,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.17 percent today, sixty-seven basis points wide of our 4.50 percent underwriting base.",
-    "The S&P 500 closed at 7,743, up about half a percent, while the VIX fell to 14.79 as volatility eased into the close.",
+    "The S&P 500 closed at 7,743, up about half a percent, while the VIX fell to 14.87 as volatility eased into the close.",
     "We are holding pricing at the 5.17 percent close until the ten-year moves enough on tomorrow's tape to change the basis."
   ],
   "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.17 percent today, sixty-seven basis points wide of our 4.50 percent underwriting base."
