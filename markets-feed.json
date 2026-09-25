@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-24T18:05:32-04:00",
+  "GENERATED_AT": "2026-09-25T07:06:08-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -133,8 +133,8 @@
     },
     {
       "sym": "WTI",
-      "val": 94.78,
-      "chg": 2.84,
+      "val": 93.04,
+      "chg": -1.66,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -153,13 +153,13 @@
         89.85,
         94.78
       ],
-      "as_of": "Sep 24 4:56p print",
+      "as_of": "Sep 25 6:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.18,
-      "chg": 6.83,
+      "val": 15.34,
+      "chg": -2.11,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -178,7 +178,7 @@
         14.21,
         15.18
       ],
-      "as_of": "Sep 24 close",
+      "as_of": "Sep 25 6:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -289,22 +289,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -346,9 +346,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed today at 5.18 percent, sixty-eight basis points wide of our 4.50 percent underwriting base.",
-    "Oil pushed toward 95 dollars a barrel and the S&P closed essentially flat at 7,704.",
-    "We are holding pricing at today's 5.18 percent close until the ten-year moves enough to change the basis."
+    "The ten-year enters today's session at 5.18 percent, sixty-eight basis points wide of our 4.50 percent underwriting base.",
+    "Oil has pulled back to about 93 dollars a barrel overnight and the VIX has eased to roughly 15, a calmer tape than yesterday's close.",
+    "We are holding pricing at yesterday's 5.18 percent close until the ten-year moves enough on today's tape to change the basis."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.18 percent today, sixty-eight basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year enters today at 5.18 percent, sixty-eight basis points wide of our 4.50 percent underwriting base."
 }
