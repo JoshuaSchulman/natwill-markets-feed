@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-09-25T10:06:17-04:00",
+  "GENERATED_AT": "2026-09-25T11:06:26-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a"
+    "10:05a",
+    "11:06a"
   ],
   "TAPE_NOTES": [
-    "stocks little changed as the ten-year ticks up to 5.19% and oil eases to $93"
+    "stocks little changed as the ten-year ticks up to 5.19% and oil eases to $93",
+    "stocks add to gains as the ten-year ticks up to 5.22% and oil holds near $93.75"
   ],
   "MARKS": [
     {
@@ -16,29 +18,31 @@
     }
   ],
   "UST10": {
-    "close": 5.19,
-    "display": "5.19%",
-    "chg_bp": 1,
+    "close": 5.22,
+    "display": "5.22%",
+    "chg_bp": 4,
     "tape": [
-      5.19
+      5.19,
+      5.22
     ],
-    "as_of": "Sep 25 9:51a print",
+    "as_of": "Sep 25 10:51a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7697.33,
+    "close": 7726.61,
     "prior_close": 7704.13,
     "tape": [
-      7697.33
+      7697.33,
+      7726.61
     ],
-    "as_of": "Sep 25 10:06a print",
+    "as_of": "Sep 25 11:06a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,697.33",
-      "chg": -0.09,
+      "val": "7,726.61",
+      "chg": 0.29,
       "unit": "%",
       "history": [
         7702.62,
@@ -55,15 +59,15 @@
         7768.62,
         7764.64,
         7704.13,
-        7697.33
+        7726.61
       ],
-      "as_of": "Sep 25 10:06a print",
+      "as_of": "Sep 25 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,934.02",
-      "chg": -0.02,
+      "val": "27,026.71",
+      "chg": 0.32,
       "unit": "%",
       "history": [
         26843.09,
@@ -80,15 +84,15 @@
         27236.96,
         27244.28,
         26939.37,
-        26934.02
+        27026.71
       ],
-      "as_of": "Sep 25 10:06a print",
+      "as_of": "Sep 25 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,347.90",
-      "chg": 0.0,
+      "val": "51,565.96",
+      "chg": 0.42,
       "unit": "%",
       "history": [
         51794.01,
@@ -105,15 +109,15 @@
         51896.37,
         51863.69,
         51349.98,
-        51347.9
+        51565.96
       ],
-      "as_of": "Sep 25 10:06a print",
+      "as_of": "Sep 25 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 93.37,
-      "chg": -1.31,
+      "val": 93.74,
+      "chg": -0.92,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -131,15 +135,15 @@
         90.7,
         89.85,
         94.78,
-        93.37
+        93.74
       ],
-      "as_of": "Sep 25 9:56a print",
+      "as_of": "Sep 25 10:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.16,
-      "chg": -3.25,
+      "val": 15.59,
+      "chg": -0.51,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -157,15 +161,15 @@
         14.22,
         14.21,
         15.18,
-        15.16
+        15.59
       ],
-      "as_of": "Sep 25 9:51a print",
+      "as_of": "Sep 25 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.19%",
-      "chg": 1,
+      "val": "5.22%",
+      "chg": 4,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -183,9 +187,9 @@
         4.97,
         4.96,
         5.18,
-        5.19
+        5.22
       ],
-      "as_of": "Sep 25 9:51a print",
+      "as_of": "Sep 25 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -231,9 +235,9 @@
   ],
   "CURVE": {
     "two": 4.87,
-    "ten": 5.19,
-    "thirty": 5.49,
-    "as_of": "Sep 25 9:51a print"
+    "ten": 5.22,
+    "thirty": 5.53,
+    "as_of": "Sep 25 10:51a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -329,9 +333,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is trading at 5.19 percent this morning, sixty-nine basis points wide of our 4.50 percent underwriting base.",
-    "Oil has eased to about 93 dollars and 37 cents a barrel and the VIX sits near 15, a quiet tape so far today.",
-    "We are holding pricing at the 5.19 percent print until the ten-year moves enough on today's tape to change the basis."
+    "The ten-year is trading at 5.22 percent this morning, seventy-two basis points wide of our 4.50 percent underwriting base.",
+    "Oil has ticked up to about 93 dollars and 74 cents a barrel and the VIX sits near 15.6, a steady tape so far today.",
+    "We are holding pricing at the 5.22 percent print until the ten-year moves enough on today's tape to change the basis."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is trading at 5.19 percent this morning, sixty-nine basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is trading at 5.22 percent this morning, seventy-two basis points wide of our 4.50 percent underwriting base."
 }
