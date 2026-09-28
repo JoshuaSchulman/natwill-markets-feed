@@ -1,18 +1,20 @@
 {
-  "GENERATED_AT": "2026-09-28T13:06:09-04:00",
+  "GENERATED_AT": "2026-09-28T14:06:20-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:06a",
     "11:06a",
     "12:06p",
-    "1:06p"
+    "1:06p",
+    "2:06p"
   ],
   "TAPE_NOTES": [
     "stocks slip as the ten-year jumps to 5.22% and oil tops $94 on Iran tensions",
     "oil tops $95 and VIX breaks 16 as the ten-year grinds higher, stocks extend the slide",
     "stocks bounce off lows as oil eases to $95.13, vix dips to 16.30, tens hold at 5.26%",
-    "stocks trim losses as oil drops to $92.95 and vix cools to 16.00, tens steady near 5.25%"
+    "stocks trim losses as oil drops to $92.95 and vix cools to 16.00, tens steady near 5.25%",
+    "stocks steady as tens ease to 5.23% and oil dips to $92.68, vix holds near 16"
   ],
   "MARKS": [
     {
@@ -22,35 +24,37 @@
     }
   ],
   "UST10": {
-    "close": 5.25,
-    "display": "5.25%",
-    "chg_bp": 6,
+    "close": 5.23,
+    "display": "5.23%",
+    "chg_bp": 4,
     "tape": [
       5.22,
       5.26,
       5.26,
-      5.25
+      5.25,
+      5.23
     ],
-    "as_of": "Sep 28 12:51p print",
+    "as_of": "Sep 28 1:51p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7695.17,
+    "close": 7702.37,
     "prior_close": 7743.41,
     "tape": [
       7705.0,
       7674.24,
       7682.62,
-      7695.17
+      7695.17,
+      7702.37
     ],
-    "as_of": "Sep 28 1:06p print",
+    "as_of": "Sep 28 2:06p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,695.17",
-      "chg": -0.62,
+      "val": "7,702.37",
+      "chg": -0.53,
       "unit": "%",
       "history": [
         7740.87,
@@ -72,15 +76,16 @@
         7705.0,
         7674.24,
         7682.62,
-        7695.17
+        7695.17,
+        7702.37
       ],
-      "as_of": "Sep 28 1:06p print",
+      "as_of": "Sep 28 2:06p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,865.63",
-      "chg": -0.75,
+      "val": "26,908.02",
+      "chg": -0.59,
       "unit": "%",
       "history": [
         26995.89,
@@ -102,15 +107,16 @@
         26868.73,
         26780.79,
         26815.67,
-        26865.63
+        26865.63,
+        26908.02
       ],
-      "as_of": "Sep 28 1:06p print",
+      "as_of": "Sep 28 2:06p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,568.06",
-      "chg": -0.5,
+      "val": "51,602.88",
+      "chg": -0.44,
       "unit": "%",
       "history": [
         51925.56,
@@ -132,15 +138,16 @@
         51580.76,
         51439.42,
         51480.65,
-        51568.06
+        51568.06,
+        51602.88
       ],
-      "as_of": "Sep 28 1:06p print",
+      "as_of": "Sep 28 2:06p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 92.95,
-      "chg": 0.58,
+      "val": 92.68,
+      "chg": 0.29,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -166,15 +173,16 @@
         94.2,
         95.48,
         95.13,
-        92.95
+        92.95,
+        92.68
       ],
-      "as_of": "Sep 28 12:56p print",
+      "as_of": "Sep 28 1:56p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.0,
-      "chg": 7.6,
+      "val": 15.96,
+      "chg": 7.34,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -200,15 +208,16 @@
         15.97,
         16.37,
         16.3,
-        16.0
+        16.0,
+        15.96
       ],
-      "as_of": "Sep 28 12:51p print",
+      "as_of": "Sep 28 1:51p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.25%",
-      "chg": 6,
+      "val": "5.23%",
+      "chg": 4,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -231,9 +240,10 @@
         5.22,
         5.26,
         5.26,
-        5.25
+        5.25,
+        5.23
       ],
-      "as_of": "Sep 28 12:51p print",
+      "as_of": "Sep 28 1:51p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -254,8 +264,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.57%",
-      "chg": 7,
+      "val": "5.56%",
+      "chg": 6,
       "unit": " bp",
       "history": [
         5.3,
@@ -278,17 +288,18 @@
         5.54,
         5.57,
         5.57,
-        5.57
+        5.57,
+        5.56
       ],
-      "as_of": "Sep 28 12:51p print",
+      "as_of": "Sep 28 1:51p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.81,
-    "ten": 5.25,
-    "thirty": 5.57,
-    "as_of": "Sep 28 12:51p print"
+    "ten": 5.23,
+    "thirty": 5.56,
+    "as_of": "Sep 28 1:51p print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -385,9 +396,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is trading at 5.25 percent this afternoon, seventy-five basis points wide of our 4.50 percent underwriting base.",
-    "Oil has eased back to $92.95 and the VIX has cooled to 16.00, giving stocks room to trim their losses with the S&P off about six tenths of a percent.",
-    "We are marking to the 5.25 percent print and will revisit pricing if the ten-year sets a fresh level into the close."
+    "The ten-year is trading at 5.23 percent this afternoon, seventy-three basis points wide of our 4.50 percent underwriting base.",
+    "Oil has eased to $92.68 and the VIX has ticked down to 15.96, with the S&P off about half a percent on the session.",
+    "We are marking to the 5.23 percent print and will revisit pricing if the ten-year sets a fresh level into the close."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is trading at 5.25 percent this afternoon, six basis points above Friday's close, with oil at $92.95 and the VIX at 16.00 as stocks trim losses into the afternoon."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is trading at 5.23 percent this afternoon, four basis points above Friday's close, with oil at $92.68 and the VIX at 15.96 as stocks hold slightly lower into the afternoon."
 }
