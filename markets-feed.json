@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-28T08:06:17-04:00",
+  "GENERATED_AT": "2026-09-28T09:06:17-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -142,8 +142,8 @@
     },
     {
       "sym": "WTI",
-      "val": 95.76,
-      "chg": 3.63,
+      "val": 94.06,
+      "chg": 1.75,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -165,15 +165,16 @@
         92.13,
         92.44,
         96.17,
-        95.76
+        95.76,
+        94.06
       ],
-      "as_of": "Sep 28 7:56a print",
+      "as_of": "Sep 28 8:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.27,
-      "chg": 9.41,
+      "val": 16.01,
+      "chg": 7.67,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -195,9 +196,10 @@
         15.42,
         14.87,
         16.36,
-        16.27
+        16.27,
+        16.01
       ],
-      "as_of": "Sep 28 7:51a print",
+      "as_of": "Sep 28 8:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -246,8 +248,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.49%",
-      "chg": 2,
+      "val": "5.53%",
+      "chg": 4,
       "unit": " bp",
       "history": [
         5.29,
@@ -266,9 +268,10 @@
         5.51,
         5.51,
         5.5,
-        5.49
+        5.49,
+        5.53
       ],
-      "as_of": "Sep 25 close, per treasury.gov",
+      "as_of": "Sep 28 8:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -316,22 +319,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -374,8 +377,8 @@
   ],
   "CALL_LINES": [
     "The ten-year still holds Friday's close of 5.17 percent, sixty-seven basis points wide of our 4.50 percent underwriting base.",
-    "Oil is up about three and a half percent to $95.76 and the VIX is up about nine percent to 16.27 ahead of the open, as Trump's rejection of Iran's Strait of Hormuz proposal keeps a bid under crude.",
+    "Oil is up about one and three quarters percent to $94.06 and the VIX is up about seven and a half percent to 16.01 ahead of the open, as Iran holds firm on its Strait of Hormuz terms against Trump's rejected seven-day timeline.",
     "We are holding pricing at the 5.17 percent close until the ten-year sets a fresh print after the bell."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year opens the week still at Friday's 5.17 percent close, with oil up near three and a half percent and the VIX up about nine percent as the Strait of Hormuz standoff keeps a bid under crude ahead of the bell."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year opens the week still at Friday's 5.17 percent close, with oil up about one and three quarters percent and the VIX up about seven and a half percent as the Strait of Hormuz standoff keeps a bid under crude ahead of the bell."
 }
