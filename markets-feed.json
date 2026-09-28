@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-09-28T10:09:49-04:00",
+  "GENERATED_AT": "2026-09-28T11:06:32-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:06a"
+    "10:06a",
+    "11:06a"
   ],
   "TAPE_NOTES": [
-    "stocks slip as the ten-year jumps to 5.22% and oil tops $94 on Iran tensions"
+    "stocks slip as the ten-year jumps to 5.22% and oil tops $94 on Iran tensions",
+    "oil tops $95 and VIX breaks 16 as the ten-year grinds higher, stocks extend the slide"
   ],
   "MARKS": [
     {
@@ -16,29 +18,31 @@
     }
   ],
   "UST10": {
-    "close": 5.22,
-    "display": "5.22%",
-    "chg_bp": 5,
+    "close": 5.26,
+    "display": "5.26%",
+    "chg_bp": 7,
     "tape": [
-      5.22
+      5.22,
+      5.26
     ],
-    "as_of": "Sep 28 9:51a print",
+    "as_of": "Sep 28 10:51a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7705.0,
+    "close": 7674.24,
     "prior_close": 7743.41,
     "tape": [
-      7705.0
+      7705.0,
+      7674.24
     ],
-    "as_of": "Sep 28 10:06a print",
+    "as_of": "Sep 28 11:06a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,705.00",
-      "chg": -0.5,
+      "val": "7,674.24",
+      "chg": -0.89,
       "unit": "%",
       "history": [
         7740.87,
@@ -57,15 +61,16 @@
         7740.34,
         7736.27,
         7743.41,
-        7705.0
+        7705.0,
+        7674.24
       ],
-      "as_of": "Sep 28 10:06a print",
+      "as_of": "Sep 28 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,868.73",
-      "chg": -0.74,
+      "val": "26,780.79",
+      "chg": -1.06,
       "unit": "%",
       "history": [
         26995.89,
@@ -84,15 +89,16 @@
         27079.66,
         27053.72,
         27068.72,
-        26868.73
+        26868.73,
+        26780.79
       ],
-      "as_of": "Sep 28 10:06a print",
+      "as_of": "Sep 28 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,580.76",
-      "chg": -0.48,
+      "val": "51,439.42",
+      "chg": -0.75,
       "unit": "%",
       "history": [
         51925.56,
@@ -111,15 +117,16 @@
         51767.6,
         51770.29,
         51828.62,
-        51580.76
+        51580.76,
+        51439.42
       ],
-      "as_of": "Sep 28 10:06a print",
+      "as_of": "Sep 28 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 94.2,
-      "chg": 1.9,
+      "val": 95.48,
+      "chg": 3.32,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -142,15 +149,16 @@
         96.17,
         95.76,
         94.06,
-        94.2
+        94.2,
+        95.48
       ],
-      "as_of": "Sep 28 9:56a print",
+      "as_of": "Sep 28 10:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.97,
-      "chg": 7.4,
+      "val": 16.37,
+      "chg": 10.08,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -173,15 +181,16 @@
         16.36,
         16.27,
         16.01,
-        15.97
+        15.97,
+        16.37
       ],
-      "as_of": "Sep 28 9:51a print",
+      "as_of": "Sep 28 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.22%",
-      "chg": 5,
+      "val": "5.26%",
+      "chg": 7,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -201,9 +210,10 @@
         5.2,
         5.19,
         5.17,
-        5.22
+        5.22,
+        5.26
       ],
-      "as_of": "Sep 28 9:51a print",
+      "as_of": "Sep 28 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -224,8 +234,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.54%",
-      "chg": 5,
+      "val": "5.57%",
+      "chg": 7,
       "unit": " bp",
       "history": [
         5.3,
@@ -245,17 +255,18 @@
         5.5,
         5.49,
         5.53,
-        5.54
+        5.54,
+        5.57
       ],
-      "as_of": "Sep 28 9:51a print",
+      "as_of": "Sep 28 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.81,
-    "ten": 5.22,
-    "thirty": 5.54,
-    "as_of": "Sep 28 9:51a print"
+    "ten": 5.26,
+    "thirty": 5.57,
+    "as_of": "Sep 28 10:51a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -352,9 +363,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is at 5.22 percent this morning, seventy-two basis points wide of our 4.50 percent underwriting base.",
-    "Oil is up close to two percent to $94.20 and the VIX is up more than seven percent to 15.97 as the Strait of Hormuz standoff keeps a bid under crude and pressures equities.",
-    "We are marking to the 5.22 percent print and will revisit pricing if the ten-year sets a fresh level into the afternoon."
+    "The ten-year is at 5.26 percent this morning, seventy-six basis points wide of our 4.50 percent underwriting base.",
+    "Oil has broken $95 a barrel and the VIX is up more than ten percent to 16.37 as the Strait of Hormuz standoff keeps a bid under crude and pressures equities.",
+    "We are marking to the 5.26 percent print and will revisit pricing if the ten-year sets a fresh level into the afternoon."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is at 5.22 percent this morning, five basis points above Friday's close, with oil up close to two percent and the VIX up more than seven percent as the Strait of Hormuz standoff keeps a bid under crude and weighs on stocks."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year is at 5.26 percent this morning, seven basis points above Friday's close, with oil above $95 and the VIX up more than ten percent as the Strait of Hormuz standoff keeps a bid under crude and weighs on stocks."
 }
