@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-28T17:06:26-04:00",
+  "GENERATED_AT": "2026-09-28T18:07:13-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -268,8 +268,8 @@
     },
     {
       "sym": "2-YR",
-      "val": "4.81%",
-      "chg": -6,
+      "val": "4.92%",
+      "chg": 11,
       "unit": " bp",
       "history": [
         4.67,
@@ -277,9 +277,10 @@
         4.76,
         4.71,
         4.87,
-        4.81
+        4.81,
+        4.92
       ],
-      "as_of": "Sep 25 close, per treasury.gov, unverified",
+      "as_of": "Sep 28 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
@@ -318,10 +319,10 @@
     }
   ],
   "CURVE": {
-    "two": 4.81,
+    "two": 4.92,
     "ten": 5.24,
     "thirty": 5.56,
-    "as_of": "Sep 28 close, per treasury.gov (2-yr Sep 25, unverified)"
+    "as_of": "Sep 28 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -336,9 +337,10 @@
       25,
       26,
       33,
-      36
+      36,
+      32
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 25"
+    "as_of": "accrues daily from Sep 1, last Sep 28"
   },
   "ODDS": {
     "polymarket": {
