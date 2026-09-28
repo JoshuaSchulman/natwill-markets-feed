@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-25T18:05:45-04:00",
+  "GENERATED_AT": "2026-09-28T07:06:15-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -142,8 +142,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.44,
-      "chg": -2.29,
+      "val": 96.17,
+      "chg": 4.04,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -163,15 +163,16 @@
         92.08,
         92.2,
         92.13,
-        92.44
+        92.44,
+        96.17
       ],
-      "as_of": "Sep 25 5:00p print",
+      "as_of": "Sep 28 6:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 14.87,
-      "chg": -5.11,
+      "val": 16.36,
+      "chg": 10.02,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -191,9 +192,10 @@
         15.18,
         15.42,
         15.42,
-        14.87
+        14.87,
+        16.36
       ],
-      "as_of": "Sep 25 close",
+      "as_of": "Sep 28 6:51a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -312,22 +314,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr ≥ 4.85%",
+      "label": "10-yr \u2265 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX ≥ 20",
+      "label": "VIX \u2265 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI ≥ $95",
+      "label": "WTI \u2265 $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds ≥ 70%",
+      "label": "Hike odds \u2265 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -369,9 +371,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 5.17 percent today, sixty-seven basis points wide of our 4.50 percent underwriting base.",
-    "The S&P 500 closed at 7,743, up about half a percent, while the VIX fell to 14.87 as volatility eased into the close.",
-    "We are holding pricing at the 5.17 percent close until the ten-year moves enough on tomorrow's tape to change the basis."
+    "The ten-year still holds Friday's close of 5.17 percent, sixty-seven basis points wide of our 4.50 percent underwriting base.",
+    "Oil futures are up about four percent to $96 and the VIX is up ten percent to 16.36 ahead of the open, as Trump's rejection of the Iranian peace proposal hits the tape.",
+    "We are holding pricing at the 5.17 percent close until the ten-year sets a fresh print after the bell."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.17 percent today, sixty-seven basis points wide of our 4.50 percent underwriting base."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year opens the week at Friday's 5.17 percent close, with oil up about four percent and the VIX up ten percent as Iran risk hits futures ahead of the bell."
 }
