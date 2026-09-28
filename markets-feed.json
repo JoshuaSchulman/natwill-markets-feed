@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-28T16:05:41-04:00",
+  "GENERATED_AT": "2026-09-28T17:06:26-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -160,8 +160,8 @@
     },
     {
       "sym": "WTI",
-      "val": 92.99,
-      "chg": 0.63,
+      "val": 93.29,
+      "chg": 0.95,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -190,15 +190,15 @@
         92.95,
         92.68,
         92.36,
-        92.99
+        93.29
       ],
-      "as_of": "Sep 28 3:56p print",
+      "as_of": "Sep 28 close",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.13,
-      "chg": 8.47,
+      "val": 16.07,
+      "chg": 8.07,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -227,9 +227,9 @@
         16.0,
         15.96,
         15.89,
-        16.13
+        16.07
       ],
-      "as_of": "Sep 28 3:51p print",
+      "as_of": "Sep 28 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -361,22 +361,22 @@
   },
   "TRIPWIRES": [
     {
-      "label": "10-yr \u2265 4.85%",
+      "label": "10-yr ≥ 4.85%",
       "metric": "UST10",
       "value": 4.85
     },
     {
-      "label": "VIX \u2265 20",
+      "label": "VIX ≥ 20",
       "metric": "VIX",
       "value": 20
     },
     {
-      "label": "WTI \u2265 $95",
+      "label": "WTI ≥ $95",
       "metric": "WTI",
       "value": 95
     },
     {
-      "label": "Hike odds \u2265 70%",
+      "label": "Hike odds ≥ 70%",
       "metric": "ODDS",
       "value": 70
     }
@@ -419,8 +419,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.24 percent today, up seven basis points on the day and seventy-four wide of our 4.50 percent underwriting base.",
-    "Oil is at $92.99 and the VIX is near 16, with the S&P down seventy-seven hundredths of a percent at 7,683.69.",
+    "Oil settled at $93.29 and the VIX closed at 16.07, with the S&P down seventy-seven hundredths of a percent at 7,683.69.",
     "We are marking to the 5.24 percent official close and pricing off it in the morning."
   ],
-  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.24 percent, seven basis points above Friday's close, with oil at $92.99 and stocks lower on the day."
+  "FOOT_LINE": "Cost of capital, not cap rates, is moving our basis: the ten-year closed at 5.24 percent, seven basis points above Friday's close, with oil at $93.29 and stocks lower on the day."
 }
