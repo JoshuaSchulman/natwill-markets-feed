@@ -1,24 +1,12 @@
 {
-  "GENERATED_AT": "2026-09-29T09:06:14-04:00",
+  "GENERATED_AT": "2026-09-29T11:05:25-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:06a",
-    "11:06a",
-    "12:06p",
-    "1:06p",
-    "2:06p",
-    "3:05p",
-    "4:00p"
+    "11:05a"
   ],
   "TAPE_NOTES": [
-    "stocks slip as the ten-year jumps to 5.22% and oil tops $94 on Iran tensions",
-    "oil tops $95 and VIX breaks 16 as the ten-year grinds higher, stocks extend the slide",
-    "stocks bounce off lows as oil eases to $95.13, vix dips to 16.30, tens hold at 5.26%",
-    "stocks trim losses as oil drops to $92.95 and vix cools to 16.00, tens steady near 5.25%",
-    "stocks steady as tens ease to 5.23% and oil dips to $92.68, vix holds near 16",
-    "stocks sag into the last hour as tens tick to 5.24% and oil slips to $92.36",
-    "stocks close lower, tens finish at 5.24% as oil edges to $92.99"
+    "tens tick to 5.26% while oil slips to $91 and stocks hold near flat"
   ],
   "MARKS": [
     {
@@ -28,41 +16,29 @@
     }
   ],
   "UST10": {
-    "close": 5.24,
-    "display": "5.24%",
-    "chg_bp": 7,
+    "close": 5.26,
+    "display": "5.26%",
+    "chg_bp": 2,
     "tape": [
-      5.22,
-      5.26,
-      5.26,
-      5.25,
-      5.23,
-      5.24,
-      5.24
+      5.26
     ],
-    "as_of": "Sep 28 close, per treasury.gov",
+    "as_of": "Sep 29 10:50a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7683.69,
+    "close": 7672.14,
     "prior_close": 7743.41,
     "tape": [
-      7705.0,
-      7674.24,
-      7682.62,
-      7695.17,
-      7702.37,
-      7695.6,
-      7683.69
+      7672.14
     ],
-    "as_of": "Sep 28 close",
+    "as_of": "Sep 29 11:05a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,683.69",
-      "chg": -0.77,
+      "val": "7,672.14",
+      "chg": -0.15,
       "unit": "%",
       "history": [
         7740.87,
@@ -87,15 +63,16 @@
         7695.17,
         7702.37,
         7695.6,
-        7683.69
+        7683.69,
+        7672.14
       ],
-      "as_of": "Sep 28 close",
+      "as_of": "Sep 29 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,820.38",
-      "chg": -0.92,
+      "val": "26,822.24",
+      "chg": 0.01,
       "unit": "%",
       "history": [
         26995.89,
@@ -120,15 +97,16 @@
         26865.63,
         26908.02,
         26881.45,
-        26820.38
+        26820.38,
+        26822.24
       ],
-      "as_of": "Sep 28 close",
+      "as_of": "Sep 29 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,481.51",
-      "chg": -0.67,
+      "val": "51,242.10",
+      "chg": -0.47,
       "unit": "%",
       "history": [
         51925.56,
@@ -153,15 +131,16 @@
         51568.06,
         51602.88,
         51521.42,
-        51481.51
+        51481.51,
+        51242.10
       ],
-      "as_of": "Sep 28 close",
+      "as_of": "Sep 29 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 90.59,
-      "chg": -2.17,
+      "val": 91.24,
+      "chg": -1.47,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -193,15 +172,16 @@
         93.29,
         91.92,
         91.24,
-        90.59
+        90.59,
+        91.24
       ],
-      "as_of": "Sep 29 8:55a print",
+      "as_of": "Sep 29 10:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.87,
-      "chg": -1.24,
+      "val": 16.0,
+      "chg": -0.44,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -233,15 +213,16 @@
         16.07,
         16.03,
         15.82,
-        15.87
+        15.87,
+        16.0
       ],
-      "as_of": "Sep 29 8:50a print",
+      "as_of": "Sep 29 10:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.24%",
-      "chg": 7,
+      "val": "5.26%",
+      "chg": 2,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -267,9 +248,10 @@
         5.25,
         5.23,
         5.24,
-        5.24
+        5.24,
+        5.26
       ],
-      "as_of": "Sep 28 close, per treasury.gov",
+      "as_of": "Sep 29 10:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -291,8 +273,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.55%",
-      "chg": -1,
+      "val": "5.59%",
+      "chg": 3,
       "unit": " bp",
       "history": [
         5.3,
@@ -319,17 +301,18 @@
         5.56,
         5.56,
         5.56,
-        5.55
+        5.55,
+        5.59
       ],
-      "as_of": "Sep 29 8:50a print",
+      "as_of": "Sep 29 10:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.92,
-    "ten": 5.24,
-    "thirty": 5.56,
-    "as_of": "Sep 28 close, per treasury.gov"
+    "ten": 5.26,
+    "thirty": 5.59,
+    "as_of": "Sep 29 10:50a print (2-yr Sep 28 close)"
   },
   "CURVE_2S10S": {
     "history": [
@@ -427,9 +410,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 5.24 percent Monday, seventy-four basis points wide of our 4.50 percent underwriting base.",
-    "Oil is near $90.59 and the VIX is 15.87 pre-open, both softer than yesterday.",
+    "The ten-year is 5.26% this morning, seventy-six basis points wide of our 4.50 percent underwriting base.",
+    "Oil is near $91 and the VIX is 16, with stocks flat: the rate is the story, not the tape.",
     "PCE lands tomorrow at 8:30 and payrolls Friday: we price off the ten-year at the open, not off yesterday."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year sits at 5.24 percent into PCE tomorrow and payrolls Friday, with oil near $91 and the VIX at 16."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year sits at 5.26 percent into PCE tomorrow and payrolls Friday, with oil near $91 and the VIX at 16."
 }
