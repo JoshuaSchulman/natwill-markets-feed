@@ -1,16 +1,18 @@
 {
-  "GENERATED_AT": "2026-09-29T13:06:49-04:00",
+  "GENERATED_AT": "2026-09-29T14:05:52-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "11:05a",
     "12:05p",
-    "1:05p"
+    "1:05p",
+    "2:05p"
   ],
   "TAPE_NOTES": [
     "tens tick to 5.26% while oil slips to $91 and stocks hold near flat",
     "tens back up to 5.28% as Dow slips and oil sheds about 2%",
-    "tens hold 5.28% as oil sheds 2.3% and the Dow drops 0.6%"
+    "tens hold 5.28% as oil sheds 2.3% and the Dow drops 0.6%",
+    "tens flat at 5.28% as the long bond holds 5.61% and oil sheds 2.7%"
   ],
   "MARKS": [
     {
@@ -26,27 +28,29 @@
     "tape": [
       5.26,
       5.28,
+      5.28,
       5.28
     ],
-    "as_of": "Sep 29 12:51p print",
+    "as_of": "Sep 29 1:50p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7656.86,
+    "close": 7666.66,
     "prior_close": 7683.69,
     "tape": [
       7672.14,
       7657.73,
-      7656.86
+      7656.86,
+      7666.66
     ],
-    "as_of": "Sep 29 1:06p print",
+    "as_of": "Sep 29 2:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,656.86",
-      "chg": -0.35,
+      "val": "7,666.66",
+      "chg": -0.22,
       "unit": "%",
       "history": [
         7740.87,
@@ -74,15 +78,16 @@
         7683.69,
         7672.14,
         7657.73,
-        7656.86
+        7656.86,
+        7666.66
       ],
-      "as_of": "Sep 29 1:06p print",
+      "as_of": "Sep 29 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,748.11",
-      "chg": -0.27,
+      "val": "26,770.14",
+      "chg": -0.19,
       "unit": "%",
       "history": [
         26995.89,
@@ -110,15 +115,16 @@
         26820.38,
         26822.24,
         26769.01,
-        26748.11
+        26748.11,
+        26770.14
       ],
-      "as_of": "Sep 29 1:05p print",
+      "as_of": "Sep 29 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,170.82",
-      "chg": -0.6,
+      "val": "51,280.69",
+      "chg": -0.39,
       "unit": "%",
       "history": [
         51925.56,
@@ -146,15 +152,16 @@
         51481.51,
         51242.10,
         51135.87,
-        51170.82
+        51170.82,
+        51280.69
       ],
-      "as_of": "Sep 29 1:06p print",
+      "as_of": "Sep 29 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 90.42,
-      "chg": -2.35,
+      "val": 90.09,
+      "chg": -2.71,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -189,15 +196,16 @@
         90.59,
         91.24,
         90.83,
-        90.42
+        90.42,
+        90.09
       ],
-      "as_of": "Sep 29 12:56p print",
+      "as_of": "Sep 29 1:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.25,
-      "chg": 1.12,
+      "val": 16.28,
+      "chg": 1.31,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -232,9 +240,10 @@
         15.87,
         16.0,
         16.16,
-        16.25
+        16.25,
+        16.28
       ],
-      "as_of": "Sep 29 12:51p print",
+      "as_of": "Sep 29 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -268,9 +277,10 @@
         5.24,
         5.24,
         5.26,
+        5.28,
         5.28
       ],
-      "as_of": "Sep 29 12:51p print",
+      "as_of": "Sep 29 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -322,9 +332,10 @@
         5.56,
         5.55,
         5.59,
+        5.61,
         5.61
       ],
-      "as_of": "Sep 29 12:51p print",
+      "as_of": "Sep 29 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -332,7 +343,7 @@
     "two": 4.92,
     "ten": 5.28,
     "thirty": 5.61,
-    "as_of": "Sep 29 12:51p print (2-yr Sep 28 close)"
+    "as_of": "Sep 29 1:50p print (2-yr Sep 28 close)"
   },
   "CURVE_2S10S": {
     "history": [
