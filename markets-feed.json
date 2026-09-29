@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-29T08:06:15-04:00",
+  "GENERATED_AT": "2026-09-29T09:06:14-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -160,8 +160,8 @@
     },
     {
       "sym": "WTI",
-      "val": 91.24,
-      "chg": -1.47,
+      "val": 90.59,
+      "chg": -2.17,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -192,15 +192,16 @@
         92.36,
         93.29,
         91.92,
-        91.24
+        91.24,
+        90.59
       ],
-      "as_of": "Sep 29 7:55a print",
+      "as_of": "Sep 29 8:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.82,
-      "chg": -1.56,
+      "val": 15.87,
+      "chg": -1.24,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -231,9 +232,10 @@
         15.89,
         16.07,
         16.03,
-        15.82
+        15.82,
+        15.87
       ],
-      "as_of": "Sep 29 7:50a print",
+      "as_of": "Sep 29 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -289,8 +291,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.56%",
-      "chg": 7,
+      "val": "5.55%",
+      "chg": -1,
       "unit": " bp",
       "history": [
         5.3,
@@ -316,9 +318,10 @@
         5.57,
         5.56,
         5.56,
-        5.56
+        5.56,
+        5.55
       ],
-      "as_of": "Sep 28 close, per treasury.gov",
+      "as_of": "Sep 29 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -425,7 +428,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.24 percent Monday, seventy-four basis points wide of our 4.50 percent underwriting base.",
-    "Oil is near $91.24 and the VIX is 15.82 pre-open, both softer than yesterday.",
+    "Oil is near $90.59 and the VIX is 15.87 pre-open, both softer than yesterday.",
     "PCE lands tomorrow at 8:30 and payrolls Friday: we price off the ten-year at the open, not off yesterday."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year sits at 5.24 percent into PCE tomorrow and payrolls Friday, with oil near $91 and the VIX at 16."
