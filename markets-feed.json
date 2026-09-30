@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-30T07:06:04-04:00",
+  "GENERATED_AT": "2026-09-30T08:05:58-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -174,8 +174,8 @@
     },
     {
       "sym": "WTI",
-      "val": 90.42,
-      "chg": 1.16,
+      "val": 90.76,
+      "chg": 1.54,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -214,15 +214,16 @@
         90.09,
         89.38,
         88.97,
-        90.42
+        90.42,
+        90.76
       ],
-      "as_of": "Sep 30 6:55a print",
+      "as_of": "Sep 30 7:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.09,
-      "chg": 0.31,
+      "val": 16.23,
+      "chg": 1.18,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -261,9 +262,10 @@
         16.28,
         16.04,
         16.04,
-        16.09
+        16.09,
+        16.23
       ],
-      "as_of": "Sep 30 6:50a print",
+      "as_of": "Sep 30 7:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -468,8 +470,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.26% yesterday, seventy-six basis points wide of our 4.50 percent underwriting base.",
-    "Oil is bid back to $90 and the VIX sits at 16 pre-open: the rate is the story, not the tape.",
+    "Oil is bid to $91 and the VIX sits at 16 into the open: the rate is the story, not the tape.",
     "PCE lands at 8:30 and payrolls Friday: we price off the ten-year at the open, not off yesterday's close."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.26 percent into PCE this morning and payrolls Friday, with oil at $90 and the VIX at 16."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.26 percent into PCE this morning and payrolls Friday, with oil at $91 and the VIX at 16."
 }
