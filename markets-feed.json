@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-09-30T15:06:01-04:00",
+  "GENERATED_AT": "2026-09-30T16:06:09-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -8,7 +8,8 @@
     "12:00p",
     "1:00p",
     "2:05p",
-    "3:05p"
+    "3:05p",
+    "4:00p"
   ],
   "TAPE_NOTES": [
     "tens open 5.24% as S&P pops 0.6% and oil holds near $91",
@@ -16,7 +17,8 @@
     "tens 5.28% as Nasdaq leads up 1.1%, oil steady near $91",
     "tens 5.29% as oil firms near $91, Dow slips and VIX holds 16",
     "tens 5.30% as Nasdaq leads up 0.9%, Dow lags and oil firms near $91",
-    "tens hold 5.30% as Dow sinks 0.4%, oil up 1.4% and VIX flat at 16"
+    "tens hold 5.30% as Dow sinks 0.4%, oil up 1.4% and VIX flat at 16",
+    "tens close 5.29% as Dow sinks 0.9%, oil firms near $90 and VIX ticks up"
   ],
   "MARKS": [
     {
@@ -26,22 +28,23 @@
     }
   ],
   "UST10": {
-    "close": 5.30,
-    "display": "5.30%",
-    "chg_bp": 4,
+    "close": 5.29,
+    "display": "5.29%",
+    "chg_bp": 3,
     "tape": [
       5.24,
       5.26,
       5.28,
       5.29,
-      5.30,
-      5.30
+      5.3,
+      5.3,
+      5.29
     ],
-    "as_of": "Sep 30 3:05p print",
+    "as_of": "Sep 30 close, per treasury.gov",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7696.64,
+    "close": 7651.54,
     "prior_close": 7670.84,
     "tape": [
       7719.91,
@@ -49,16 +52,17 @@
       7717.94,
       7711.44,
       7702.26,
-      7696.64
+      7696.64,
+      7651.54
     ],
-    "as_of": "Sep 30 3:05p print",
+    "as_of": "Sep 30 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,696.64",
-      "chg": 0.34,
+      "val": "7,651.54",
+      "chg": -0.25,
       "unit": "%",
       "history": [
         7740.87,
@@ -95,15 +99,16 @@
         7717.94,
         7711.44,
         7702.26,
-        7696.64
+        7696.64,
+        7651.54
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,039.09",
-      "chg": 0.90,
+      "val": "26,861.06",
+      "chg": 0.24,
       "unit": "%",
       "history": [
         26995.89,
@@ -140,15 +145,16 @@
         27086.01,
         27067.63,
         27042.33,
-        27039.09
+        27039.09,
+        26861.06
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,127.04",
-      "chg": -0.43,
+      "val": "50,906.05",
+      "chg": -0.86,
       "unit": "%",
       "history": [
         51925.56,
@@ -185,15 +191,16 @@
         51361.17,
         51305.16,
         51231.52,
-        51127.04
+        51127.04,
+        50906.05
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 90.65,
-      "chg": 1.42,
+      "val": 90.48,
+      "chg": 1.23,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -239,15 +246,16 @@
         91.5,
         91.21,
         91.01,
-        90.65
+        90.65,
+        90.48
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.04,
-      "chg": 0,
+      "val": 16.29,
+      "chg": 1.57,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -292,16 +300,17 @@
         15.82,
         15.82,
         15.92,
-        15.80,
-        16.04
+        15.8,
+        16.04,
+        16.29
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.30%",
-      "chg": 4,
+      "val": "5.29%",
+      "chg": 3,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -337,16 +346,17 @@
         5.26,
         5.28,
         5.29,
-        5.30,
-        5.30
+        5.3,
+        5.3,
+        5.29
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close, per treasury.gov",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
       "sym": "2-YR",
-      "val": "4.89%",
-      "chg": -3,
+      "val": "4.88%",
+      "chg": -1,
       "unit": " bp",
       "history": [
         4.67,
@@ -356,9 +366,10 @@
         4.87,
         4.81,
         4.92,
-        4.89
+        4.89,
+        4.88
       ],
-      "as_of": "Sep 29 close, per treasury.gov",
+      "as_of": "Sep 30 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
@@ -402,17 +413,18 @@
         5.64,
         5.64,
         5.65,
+        5.64,
         5.64
       ],
-      "as_of": "Sep 30 3:05p print",
+      "as_of": "Sep 30 close, per treasury.gov",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
-    "two": 4.89,
-    "ten": 5.30,
+    "two": 4.88,
+    "ten": 5.29,
     "thirty": 5.64,
-    "as_of": "Sep 30 3:05p print, 2-yr Sep 29 close, per treasury.gov"
+    "as_of": "Sep 30 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -429,9 +441,10 @@
       33,
       36,
       32,
-      37
+      37,
+      41
     ],
-    "as_of": "accrues daily from Sep 1, last Sep 29"
+    "as_of": "accrues daily from Sep 1, last Sep 30"
   },
   "ODDS": {
     "polymarket": {
@@ -511,9 +524,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.30% at three o'clock, eighty basis points wide of our 4.50 percent underwriting base.",
-    "The S&P is up 0.3% and the VIX sits at 16, but oil holds above $90: the rate is the story, not the tape.",
-    "Payrolls land Friday: we price off the ten-year live, and live is 5.30 percent."
+    "The ten-year closed at 5.29% today, 79 basis points wide of our 4.50 percent underwriting base.",
+    "The S&P gave back 0.3% and the VIX finished at 16.3, with oil holding near $90: the rate is the story, not the tape.",
+    "Payrolls land Friday: we price off the ten-year live, and the last print is 5.29 percent."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year trades 5.30 percent into payrolls Friday, with oil near $91 and the VIX at 16."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed 5.29 percent into payrolls Friday, with oil near $90 and the VIX at 16."
 }
