@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-01T08:06:16-04:00",
+  "GENERATED_AT": "2026-10-01T09:06:38-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -199,8 +199,8 @@
     },
     {
       "sym": "WTI",
-      "val": 91.76,
-      "chg": 1.48,
+      "val": 91.61,
+      "chg": 1.32,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -248,15 +248,15 @@
         91.01,
         90.65,
         90.48,
-        91.76
+        91.61
       ],
-      "as_of": "Oct 1 7:55a print",
+      "as_of": "Oct 1 8:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 16.33,
-      "chg": -0.06,
+      "val": 16.32,
+      "chg": -0.12,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -304,9 +304,9 @@
         15.8,
         16.04,
         16.29,
-        16.33
+        16.32
       ],
-      "as_of": "Oct 1 7:50a print",
+      "as_of": "Oct 1 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -376,8 +376,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.64%",
-      "chg": 5,
+      "val": "5.65%",
+      "chg": 1,
       "unit": " bp",
       "history": [
         5.3,
@@ -416,9 +416,9 @@
         5.64,
         5.65,
         5.64,
-        5.64
+        5.65
       ],
-      "as_of": "Sep 30 close, per treasury.gov",
+      "as_of": "Oct 1 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
