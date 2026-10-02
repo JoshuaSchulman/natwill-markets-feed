@@ -1,18 +1,20 @@
 {
-  "GENERATED_AT": "2026-10-02T13:05:39-04:00",
+  "GENERATED_AT": "2026-10-02T14:06:05-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
     "11:06a",
     "12:05p",
-    "1:05p"
+    "1:05p",
+    "2:05p"
   ],
   "TAPE_NOTES": [
     "tens open 5.20%, 4 bp richer as S&P jumps 1.0% on soft payrolls",
     "tens give back 3 bp off the lows, S&P pares to +0.8%",
     "tens up 2 bp from the lows, S&P holds +0.7%, crude slips toward 91",
-    "tens 5.28%, 4 bp cheaper on the day, S&P extends to +0.8%, crude back above 91"
+    "tens 5.28%, 4 bp cheaper on the day, S&P extends to +0.8%, crude back above 91",
+    "tens 5.29%, 5 bp cheaper on the day, S&P +0.7%, crude holds near 91"
   ],
   "MARKS": [
     {
@@ -22,35 +24,37 @@
     }
   ],
   "UST10": {
-    "close": 5.28,
-    "display": "5.28%",
-    "chg_bp": 4,
+    "close": 5.29,
+    "display": "5.29%",
+    "chg_bp": 5,
     "tape": [
       5.2,
       5.23,
       5.25,
-      5.28
+      5.28,
+      5.29
     ],
-    "as_of": "Oct 2 12:50p print",
+    "as_of": "Oct 2 1:50p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7727.22,
+    "close": 7719.52,
     "prior_close": 7666.45,
     "tape": [
       7743.38,
       7725.19,
       7722.53,
-      7727.22
+      7727.22,
+      7719.52
     ],
-    "as_of": "Oct 2 1:05p print",
+    "as_of": "Oct 2 2:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,727.22",
-      "chg": 0.79,
+      "val": "7,719.52",
+      "chg": 0.69,
       "unit": "%",
       "history": [
         7740.87,
@@ -96,15 +100,15 @@
         7662.54,
         7673.56,
         7666.45,
-        7727.22
+        7719.52
       ],
-      "as_of": "Oct 2 1:05p print",
+      "as_of": "Oct 2 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,215.07",
-      "chg": 1.28,
+      "val": "27,177.82",
+      "chg": 1.14,
       "unit": "%",
       "history": [
         26995.89,
@@ -150,15 +154,15 @@
         26887.69,
         26933.88,
         26871.6,
-        27215.07
+        27177.82
       ],
-      "as_of": "Oct 2 1:05p print",
+      "as_of": "Oct 2 2:06p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,167.93",
-      "chg": 0.47,
+      "val": "51,145.30",
+      "chg": 0.43,
       "unit": "%",
       "history": [
         51925.56,
@@ -204,15 +208,15 @@
         50848.15,
         50907.54,
         50926.56,
-        51167.93
+        51145.3
       ],
-      "as_of": "Oct 2 1:05p print",
+      "as_of": "Oct 2 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 91.46,
-      "chg": -1.52,
+      "val": 91.33,
+      "chg": -1.66,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -267,9 +271,9 @@
         92.04,
         92.92,
         92.98,
-        91.46
+        91.33
       ],
-      "as_of": "Oct 2 12:55p print",
+      "as_of": "Oct 2 1:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -333,8 +337,8 @@
     },
     {
       "sym": "10-YR",
-      "val": "5.28%",
-      "chg": 4,
+      "val": "5.29%",
+      "chg": 5,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -380,9 +384,9 @@
         5.22,
         5.23,
         5.24,
-        5.28
+        5.29
       ],
-      "as_of": "Oct 2 12:50p print",
+      "as_of": "Oct 2 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -455,15 +459,15 @@
         5.61,
         5.63
       ],
-      "as_of": "Oct 2 12:50p print",
+      "as_of": "Oct 2 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.88,
-    "ten": 5.28,
+    "ten": 5.29,
     "thirty": 5.63,
-    "as_of": "Oct 2 12:50p print, 2-yr carried from Sep 30"
+    "as_of": "Oct 2 1:50p print, 2-yr carried from Sep 30"
   },
   "CURVE_2S10S": {
     "history": [
@@ -559,9 +563,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.28% at 1 PM, 78 basis points wide of our 4.50 percent underwriting base.",
-    "Payrolls missed and the ten-year is still up 4 basis points on the day: cost of capital has not eased.",
+    "The ten-year is 5.29% at 2 PM, 79 basis points wide of our 4.50 percent underwriting base.",
+    "Payrolls missed and the ten-year is still up 5 basis points on the day: cost of capital has not eased.",
     "Price every quote off the live ten-year: stocks are bid but the lock math has not moved."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.28 percent at 1 PM and the spread to our base is 78 basis points."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.29 percent at 2 PM and the spread to our base is 79 basis points."
 }
