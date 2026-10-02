@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-02T08:06:43-04:00",
+  "GENERATED_AT": "2026-10-02T09:06:52-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -414,8 +414,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.60%",
-      "chg": -4,
+      "val": "5.58%",
+      "chg": -2,
       "unit": " bp",
       "history": [
         5.3,
@@ -463,15 +463,15 @@
         5.61,
         5.6
       ],
-      "as_of": "Oct 1 2:59p print",
+      "as_of": "Oct 2 8:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.88,
     "ten": 5.24,
-    "thirty": 5.6,
-    "as_of": "Oct 1 2:59p print"
+    "thirty": 5.58,
+    "as_of": "Oct 2 8:50a print, 30-yr only"
   },
   "CURVE_2S10S": {
     "history": [
@@ -568,8 +568,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.24% yesterday, 74 basis points wide of our 4.50 percent underwriting base.",
-    "Payrolls hit at 8:30 this morning: a hot number pushes the ten-year through 5.30 and widens the gap on every quote.",
-    "Oil is the swing factor into the print: a spike there reprices the long end before the jobs number does."
+    "Payrolls printed 29,000 against 90,000 expected and the long end is bid, but the ten-year is still north of 5.15 percent.",
+    "Price every quote off today's open: a rally that fails to clear 5.20 leaves cost of capital where it was."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.24 percent and payrolls decide where we open."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.24 percent and a soft payroll print has not changed the math yet."
 }
