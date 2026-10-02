@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-02T16:05:39-04:00",
+  "GENERATED_AT": "2026-10-02T17:07:04-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -403,8 +403,8 @@
     },
     {
       "sym": "2-YR",
-      "val": "4.88%",
-      "chg": -1,
+      "val": "4.83%",
+      "chg": 5,
       "unit": " bp",
       "history": [
         4.67,
@@ -415,9 +415,11 @@
         4.81,
         4.92,
         4.89,
-        4.88
+        4.88,
+        4.78,
+        4.83
       ],
-      "as_of": "Sep 30 close, per treasury.gov, unverified",
+      "as_of": "Oct 2 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
     },
     {
@@ -476,10 +478,10 @@
     }
   ],
   "CURVE": {
-    "two": 4.88,
+    "two": 4.83,
     "ten": 5.28,
     "thirty": 5.63,
-    "as_of": "Oct 2 close, 2-yr carried from Sep 30"
+    "as_of": "Oct 2 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -577,7 +579,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.28% today, 78 basis points wide of our 4.50 percent underwriting base.",
-    "Payrolls missed, stocks rallied, and the ten-year still finished 4 basis points cheaper: cost of capital has not eased.",
+    "The two-year closed at 4.83%, so the two-ten spread sits at 45 basis points: the long end is carrying the cost of capital.",
     "Price every quote off the live ten-year: the equity bid has not moved the lock math."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.28 percent and the spread to our base is 78 basis points."
