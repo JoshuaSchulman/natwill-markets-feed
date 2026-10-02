@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-02T07:07:40-04:00",
+  "GENERATED_AT": "2026-10-02T08:06:43-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -567,9 +567,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed near 5.24% yesterday, 74 basis points wide of our 4.50 percent underwriting base.",
-    "Payrolls hit at 8:30 this morning: we price off the ten-year live, and it opens the day at 5.24 percent.",
+    "The ten-year closed at 5.24% yesterday, 74 basis points wide of our 4.50 percent underwriting base.",
+    "Payrolls hit at 8:30 this morning: a hot number pushes the ten-year through 5.30 and widens the gap on every quote.",
     "Oil is the swing factor into the print: a spike there reprices the long end before the jobs number does."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year sits at 5.24 percent into payrolls this morning."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.24 percent and payrolls decide where we open."
 }
