@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-02T18:06:02-04:00",
+  "GENERATED_AT": "2026-10-05T07:06:30-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -562,11 +562,6 @@
   ],
   "EVENTS": [
     {
-      "label": "Nonfarm payrolls",
-      "at": "2026-10-02T08:30:00-04:00",
-      "tier1": true
-    },
-    {
       "label": "CPI report",
       "at": "2026-10-14T08:30:00-04:00",
       "tier1": true
@@ -578,9 +573,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 5.28% today, 78 basis points wide of our 4.50 percent underwriting base.",
-    "The two-year closed at 4.83%, so the two-ten spread sits at 45 basis points: the long end is carrying the cost of capital.",
-    "Price every quote off the live ten-year: the equity bid has not moved the lock math."
+    "The ten-year last closed at 5.28%, 78 basis points wide of our 4.50 percent underwriting base.",
+    "The two-ten spread sits at 45 basis points: the long end is carrying the cost of capital into the open.",
+    "Price every quote off the live ten-year at the bell: Friday's equity bid did not move the lock math."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.28 percent and the spread to our base is 78 basis points."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year last closed at 5.28 percent, 78 basis points over our base, and we price off the open."
 }
