@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-05T07:06:30-04:00",
+  "GENERATED_AT": "2026-10-05T08:05:57-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -226,8 +226,8 @@
     },
     {
       "sym": "WTI",
-      "val": 91.46,
-      "chg": -1.52,
+      "val": 90.23,
+      "chg": -0.97,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -285,12 +285,12 @@
         91.17,
         91.46
       ],
-      "as_of": "Oct 2 3:55p print",
+      "as_of": "Oct 5 7:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": null,
+      "val": 16.16,
       "chg": null,
       "unit": "%",
       "inverse": true,
@@ -344,7 +344,7 @@
         16.44,
         16.29
       ],
-      "as_of": "pending, unverified",
+      "as_of": "Oct 5 7:50a print, unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
