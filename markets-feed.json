@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-05T15:05:22-04:00",
+  "GENERATED_AT": "2026-10-05T16:05:45-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -16,7 +16,7 @@
     "tens hold 5.32%, S&P +0.5% on Nasdaq, VIX 15.6, crude eases to 90",
     "tens 5.33%, S&P +0.6% on Nasdaq, VIX 15.5, crude firm near 90",
     "tens 5.34%, thirty-year 5.70%, S&P +0.7% as Nasdaq makes a new high",
-    "tens ease to 5.33%, S&P +0.8% as Nasdaq presses a record, crude slides to 88.9"
+    "tens close 5.31%, S&P +0.66%, Nasdaq record, crude near 89"
   ],
   "MARKS": [
     {
@@ -26,22 +26,22 @@
     }
   ],
   "UST10": {
-    "close": 5.33,
-    "display": "5.33%",
-    "chg_bp": 6,
+    "close": 5.31,
+    "display": "5.31%",
+    "chg_bp": 3,
     "tape": [
       5.3,
       5.32,
       5.32,
       5.33,
       5.34,
-      5.33
+      5.31
     ],
-    "as_of": "Oct 5 2:50p print",
-    "url": "https://finance.yahoo.com/quote/%5ETNX/"
+    "as_of": "Oct 5 close, per treasury.gov",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   },
   "SPX": {
-    "close": 7787.48,
+    "close": 7773.95,
     "prior_close": 7722.72,
     "tape": [
       7740.63,
@@ -49,16 +49,16 @@
       7759.02,
       7767.33,
       7774.61,
-      7787.48
+      7773.95
     ],
-    "as_of": "Oct 5 3:05p print",
+    "as_of": "Oct 5 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,787.48",
-      "chg": 0.84,
+      "val": "7,773.95",
+      "chg": 0.66,
       "unit": "%",
       "history": [
         7740.87,
@@ -111,15 +111,15 @@
         7759.02,
         7767.33,
         7774.61,
-        7787.48
+        7773.95
       ],
-      "as_of": "Oct 5 3:05p print",
+      "as_of": "Oct 5 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,517.39",
-      "chg": 1.2,
+      "val": "27,477.31",
+      "chg": 1.05,
       "unit": "%",
       "history": [
         26995.89,
@@ -172,15 +172,15 @@
         27386.41,
         27409.5,
         27456.16,
-        27517.39
+        27477.31
       ],
-      "as_of": "Oct 5 3:05p print",
+      "as_of": "Oct 5 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,362.94",
-      "chg": 0.36,
+      "val": "51,267.90",
+      "chg": 0.18,
       "unit": "%",
       "history": [
         51925.56,
@@ -233,15 +233,15 @@
         51154.32,
         51232.06,
         51307.28,
-        51362.94
+        51267.9
       ],
-      "as_of": "Oct 5 3:05p print",
+      "as_of": "Oct 5 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 88.9,
-      "chg": -2.43,
+      "val": 89.24,
+      "chg": -2.05,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -302,15 +302,15 @@
         90.45,
         90.07,
         90.1,
-        88.9
+        89.24
       ],
-      "as_of": "Oct 5 2:55p print",
+      "as_of": "Oct 5 3:56p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.58,
-      "chg": 1.76,
+      "val": 15.56,
+      "chg": 1.63,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -366,15 +366,15 @@
         15.52,
         15.58,
         15.5,
-        15.58
+        15.56
       ],
-      "as_of": "Oct 5 2:50p print",
+      "as_of": "Oct 5 3:51p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.33%",
-      "chg": 6,
+      "val": "5.31%",
+      "chg": 3,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -426,15 +426,15 @@
         5.32,
         5.33,
         5.34,
-        5.33
+        5.31
       ],
-      "as_of": "Oct 5 2:50p print",
-      "url": "https://finance.yahoo.com/quote/%5ETNX/"
+      "as_of": "Oct 5 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
       "sym": "2-YR",
-      "val": "4.83%",
-      "chg": 5,
+      "val": "4.84%",
+      "chg": 1,
       "unit": " bp",
       "history": [
         4.67,
@@ -447,15 +447,16 @@
         4.89,
         4.88,
         4.78,
-        4.83
+        4.83,
+        4.84
       ],
-      "as_of": "Oct 2 close, per treasury.gov",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202609"
+      "as_of": "Oct 5 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
       "sym": "30-YR",
-      "val": "5.68%",
-      "chg": 5,
+      "val": "5.66%",
+      "chg": 3,
       "unit": " bp",
       "history": [
         5.3,
@@ -507,17 +508,17 @@
         5.68,
         5.69,
         5.7,
-        5.68
+        5.66
       ],
-      "as_of": "Oct 5 2:50p print",
-      "url": "https://finance.yahoo.com/quote/%5ETYX/"
+      "as_of": "Oct 5 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     }
   ],
   "CURVE": {
-    "two": 4.83,
-    "ten": 5.33,
-    "thirty": 5.68,
-    "as_of": "Oct 5 2:50p print, 2-yr Oct 2 close per treasury.gov"
+    "two": 4.84,
+    "ten": 5.31,
+    "thirty": 5.66,
+    "as_of": "Oct 5 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -537,9 +538,10 @@
       37,
       41,
       36,
-      40
+      40,
+      47
     ],
-    "as_of": "accrues daily from Sep 1, last Oct 2"
+    "as_of": "accrues daily from Sep 1, last Oct 5"
   },
   "ODDS": {
     "polymarket": {
@@ -609,9 +611,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.33% this afternoon, 83 basis points wide of our 4.50 percent underwriting base.",
-    "The long bond is 5.68%: the cost of capital is not easing at the long end.",
+    "The ten-year closed at 5.31% today, 81 basis points wide of our 4.50 percent underwriting base.",
+    "The long bond closed at 5.66%: the cost of capital is not easing at the long end.",
     "Price every quote off the live ten-year: crude near 89 and VIX near 15.6 keep the lock math in play."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.33 percent, 83 basis points over our base, and the thirty-year is 5.68 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.31 percent, 81 basis points over our base, and the thirty-year at 5.66 percent."
 }
