@@ -1,18 +1,20 @@
 {
-  "GENERATED_AT": "2026-10-06T13:05:36-04:00",
+  "GENERATED_AT": "2026-10-06T14:06:17-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
     "11:05a",
     "12:05p",
-    "1:05p"
+    "1:05p",
+    "2:05p"
   ],
   "TAPE_NOTES": [
     "tens open 5.29%, 2 bp richer as S&P +0.7%, crude eases toward 88",
     "tens bid to 5.27% as S&P prints a record, crude slips under 88",
     "tens firm at 5.26% as S&P extends record, crude bounces to 89",
-    "tens tick back to 5.27% as S&P holds near record, VIX dips to 15.05"
+    "tens tick back to 5.27% as S&P holds near record, VIX dips to 15.05",
+    "tens hold 5.27% as S&P and Nasdaq print records, VIX 15.08"
   ],
   "MARKS": [
     {
@@ -29,28 +31,30 @@
       5.29,
       5.27,
       5.26,
+      5.27,
       5.27
     ],
-    "as_of": "Oct 6 12:50p print",
+    "as_of": "Oct 6 1:50p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7827.23,
+    "close": 7829.22,
     "prior_close": 7773.95,
     "tape": [
       7826.59,
       7835.89,
       7840.32,
-      7827.23
+      7827.23,
+      7829.22
     ],
-    "as_of": "Oct 6 1:05p print",
+    "as_of": "Oct 6 2:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,827.23",
-      "chg": 0.69,
+      "val": "7,829.22",
+      "chg": 0.71,
       "unit": "%",
       "history": [
         7740.87,
@@ -104,15 +108,15 @@
         7767.33,
         7774.61,
         7773.95,
-        7827.23
+        7829.22
       ],
-      "as_of": "Oct 6 1:05p print",
+      "as_of": "Oct 6 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,642.68",
-      "chg": 0.6,
+      "val": "27,659.82",
+      "chg": 0.66,
       "unit": "%",
       "history": [
         26995.89,
@@ -166,15 +170,15 @@
         27409.5,
         27456.16,
         27477.31,
-        27642.68
+        27659.82
       ],
-      "as_of": "Oct 6 1:05p print",
+      "as_of": "Oct 6 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,540.26",
-      "chg": 0.53,
+      "val": "51,527.26",
+      "chg": 0.51,
       "unit": "%",
       "history": [
         51925.56,
@@ -228,9 +232,9 @@
         51232.06,
         51307.28,
         51267.9,
-        51540.26
+        51527.26
       ],
-      "as_of": "Oct 6 1:05p print",
+      "as_of": "Oct 6 2:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
@@ -306,8 +310,8 @@
     },
     {
       "sym": "VIX",
-      "val": 15.05,
-      "chg": -3.03,
+      "val": 15.08,
+      "chg": -2.84,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -365,9 +369,9 @@
         15.5,
         15.56,
         15.31,
-        15.05
+        15.08
       ],
-      "as_of": "Oct 6 12:50p print",
+      "as_of": "Oct 6 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -428,7 +432,7 @@
         5.31,
         5.27
       ],
-      "as_of": "Oct 6 12:50p print",
+      "as_of": "Oct 6 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -511,7 +515,7 @@
         5.66,
         5.64
       ],
-      "as_of": "Oct 6 12:50p print",
+      "as_of": "Oct 6 1:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -519,7 +523,7 @@
     "two": 4.84,
     "ten": 5.27,
     "thirty": 5.64,
-    "as_of": "Oct 6 12:50p print, 2-yr Oct 5 close"
+    "as_of": "Oct 6 1:50p print, 2-yr Oct 5 close"
   },
   "CURVE_2S10S": {
     "history": [
