@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-06T18:05:37-04:00",
+  "GENERATED_AT": "2026-10-07T07:06:36-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -243,8 +243,8 @@
     },
     {
       "sym": "WTI",
-      "val": 89.8,
-      "chg": 0.41,
+      "val": 90.08,
+      "chg": 0.72,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -309,7 +309,7 @@
         87.23,
         89.8
       ],
-      "as_of": "Oct 6 3:56p print",
+      "as_of": "Oct 7 6:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -622,9 +622,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 5.27% today, down four basis points and 77 wide of our 4.50 percent underwriting base.",
-    "The long bond closed at 5.64%, off two basis points: the cost of capital is not easing at the long end.",
-    "Crude is near 90 and VIX is 15: price every quote off the live ten-year, not today's close."
+    "The ten-year closed at 5.27% yesterday, down four basis points and 77 wide of our 4.50 percent underwriting base.",
+    "The long bond closed at 5.64%: the cost of capital is not easing at the long end, so quote off the live ten-year.",
+    "Crude is back near 90 before the open and CPI lands Oct 14: price every quote off the live tape, not yesterday."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.27 percent, 77 basis points over our base, and the thirty-year at 5.64 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.27 percent, 77 basis points over our base, and CPI is the next test on Oct 14."
 }
