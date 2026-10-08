@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-10-08T10:06:17-04:00",
+  "GENERATED_AT": "2026-10-08T11:06:09-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a"
+    "10:05a",
+    "11:05a"
   ],
   "TAPE_NOTES": [
-    "tens flat at 5.28% as S&P slips 0.2% and crude jumps over 4% near 92"
+    "tens flat at 5.28% as S&P slips 0.2% and crude jumps over 4% near 92",
+    "tens back up 2 bp to 5.30% as crude holds 5% gain and stocks sag"
   ],
   "MARKS": [
     {
@@ -16,29 +18,31 @@
     }
   ],
   "UST10": {
-    "close": 5.28,
-    "display": "5.28%",
-    "chg_bp": 0,
+    "close": 5.3,
+    "display": "5.30%",
+    "chg_bp": 2,
     "tape": [
-      5.28
+      5.28,
+      5.3
     ],
-    "as_of": "Oct 8 10:05a print",
+    "as_of": "Oct 8 10:51a print",
     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   },
   "SPX": {
-    "close": 7787.52,
+    "close": 7778.45,
     "prior_close": 7801.77,
     "tape": [
-      7787.52
+      7787.52,
+      7778.45
     ],
-    "as_of": "Oct 8 10:05a print",
+    "as_of": "Oct 8 11:05a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,787.52",
-      "chg": -0.18,
+      "val": "7,778.45",
+      "chg": -0.3,
       "unit": "%",
       "history": [
         7740.87,
@@ -95,12 +99,12 @@
         7818.93,
         7801.77
       ],
-      "as_of": "Oct 8 10:05a print",
+      "as_of": "Oct 8 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,408.04",
+      "val": "27,408.81",
       "chg": -0.47,
       "unit": "%",
       "history": [
@@ -158,13 +162,13 @@
         27599.79,
         27538.69
       ],
-      "as_of": "Oct 8 10:05a print",
+      "as_of": "Oct 8 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,217.18",
-      "chg": 0.07,
+      "val": "51,026.57",
+      "chg": -0.3,
       "unit": "%",
       "history": [
         51925.56,
@@ -221,13 +225,13 @@
         51521.28,
         51179.87
       ],
-      "as_of": "Oct 8 10:05a print",
+      "as_of": "Oct 8 11:06a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 92.17,
-      "chg": 4.41,
+      "val": 92.77,
+      "chg": 5.09,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -292,12 +296,12 @@
         87.23,
         89.06
       ],
-      "as_of": "Oct 8 10:05a print",
+      "as_of": "Oct 8 10:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.01,
+      "val": null,
       "chg": 0.0,
       "unit": "%",
       "inverse": true,
@@ -358,13 +362,13 @@
         15.31,
         15.01
       ],
-      "as_of": "Oct 7 3:50p print, unverified",
+      "as_of": "pending, source unreachable",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.28%",
-      "chg": 0,
+      "val": "5.30%",
+      "chg": 2,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -420,7 +424,7 @@
         5.27,
         5.28
       ],
-      "as_of": "Oct 8 10:05a print",
+      "as_of": "Oct 8 10:51a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
@@ -450,7 +454,7 @@
     {
       "sym": "30-YR",
       "val": "5.65%",
-      "chg": -2,
+      "chg": 0,
       "unit": " bp",
       "history": [
         5.3,
@@ -506,15 +510,15 @@
         5.64,
         5.67
       ],
-      "as_of": "Oct 8 9:52a print",
+      "as_of": "Oct 8 10:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.77,
-    "ten": 5.28,
+    "ten": 5.3,
     "thirty": 5.65,
-    "as_of": "Oct 8 10:05a print, 2-yr Oct 7 close"
+    "as_of": "Oct 8 10:51a print, 2-yr Oct 7 close"
   },
   "CURVE_2S10S": {
     "history": [
@@ -609,9 +613,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is at 5.28% this morning, unchanged on the day and 78 bp wide of our 4.50 percent underwriting base.",
-    "Crude is up over 4% near 92 and the long bond is indicated at 5.65%: the cost of capital is not giving us relief.",
+    "The ten-year is at 5.30% late this morning, up 2 bp on the day and 80 bp wide of our 4.50 percent underwriting base.",
+    "Crude is up about 5% near 93 and the long bond is indicated at 5.65%: the cost of capital is not giving us relief.",
     "CPI lands Oct 14 and the Fed meets Oct 28: quote off the live ten-year, not yesterday close."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.28 percent at the open, 78 basis points over our base, crude is jumping, and CPI on Oct 14 is the next test."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.30 percent, 80 basis points over our base, crude is up 5 percent, and CPI on Oct 14 is the next test."
 }
