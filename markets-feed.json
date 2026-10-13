@@ -1,16 +1,18 @@
 {
-  "GENERATED_AT": "2026-10-13T12:06:26-04:00",
+  "GENERATED_AT": "2026-10-13T13:05:58-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:05a",
     "11:05a",
-    "12:05p"
+    "12:05p",
+    "1:05p"
   ],
   "TAPE_NOTES": [
     "tens ease 2 bp to 5.22% as stocks hold flat and crude sits near 93",
     "tens hold 5.22% as crude ticks to 93.80 and stocks drift lower",
-    "tens steady at 5.22% as crude firms to 94.19 and stocks slip"
+    "tens steady at 5.22% as crude firms to 94.19 and stocks slip",
+    "tens tick up to 5.23% as crude firms past 94 and Dow slips 0.4%"
   ],
   "MARKS": [
     {
@@ -20,33 +22,35 @@
     }
   ],
   "UST10": {
-    "close": 5.22,
-    "display": "5.22%",
-    "chg_bp": -2,
+    "close": 5.23,
+    "display": "5.23%",
+    "chg_bp": -1,
     "tape": [
       5.22,
       5.22,
-      5.22
+      5.22,
+      5.23
     ],
-    "as_of": "Oct 13 11:51a print",
+    "as_of": "Oct 13 12:50p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7794.8,
+    "close": 7799.37,
     "prior_close": 7807.24,
     "tape": [
       7802.61,
       7798.29,
-      7794.8
+      7794.8,
+      7799.37
     ],
-    "as_of": "Oct 13 12:06p print",
+    "as_of": "Oct 13 1:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,794.80",
-      "chg": -0.16,
+      "val": "7,799.37",
+      "chg": -0.1,
       "unit": "%",
       "history": [
         7740.87,
@@ -103,14 +107,15 @@
         7818.93,
         7801.77,
         7798.29,
-        7794.8
+        7794.8,
+        7799.37
       ],
-      "as_of": "Oct 13 12:06p print",
+      "as_of": "Oct 13 1:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "27,193.67",
+      "val": "27,194.83",
       "chg": -0.19,
       "unit": "%",
       "history": [
@@ -168,15 +173,16 @@
         27599.79,
         27538.69,
         27184.49,
-        27193.67
+        27193.67,
+        27194.83
       ],
-      "as_of": "Oct 13 12:06p print",
+      "as_of": "Oct 13 1:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,698.74",
-      "chg": -0.29,
+      "val": "51,653.21",
+      "chg": -0.38,
       "unit": "%",
       "history": [
         51925.56,
@@ -233,15 +239,16 @@
         51521.28,
         51179.87,
         51799.97,
-        51698.74
+        51698.74,
+        51653.21
       ],
-      "as_of": "Oct 13 12:06p print",
+      "as_of": "Oct 13 1:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 94.19,
-      "chg": 0.48,
+      "val": 94.49,
+      "chg": 0.8,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -306,15 +313,16 @@
         87.23,
         89.06,
         93.8,
-        94.19
+        94.19,
+        94.49
       ],
-      "as_of": "Oct 13 11:56a print",
+      "as_of": "Oct 13 12:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 15.37,
-      "chg": 3.6,
+      "val": 15.42,
+      "chg": 1.38,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -374,15 +382,16 @@
         15.31,
         15.01,
         15.25,
-        15.37
+        15.37,
+        15.42
       ],
-      "as_of": "Oct 13 11:51a print",
+      "as_of": "Oct 13 12:51p print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.22%",
-      "chg": -2,
+      "val": "5.23%",
+      "chg": -1,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -438,9 +447,10 @@
         5.27,
         5.28,
         5.22,
-        5.22
+        5.22,
+        5.23
       ],
-      "as_of": "Oct 13 11:51a print",
+      "as_of": "Oct 13 12:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -526,17 +536,18 @@
         5.64,
         5.67,
         5.57,
+        5.57,
         5.57
       ],
-      "as_of": "Oct 13 11:51a print",
+      "as_of": "Oct 13 12:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.8,
-    "ten": 5.22,
+    "ten": 5.23,
     "thirty": 5.57,
-    "as_of": "Oct 13 11:51a print; 2-yr Oct 9 close"
+    "as_of": "Oct 13 12:50p print; 2-yr Oct 9 close"
   },
   "CURVE_2S10S": {
     "history": [
@@ -632,9 +643,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is holding 5.22% at midday, down 2 bp and 72 bp wide of our 4.50 percent underwriting base.",
-    "Crude is 94.19 and the long bond is 5.57%: the cost of capital is not coming down on its own.",
+    "The ten-year is 5.23% this afternoon, down 1 bp on the day and 73 bp wide of our 4.50 percent underwriting base.",
+    "Crude is 94.49 and the long bond is 5.57%: the cost of capital is not coming down on its own.",
     "CPI lands tomorrow at 8:30 and the Fed meets Oct 28: quote off the live ten-year, not this morning's print."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.22 percent, 72 basis points over our base, and CPI tomorrow is the next test."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.23 percent, 73 basis points over our base, and CPI tomorrow is the next test."
 }
