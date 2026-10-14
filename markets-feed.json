@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-14T14:05:25-04:00",
+  "GENERATED_AT": "2026-10-14T15:05:27-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -7,14 +7,16 @@
     "11:05a",
     "12:05p",
     "1:05p",
-    "2:05p"
+    "2:05p",
+    "3:05p"
   ],
   "TAPE_NOTES": [
     "tens jump 9 bp to 5.30% as stocks slide and crude firms near 95",
     "tens ease 4 bp to 5.26% as tech leads stocks lower, crude gives back",
     "tens ease 1 bp to 5.25% as Nasdaq slides 1.4%, crude holds near 95",
     "tens ease 1 bp to 5.24% as S&P slips 1.1%, crude firms near 96",
-    "tens ease 2 bp to 5.22% as Nasdaq sheds 2%, crude holds near 96"
+    "tens ease 2 bp to 5.22% as Nasdaq sheds 2%, crude holds near 96",
+    "tens rally 3 bp to 5.19% as Nasdaq sinks 2.2%, crude firms near 95"
   ],
   "MARKS": [
     {
@@ -24,37 +26,39 @@
     }
   ],
   "UST10": {
-    "close": 5.22,
-    "display": "5.22%",
-    "chg_bp": 1,
+    "close": 5.19,
+    "display": "5.19%",
+    "chg_bp": -2,
     "tape": [
       5.3,
       5.26,
       5.25,
       5.24,
-      5.22
+      5.22,
+      5.19
     ],
-    "as_of": "Oct 14 1:50p print",
+    "as_of": "Oct 14 2:49p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7701.84,
+    "close": 7698.02,
     "prior_close": 7805.45,
     "tape": [
       7756.2,
       7743.03,
       7732.98,
       7722.15,
-      7701.84
+      7701.84,
+      7698.02
     ],
-    "as_of": "Oct 14 2:05p print",
+    "as_of": "Oct 14 3:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,701.84",
-      "chg": -1.33,
+      "val": "7,698.02",
+      "chg": -1.38,
       "unit": "%",
       "history": [
         7740.87,
@@ -120,15 +124,16 @@
         7743.03,
         7732.98,
         7722.15,
-        7701.84
+        7701.84,
+        7698.02
       ],
-      "as_of": "Oct 14 2:05p print",
+      "as_of": "Oct 14 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,657.23",
-      "chg": -2.01,
+      "val": "26,604.96",
+      "chg": -2.2,
       "unit": "%",
       "history": [
         26995.89,
@@ -194,15 +199,16 @@
         26906.26,
         26824.49,
         26768.81,
-        26657.23
+        26657.23,
+        26604.96
       ],
-      "as_of": "Oct 14 2:05p print",
+      "as_of": "Oct 14 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "51,417.13",
-      "chg": -0.49,
+      "val": "51,466.24",
+      "chg": -0.39,
       "unit": "%",
       "history": [
         51925.56,
@@ -268,15 +274,16 @@
         51603.84,
         51608.24,
         51491.69,
-        51417.13
+        51417.13,
+        51466.24
       ],
-      "as_of": "Oct 14 2:05p print",
+      "as_of": "Oct 14 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 95.85,
-      "chg": 1.82,
+      "val": 95.11,
+      "chg": 1.03,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -350,9 +357,10 @@
         94.93,
         95.19,
         95.81,
-        95.85
+        95.85,
+        95.11
       ],
-      "as_of": "Oct 14 1:55p print",
+      "as_of": "Oct 14 2:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -430,8 +438,8 @@
     },
     {
       "sym": "10-YR",
-      "val": "5.22%",
-      "chg": 1,
+      "val": "5.19%",
+      "chg": -2,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -496,9 +504,10 @@
         5.26,
         5.25,
         5.24,
-        5.22
+        5.22,
+        5.19
       ],
-      "as_of": "Oct 14 1:50p print",
+      "as_of": "Oct 14 2:49p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -527,8 +536,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.54%",
-      "chg": -2,
+      "val": "5.52%",
+      "chg": -4,
       "unit": " bp",
       "history": [
         5.29,
@@ -593,17 +602,18 @@
         5.57,
         5.57,
         5.56,
-        5.54
+        5.54,
+        5.52
       ],
-      "as_of": "Oct 14 1:50p print",
+      "as_of": "Oct 14 2:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.79,
-    "ten": 5.22,
-    "thirty": 5.54,
-    "as_of": "2-yr Oct 13 close, per treasury.gov; 10-yr and 30-yr Oct 14 1:50p print"
+    "ten": 5.19,
+    "thirty": 5.52,
+    "as_of": "2-yr Oct 13 close, per treasury.gov; 10-yr and 30-yr Oct 14 2:50p print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -700,9 +710,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.22% at 1:50p, 72 bp wide of our 4.50 percent underwriting base, up 1 bp from last night's close.",
-    "Crude is 95.85 and the long bond is 5.54%: the cost of capital stays elevated while the S&P sells off 1.3%.",
+    "The ten-year is 5.19% at 2:49p, 69 bp wide of our 4.50 percent underwriting base, down 2 bp from last night's close.",
+    "Crude is 95.11 and the long bond is 5.52%: the cost of capital stays elevated while the S&P sells off 1.4%.",
     "Quote off the live ten-year, not last night's close, and keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.22 percent, 72 basis points over our base, crude is 96 and the long bond is 5.54 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.19 percent, 69 basis points over our base, crude is 95 and the long bond is 5.52 percent."
 }
