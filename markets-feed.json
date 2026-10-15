@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-14T15:05:27-04:00",
+  "GENERATED_AT": "2026-10-15T07:05:49-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -282,8 +282,8 @@
     },
     {
       "sym": "WTI",
-      "val": 95.11,
-      "chg": 1.03,
+      "val": 93.89,
+      "chg": -0.01,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -358,9 +358,10 @@
         95.19,
         95.81,
         95.85,
-        95.11
+        95.11,
+        93.89
       ],
-      "as_of": "Oct 14 2:55p print",
+      "as_of": "Oct 15 6:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -512,8 +513,8 @@
     },
     {
       "sym": "2-YR",
-      "val": "4.79%",
-      "chg": -1,
+      "val": "4.82%",
+      "chg": 3,
       "unit": " bp",
       "history": [
         4.67,
@@ -529,9 +530,10 @@
         4.83,
         4.84,
         4.79,
-        4.79
+        4.79,
+        4.82
       ],
-      "as_of": "Oct 13 close, per treasury.gov",
+      "as_of": "Oct 14 close, per treasury.gov",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
@@ -605,15 +607,15 @@
         5.54,
         5.52
       ],
-      "as_of": "Oct 14 2:50p print",
-      "url": "https://finance.yahoo.com/quote/%5ETYX/"
+      "as_of": "Oct 14 close, per treasury.gov",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     }
   ],
   "CURVE": {
-    "two": 4.79,
+    "two": 4.82,
     "ten": 5.19,
     "thirty": 5.52,
-    "as_of": "2-yr Oct 13 close, per treasury.gov; 10-yr and 30-yr Oct 14 2:50p print"
+    "as_of": "Oct 14 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -638,9 +640,10 @@
       48,
       51,
       47,
-      42
+      42,
+      37
     ],
-    "as_of": "accrues daily from Sep 1, last Oct 13"
+    "as_of": "accrues daily from Sep 1, last Oct 14"
   },
   "ODDS": {
     "polymarket": {
@@ -710,9 +713,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.19% at 2:49p, 69 bp wide of our 4.50 percent underwriting base, down 2 bp from last night's close.",
-    "Crude is 95.11 and the long bond is 5.52%: the cost of capital stays elevated while the S&P sells off 1.4%.",
-    "Quote off the live ten-year, not last night's close, and keep the 20 bp lock trigger in view."
+    "The ten-year closed at 5.19% yesterday, 69 bp wide of our 4.50 percent underwriting base.",
+    "The two-year closed at 4.82% and the curve sits 37 bp from two to ten: front-end cost of capital is not easing.",
+    "Crude is 93.89 pre-open and the long bond closed at 5.52%: quote off the live ten-year and keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.19 percent, 69 basis points over our base, crude is 95 and the long bond is 5.52 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.19 percent, 69 basis points over our base, the two-year is 4.82 percent and the long bond is 5.52 percent."
 }
