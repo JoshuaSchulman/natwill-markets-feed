@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-15T08:05:38-04:00",
+  "GENERATED_AT": "2026-10-15T09:05:52-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -282,8 +282,8 @@
     },
     {
       "sym": "WTI",
-      "val": 94.13,
-      "chg": 0.24,
+      "val": 93.84,
+      "chg": -0.06,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -359,9 +359,9 @@
         95.81,
         95.85,
         95.11,
-        94.13
+        93.84
       ],
-      "as_of": "Oct 15 7:55a print",
+      "as_of": "Oct 15 8:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -702,11 +702,6 @@
   ],
   "EVENTS": [
     {
-      "label": "CPI report",
-      "at": "2026-10-14T08:30:00-04:00",
-      "tier1": true
-    },
-    {
       "label": "FOMC decision",
       "at": "2026-10-28T14:00:00-04:00",
       "tier1": true
@@ -715,7 +710,7 @@
   "CALL_LINES": [
     "The ten-year closed at 5.19% yesterday, 69 bp wide of our 4.50 percent underwriting base.",
     "The two-year closed at 4.82% and the curve sits 37 bp from two to ten: front-end cost of capital is not easing.",
-    "Crude is 94.13 pre-open and the long bond closed at 5.52%: quote off the live ten-year and keep the 20 bp lock trigger in view."
+    "Crude is 93.84 pre-open and the long bond closed at 5.52%: quote off the live ten-year and keep the 20 bp lock trigger in view."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.19 percent, 69 basis points over our base, the two-year is 4.82 percent and the long bond is 5.52 percent."
 }
