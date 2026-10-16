@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-16T16:05:44-04:00",
+  "GENERATED_AT": "2026-10-16T17:05:28-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -18,7 +18,7 @@
     "Nasdaq -1.8%, S&P -1%, tens 5.13 as crude jumps back to 98.7",
     "Nasdaq -2.2%, S&P -1.2%, tens ease to 5.10, crude steady at 98.7",
     "Nasdaq -2.5%, S&P -1.3%, tens 5.11, crude firm at 99",
-    "bell: Nasdaq -2.1%, S&P -1.1%, tens settle 5.09, crude 99"
+    "bell: Nasdaq -2.1%, S&P -1.1%, tens settle 5.09, crude 98.9"
   ],
   "MARKS": [
     {
@@ -55,7 +55,7 @@
       7639.92,
       7659.44
     ],
-    "as_of": "Oct 16 4:05p print",
+    "as_of": "Oct 16 close",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
@@ -142,7 +142,7 @@
         7639.92,
         7659.44
       ],
-      "as_of": "Oct 16 4:05p print",
+      "as_of": "Oct 16 close",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
@@ -228,7 +228,7 @@
         26055.92,
         26140.03
       ],
-      "as_of": "Oct 16 4:05p print",
+      "as_of": "Oct 16 close",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
@@ -314,13 +314,13 @@
         51881.33,
         52002.41
       ],
-      "as_of": "Oct 16 4:05p print",
+      "as_of": "Oct 16 close",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 98.99,
-      "chg": 2.58,
+      "val": 98.93,
+      "chg": 2.52,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -407,15 +407,15 @@
         98.73,
         98.74,
         99.02,
-        98.99
+        98.93
       ],
-      "as_of": "Oct 16 3:55p print",
+      "as_of": "Oct 16 4:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
       "val": null,
-      "chg": 0.92,
+      "chg": null,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -779,7 +779,7 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.09% today, 59 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
-    "Crude is 98.99, above the 95 tripwire: oil is the swing factor on the long end.",
+    "Crude is 98.93, above the 95 tripwire: oil is the swing factor on the long end.",
     "The long bond closed at 5.43% and the curve is 35 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.09 percent, 59 basis points over our base, crude is 99 and the long bond is 5.43 percent."
