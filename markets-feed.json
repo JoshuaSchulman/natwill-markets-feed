@@ -1,12 +1,14 @@
 {
-  "GENERATED_AT": "2026-10-16T10:06:27-04:00",
+  "GENERATED_AT": "2026-10-16T11:06:26-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a"
+    "10:05a",
+    "11:05a"
   ],
   "TAPE_NOTES": [
-    "tens flat at 5.10, Nasdaq -0.7%, Dow +0.6%, crude 96 holds the tripwire"
+    "tens flat at 5.10, Nasdaq -0.7%, Dow +0.6%, crude 96 holds the tripwire",
+    "Nasdaq slips near -1%, Dow +0.4%, crude 95.71 hugs the tripwire"
   ],
   "MARKS": [
     {
@@ -20,25 +22,27 @@
     "display": "5.10%",
     "chg_bp": 0,
     "tape": [
+      5.1,
       5.1
     ],
-    "as_of": "Oct 16 9:50a print",
+    "as_of": "Oct 16 10:51a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7740.02,
+    "close": 7727.59,
     "prior_close": 7744.06,
     "tape": [
-      7740.02
+      7740.02,
+      7727.59
     ],
-    "as_of": "Oct 16 10:05a print",
+    "as_of": "Oct 16 11:05a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,740.02",
-      "chg": -0.05,
+      "val": "7,727.59",
+      "chg": -0.21,
       "unit": "%",
       "history": [
         7740.87,
@@ -111,15 +115,15 @@
         7727.46,
         7726.71,
         7729.35,
-        7740.02
+        7727.59
       ],
-      "as_of": "Oct 16 10:05a print",
+      "as_of": "Oct 16 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,524.46",
-      "chg": -0.71,
+      "val": "26,455.06",
+      "chg": -0.97,
       "unit": "%",
       "history": [
         26995.89,
@@ -192,15 +196,15 @@
         26608.69,
         26594.34,
         26611.87,
-        26524.46
+        26455.06
       ],
-      "as_of": "Oct 16 10:05a print",
+      "as_of": "Oct 16 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,480.66",
-      "chg": 0.58,
+      "val": "52,388.66",
+      "chg": 0.4,
       "unit": "%",
       "history": [
         51925.56,
@@ -273,15 +277,15 @@
         52081.82,
         52052.16,
         52121.28,
-        52480.66
+        52388.66
       ],
-      "as_of": "Oct 16 10:05a print",
+      "as_of": "Oct 16 11:05a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 95.99,
-      "chg": 0.26,
+      "val": 95.71,
+      "chg": -0.82,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -363,9 +367,9 @@
         96.2,
         96.51,
         96.39,
-        95.99
+        95.71
       ],
-      "as_of": "Oct 16 9:55a print",
+      "as_of": "Oct 16 10:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -438,7 +442,7 @@
         15.63,
         15.41
       ],
-      "as_of": "pending, unverified",
+      "as_of": "pending, source unreachable",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -516,7 +520,7 @@
         5.09,
         5.1
       ],
-      "as_of": "Oct 16 9:50a print",
+      "as_of": "Oct 16 10:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -548,7 +552,7 @@
     {
       "sym": "30-YR",
       "val": "5.44%",
-      "chg": -1,
+      "chg": 1,
       "unit": " bp",
       "history": [
         5.29,
@@ -620,7 +624,7 @@
         5.43,
         5.44
       ],
-      "as_of": "Oct 16 9:50a print",
+      "as_of": "Oct 16 10:50a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -628,7 +632,7 @@
     "two": 4.77,
     "ten": 5.1,
     "thirty": 5.44,
-    "as_of": "Oct 15 close, per treasury.gov; 10-yr, 30-yr Oct 16 9:50a print"
+    "as_of": "Oct 15 close, per treasury.gov; 10-yr, 30-yr Oct 16 10:51a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -722,8 +726,8 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.10% at the open, 60 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
-    "Crude is 95.99, still above the 95 tripwire: oil is the swing factor on the long end today.",
+    "The ten-year is 5.10% mid-morning, 60 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
+    "Crude is 95.71, sitting on the 95 tripwire: oil is the swing factor on the long end today.",
     "The long bond is 5.44% and the curve closed 33 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.10 percent, 60 basis points over our base, crude is 96 and the long bond is 5.44 percent."
