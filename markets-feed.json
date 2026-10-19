@@ -1,68 +1,44 @@
 {
-  "GENERATED_AT": "2026-10-19T09:13:13-04:00",
+  "GENERATED_AT": "2026-10-19T10:07:11-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:05a",
-    "11:05a",
-    "12:05p",
-    "1:05p",
-    "2:05p",
-    "3:05p",
-    "4:05p"
+    "10:07a"
   ],
   "TAPE_NOTES": [
-    "tens flat at 5.10, Nasdaq -0.7%, Dow +0.6%, crude 96 holds the tripwire",
-    "Nasdaq slips near -1%, Dow +0.4%, crude 95.71 hugs the tripwire",
-    "Nasdaq sheds 1.4%, Dow flat, tens hold 5.10 as crude firms at 96.5",
-    "Nasdaq -1.8%, S&P -1%, tens 5.13 as crude jumps back to 98.7",
-    "Nasdaq -2.2%, S&P -1.2%, tens ease to 5.10, crude steady at 98.7",
-    "Nasdaq -2.5%, S&P -1.3%, tens 5.11, crude firm at 99",
-    "bell: Nasdaq -2.1%, S&P -1.1%, tens settle 5.09, crude 98.9"
+    "tens 5.11 on the open, Nasdaq +0.9%, crude 97.4 stays above the tripwire"
   ],
   "MARKS": [
     {
       "label": "Mon open",
-      "value": 5.3,
-      "as_of": "10-yr post-open print, Oct 5"
+      "value": 5.11,
+      "as_of": "10-yr post-open print, Oct 19"
     }
   ],
   "UST10": {
-    "close": 5.09,
-    "display": "5.09%",
-    "chg_bp": -1,
+    "close": 5.11,
+    "display": "5.11%",
+    "chg_bp": 2,
     "tape": [
-      5.1,
-      5.1,
-      5.1,
-      5.13,
-      5.1,
-      5.11,
-      5.09
+      5.11
     ],
-    "as_of": "Oct 16 close, per treasury.gov",
+    "as_of": "Oct 19 10:07a print",
     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   },
   "SPX": {
-    "close": 7659.44,
-    "prior_close": 7744.06,
+    "close": 7690.56,
+    "prior_close": 7659.44,
     "tape": [
-      7740.02,
-      7727.59,
-      7696.81,
-      7670.04,
-      7652.75,
-      7639.92,
-      7659.44
+      7690.56
     ],
-    "as_of": "Oct 16 close",
+    "as_of": "Oct 19 10:07a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,659.44",
-      "chg": -1.09,
+      "val": "7,690.56",
+      "chg": 0.41,
       "unit": "%",
       "history": [
         7740.87,
@@ -140,15 +116,16 @@
         7670.04,
         7652.75,
         7639.92,
-        7659.44
+        7659.44,
+        7690.56
       ],
-      "as_of": "Oct 16 close",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,140.03",
-      "chg": -2.14,
+      "val": "26,368.34",
+      "chg": 0.87,
       "unit": "%",
       "history": [
         26995.89,
@@ -226,15 +203,16 @@
         26230.03,
         26134.12,
         26055.92,
-        26140.03
+        26140.03,
+        26368.34
       ],
-      "as_of": "Oct 16 close",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,002.41",
-      "chg": -0.34,
+      "val": "51,956.93",
+      "chg": -0.09,
       "unit": "%",
       "history": [
         51925.56,
@@ -312,15 +290,16 @@
         51970.14,
         51927.19,
         51881.33,
-        52002.41
+        52002.41,
+        51956.93
       ],
-      "as_of": "Oct 16 close",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 97.65,
-      "chg": -1.38,
+      "val": 97.38,
+      "chg": -1.66,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -407,9 +386,10 @@
         98.73,
         98.74,
         99.02,
-        98.12
+        98.12,
+        97.38
       ],
-      "as_of": "Oct 19 9:02a print",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -487,8 +467,8 @@
     },
     {
       "sym": "10-YR",
-      "val": "5.09%",
-      "chg": -1,
+      "val": "5.11%",
+      "chg": 2,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -563,9 +543,10 @@
         5.13,
         5.1,
         5.11,
-        5.09
+        5.09,
+        5.11
       ],
-      "as_of": "Oct 16 close, per treasury.gov",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
@@ -673,17 +654,18 @@
         5.46,
         5.44,
         5.44,
-        5.43
+        5.43,
+        5.45
       ],
-      "as_of": "Oct 19 8:57a print",
+      "as_of": "Oct 19 10:07a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     }
   ],
   "CURVE": {
     "two": 4.74,
-    "ten": 5.09,
-    "thirty": 5.43,
-    "as_of": "Oct 16 close, per treasury.gov"
+    "ten": 5.11,
+    "thirty": 5.45,
+    "as_of": "Oct 19 10:07a print, 2-yr Oct 16 close"
   },
   "CURVE_2S10S": {
     "history": [
@@ -778,9 +760,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed Friday at 5.09%, 59 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
-    "Crude is 97.65 pre-open, above the 95 tripwire: oil is the swing factor on the long end.",
-    "The long bond is 5.45% pre-open and the curve is 35 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
+    "The ten-year is 5.11% this morning, 61 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
+    "Crude is 97.38, above the 95 tripwire: oil is the swing factor on the long end.",
+    "The long bond is 5.45% and the curve is 37 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed Friday at 5.09 percent, 59 basis points over our base, crude is 98 and the long bond is 5.45 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.11 percent, 61 basis points over our base, crude is 97 and the long bond is 5.45 percent."
 }
