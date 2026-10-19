@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-16T18:05:43-04:00",
+  "GENERATED_AT": "2026-10-19T07:10:41-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -319,8 +319,8 @@
     },
     {
       "sym": "WTI",
-      "val": 98.93,
-      "chg": 2.52,
+      "val": 97.97,
+      "chg": -1.06,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -409,7 +409,7 @@
         99.02,
         98.93
       ],
-      "as_of": "Oct 16 4:55p print",
+      "as_of": "Oct 19 6:59a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -482,7 +482,7 @@
         15.63,
         15.41
       ],
-      "as_of": "Oct 16 3:50p print, unverified",
+      "as_of": "pending, source unreachable, unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -778,9 +778,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year closed at 5.09% today, 59 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
-    "Crude is 98.93, above the 95 tripwire: oil is the swing factor on the long end.",
-    "The long bond closed at 5.43% and the curve is 35 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
+    "The ten-year closed Friday at 5.09%, 59 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
+    "Crude is 97.97 pre-open, still above the 95 tripwire: oil is the swing factor on the long end.",
+    "The long bond sits at 5.43% and the curve is 35 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.09 percent, 59 basis points over our base, crude is 99 and the long bond is 5.43 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed Friday at 5.09 percent, 59 basis points over our base, crude is 98 and the long bond is 5.43 percent."
 }
