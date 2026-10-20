@@ -1,14 +1,16 @@
 {
-  "GENERATED_AT": "2026-10-20T11:07:31-04:00",
+  "GENERATED_AT": "2026-10-20T12:05:54-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
     "10:07a",
-    "11:07a"
+    "11:07a",
+    "12:05p"
   ],
   "TAPE_NOTES": [
     "tens 5.10 on the open, 30s 5.43, Dow +0.8%, crude 98.47 holds above 95",
-    "tens 5.09, crude slips to 95.66, Dow +1.2%, VIX 17.6"
+    "tens 5.09, crude slips to 95.66, Dow +1.2%, VIX 17.6",
+    "tens back to 5.12 as crude bounces to 97.46, VIX 17.9, S&P +0.4%"
   ],
   "MARKS": [
     {
@@ -18,31 +20,33 @@
     }
   ],
   "UST10": {
-    "close": 5.09,
-    "display": "5.09%",
-    "chg_bp": -6,
+    "close": 5.12,
+    "display": "5.12%",
+    "chg_bp": -3,
     "tape": [
       5.1,
-      5.09
+      5.09,
+      5.12
     ],
-    "as_of": "Oct 20 10:52a print",
+    "as_of": "Oct 20 11:50a print",
     "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
   },
   "SPX": {
-    "close": 7736.48,
+    "close": 7719.9,
     "prior_close": 7690.73,
     "tape": [
       7711.9,
-      7736.48
+      7736.48,
+      7719.9
     ],
-    "as_of": "Oct 20 11:07a print",
+    "as_of": "Oct 20 12:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,736.48",
-      "chg": 0.59,
+      "val": "7,719.90",
+      "chg": 0.38,
       "unit": "%",
       "history": [
         7740.87,
@@ -127,13 +131,13 @@
         7706.5,
         7690.73
       ],
-      "as_of": "Oct 20 11:07a print",
+      "as_of": "Oct 20 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,558.93",
-      "chg": 0.48,
+      "val": "26,479.84",
+      "chg": 0.19,
       "unit": "%",
       "history": [
         26995.89,
@@ -218,13 +222,13 @@
         26484.76,
         26430.89
       ],
-      "as_of": "Oct 20 11:07a print",
+      "as_of": "Oct 20 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,604.68",
-      "chg": 1.23,
+      "val": "52,445.93",
+      "chg": 0.92,
       "unit": "%",
       "history": [
         51925.56,
@@ -309,13 +313,13 @@
         52054.9,
         51966.03
       ],
-      "as_of": "Oct 20 11:07a print",
+      "as_of": "Oct 20 12:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 95.66,
-      "chg": -2.92,
+      "val": 97.46,
+      "chg": -1.1,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -409,13 +413,13 @@
         98.19,
         98.37
       ],
-      "as_of": "Oct 20 10:57a print",
+      "as_of": "Oct 20 11:55a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
       "sym": "VIX",
-      "val": 17.61,
-      "chg": -4.5,
+      "val": 17.88,
+      "chg": -3.04,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -482,13 +486,13 @@
         15.63,
         15.41
       ],
-      "as_of": "Oct 20 10:52a print, unverified",
+      "as_of": "Oct 20 11:50a print",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
       "sym": "10-YR",
-      "val": "5.09%",
-      "chg": -6,
+      "val": "5.12%",
+      "chg": -3,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -570,7 +574,7 @@
         5.13,
         5.15
       ],
-      "as_of": "Oct 20 10:52a print",
+      "as_of": "Oct 20 11:50a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     },
     {
@@ -603,8 +607,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.42%",
-      "chg": -5,
+      "val": "5.43%",
+      "chg": -4,
       "unit": " bp",
       "history": [
         5.29,
@@ -686,15 +690,15 @@
         5.47,
         5.48
       ],
-      "as_of": "Oct 20 10:52a print",
+      "as_of": "Oct 20 11:50a print",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
     }
   ],
   "CURVE": {
     "two": 4.77,
-    "ten": 5.09,
-    "thirty": 5.42,
-    "as_of": "Oct 20 10:52a print"
+    "ten": 5.12,
+    "thirty": 5.43,
+    "as_of": "Oct 20 11:50a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -790,9 +794,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 5.09% this morning, 59 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
-    "Crude is 95.66, 0.66 over the 95 tripwire: oil is easing but still the swing factor on the long end.",
-    "The long bond is 5.42% and the curve is 32 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
+    "The ten-year is 5.12% at midday, 62 bp wide of our 4.50 percent underwriting base: quote off the live print, not the base.",
+    "Crude is 97.46, 2.46 over the 95 tripwire: oil bounced off the morning low and stays the swing factor on the long end.",
+    "The long bond is 5.43% and the curve is 35 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.09 percent, 59 basis points over our base, crude is 95.66 and the long bond is 5.42 percent."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is 5.12 percent, 62 basis points over our base, crude is 97.46 and the long bond is 5.43 percent."
 }
