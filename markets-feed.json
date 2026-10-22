@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-22T08:09:38-04:00",
+  "GENERATED_AT": "2026-10-22T09:07:34-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -334,8 +334,8 @@
     },
     {
       "sym": "WTI",
-      "val": 99.28,
-      "chg": 2.19,
+      "val": 99.61,
+      "chg": 2.53,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -429,7 +429,7 @@
         98.37,
         97.7
       ],
-      "as_of": "Oct 22 7:59a print",
+      "as_of": "Oct 22 8:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -502,7 +502,7 @@
         15.41,
         16.68
       ],
-      "as_of": "Oct 21 close, Oct 22 premarket 18.16 unverified",
+      "as_of": "Oct 21 close, Oct 22 premarket 18.01 unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -624,8 +624,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.42%",
-      "chg": 0,
+      "val": "5.35%",
+      "chg": -7,
       "unit": " bp",
       "history": [
         5.31,
@@ -707,15 +707,15 @@
         5.48,
         5.42
       ],
-      "as_of": "Oct 21 close, per treasury.gov",
+      "as_of": "Oct 22 8:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.81,
     "ten": 5.13,
-    "thirty": 5.42,
-    "as_of": "Oct 21 close, per treasury.gov"
+    "thirty": 5.35,
+    "as_of": "Oct 21 close, per treasury.gov, 30-yr Oct 22 8:51a print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -814,8 +814,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.13% yesterday, 63 bp wide of our 4.50 percent underwriting base: quote off the live print at the open.",
-    "Crude is bid near 99.28 this morning, 4 dollars over the 95 tripwire: oil is the swing factor on the long end.",
-    "The curve sits 32 bp from two to ten ahead of the open: cost of capital is the story, keep the 20 bp lock trigger in view."
+    "Crude is bid near 99.61 this morning, 4.61 dollars over the 95 tripwire: oil is the swing factor on the long end.",
+    "The long bond is indicated near 5.35%, with the curve 32 bp from two to ten: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.13 percent, 63 basis points over our base, and crude is bid near 99.28 before the open."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.13 percent, 63 basis points over our base, and crude is bid near 99.61 before the open."
 }
