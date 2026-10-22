@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-22T07:06:55-04:00",
+  "GENERATED_AT": "2026-10-22T08:09:38-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -334,8 +334,8 @@
     },
     {
       "sym": "WTI",
-      "val": 99.38,
-      "chg": 2.3,
+      "val": 99.28,
+      "chg": 2.19,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -429,7 +429,7 @@
         98.37,
         97.7
       ],
-      "as_of": "Oct 22 6:56a print",
+      "as_of": "Oct 22 7:59a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -502,7 +502,7 @@
         15.41,
         16.68
       ],
-      "as_of": "Oct 21 close, Oct 22 premarket 18.15 unverified",
+      "as_of": "Oct 21 close, Oct 22 premarket 18.16 unverified",
       "url": "https://finance.yahoo.com/quote/%5EVIX/"
     },
     {
@@ -814,8 +814,8 @@
   ],
   "CALL_LINES": [
     "The ten-year closed at 5.13% yesterday, 63 bp wide of our 4.50 percent underwriting base: quote off the live print at the open.",
-    "Crude is bid near 99.38 this morning, 4 dollars over the 95 tripwire: oil is the swing factor on the long end.",
+    "Crude is bid near 99.28 this morning, 4 dollars over the 95 tripwire: oil is the swing factor on the long end.",
     "The curve sits 32 bp from two to ten ahead of the open: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.13 percent, 63 basis points over our base, and crude is bid near 99.38 before the open."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year closed at 5.13 percent, 63 basis points over our base, and crude is bid near 99.28 before the open."
 }
