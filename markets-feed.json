@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-23T08:13:27-04:00",
+  "GENERATED_AT": "2026-10-23T09:14:57-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -319,8 +319,8 @@
     },
     {
       "sym": "WTI",
-      "val": 100.95,
-      "chg": 1.49,
+      "val": 100.99,
+      "chg": 1.53,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -417,7 +417,7 @@
         100.01,
         99.34
       ],
-      "as_of": "Oct 23 8:03a print",
+      "as_of": "Oct 23 9:03a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -613,8 +613,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.29%",
-      "chg": -13,
+      "val": "5.28%",
+      "chg": -1,
       "unit": " bp",
       "history": [
         5.31,
@@ -698,7 +698,7 @@
         5.3,
         5.29
       ],
-      "as_of": "Oct 22 close, per treasury.gov",
+      "as_of": "Oct 23 8:58a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
