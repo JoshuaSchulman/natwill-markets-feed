@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-23T14:06:01-04:00",
+  "GENERATED_AT": "2026-10-23T15:05:43-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -7,14 +7,16 @@
     "11:00a",
     "12:00p",
     "1:00p",
-    "2:00p"
+    "2:00p",
+    "3:00p"
   ],
   "TAPE_NOTES": [
     "tens back to 4.98%, crude 102, Dow -1.2% as VIX jumps",
     "tens back to par at 5.00%, Dow -1.0% as crude holds 102",
     "tens flat at 5.00%, crude pops to 103, Dow -0.9%",
     "tens ease to 4.99%, crude 103, Dow -1.1% as sellers press",
-    "tens hold 4.99%, crude 103, Dow -1.1% as sellers stay in control"
+    "tens hold 4.99%, crude 103, Dow -1.1% as sellers stay in control",
+    "tens hold 4.99%, crude 103.4, Dow -1.1% into the last hour"
   ],
   "MARKS": [
     {
@@ -32,29 +34,31 @@
       5.0,
       5.0,
       4.99,
+      4.99,
       4.99
     ],
-    "as_of": "Oct 23 1:50p print",
+    "as_of": "Oct 23 2:50p print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7631.95,
+    "close": 7630.73,
     "prior_close": 7663.43,
     "tape": [
       7629.46,
       7648.8,
       7654.42,
       7637.46,
-      7631.95
+      7631.95,
+      7630.73
     ],
-    "as_of": "Oct 23 2:05p print",
+    "as_of": "Oct 23 3:05p print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,631.95",
-      "chg": -0.41,
+      "val": "7,630.73",
+      "chg": -0.43,
       "unit": "%",
       "history": [
         7753.67,
@@ -142,13 +146,13 @@
         7641.06,
         7663.43
       ],
-      "as_of": "Oct 23 2:05p print",
+      "as_of": "Oct 23 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "26,005.33",
-      "chg": -0.01,
+      "val": "25,972.82",
+      "chg": -0.14,
       "unit": "%",
       "history": [
         27044.52,
@@ -236,12 +240,12 @@
         25972.09,
         26008.86
       ],
-      "as_of": "Oct 23 2:05p print",
+      "as_of": "Oct 23 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,279.06",
+      "val": "52,282.68",
       "chg": -1.11,
       "unit": "%",
       "history": [
@@ -330,13 +334,13 @@
         52715.78,
         52867.98
       ],
-      "as_of": "Oct 23 2:06p print",
+      "as_of": "Oct 23 3:05p print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 103.02,
-      "chg": 3.57,
+      "val": 103.38,
+      "chg": 3.93,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -433,7 +437,7 @@
         100.01,
         99.34
       ],
-      "as_of": "Oct 23 1:56p print",
+      "as_of": "Oct 23 2:55p print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -594,7 +598,7 @@
         5.15,
         4.96
       ],
-      "as_of": "Oct 23 1:50p print",
+      "as_of": "Oct 23 2:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -629,7 +633,7 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.31",
+      "val": "5.32",
       "chg": 3,
       "unit": " bp",
       "history": [
@@ -714,15 +718,15 @@
         5.3,
         5.29
       ],
-      "as_of": "Oct 23 1:51p print",
+      "as_of": "Oct 23 2:50p print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.65,
     "ten": 4.99,
-    "thirty": 5.31,
-    "as_of": "Oct 23 1:50p print"
+    "thirty": 5.32,
+    "as_of": "Oct 23 2:50p print"
   },
   "CURVE_2S10S": {
     "history": [
@@ -821,7 +825,7 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year is 4.99% at 1 PM, 49 bp wide of our 4.50 percent underwriting base: price off the live print.",
+    "The ten-year is 4.99% at 3 PM, 49 bp wide of our 4.50 percent underwriting base: price off the live print.",
     "Crude is 103, 8 dollars over the 95 tripwire: oil is the swing factor on the long end.",
     "FedWatch has the Oct 28 hike at 17 percent: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
