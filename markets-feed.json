@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-26T08:28:46-04:00",
+  "GENERATED_AT": "2026-10-26T09:07:20-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -339,8 +339,8 @@
     },
     {
       "sym": "WTI",
-      "val": 101.0,
-      "chg": -2.2,
+      "val": 101.28,
+      "chg": -1.93,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -437,7 +437,7 @@
         100.01,
         99.34
       ],
-      "as_of": "Oct 26 8:18a print",
+      "as_of": "Oct 26 8:56a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -633,8 +633,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.33",
-      "chg": 4,
+      "val": "5.31",
+      "chg": -1,
       "unit": " bp",
       "history": [
         5.31,
@@ -718,7 +718,7 @@
         5.3,
         5.29
       ],
-      "as_of": "Oct 23 close, per treasury.gov",
+      "as_of": "Oct 26 8:51a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
@@ -827,7 +827,7 @@
   ],
   "CALL_LINES": [
     "The ten-year last closed at 5.00%, 50 bp wide of our 4.50 percent underwriting base: price off that print until the open says otherwise.",
-    "Crude is near 101 this morning, still 6 dollars over the 95 tripwire: oil keeps the long end under pressure.",
+    "Crude is near 101 ahead of the open, 6 dollars over the 95 tripwire: oil keeps the long end under pressure.",
     "The Fed decides Wednesday and FedWatch last had a hike at 17 percent: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
   "FOOT_LINE": "Cost of capital sets our basis: the ten-year last closed at 5.00 percent, 50 basis points over our base, with crude near 101 ahead of Wednesday's Fed decision."
