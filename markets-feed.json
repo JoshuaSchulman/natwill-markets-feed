@@ -1,64 +1,44 @@
 {
-  "GENERATED_AT": "2026-10-26T09:07:20-04:00",
+  "GENERATED_AT": "2026-10-26T10:21:28-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
-    "10:00a",
-    "11:00a",
-    "12:00p",
-    "1:00p",
-    "2:00p",
-    "3:00p"
+    "10:00a"
   ],
   "TAPE_NOTES": [
-    "tens back to 4.98%, crude 102, Dow -1.2% as VIX jumps",
-    "tens back to par at 5.00%, Dow -1.0% as crude holds 102",
-    "tens flat at 5.00%, crude pops to 103, Dow -0.9%",
-    "tens ease to 4.99%, crude 103, Dow -1.1% as sellers press",
-    "tens hold 4.99%, crude 103, Dow -1.1% as sellers stay in control",
-    "tens close 5.00%, crude 103.6, Dow -1.2% as sellers finish in control"
+    "tens ease to 4.97%, crude 101, Dow +0.8% as buyers lead"
   ],
   "MARKS": [
     {
       "label": "Mon open",
-      "value": 5.11,
-      "as_of": "10-yr post-open print, Oct 19"
+      "value": 4.97,
+      "as_of": "10-yr post-open print, Oct 26"
     }
   ],
   "UST10": {
-    "close": 5.0,
-    "display": "5.00%",
-    "chg_bp": 4,
+    "close": 4.97,
+    "display": "4.97%",
+    "chg_bp": -3,
     "tape": [
-      4.98,
-      5.0,
-      5.0,
-      4.99,
-      4.99,
-      5.0
+      4.97
     ],
-    "as_of": "Oct 23 close, per treasury.gov",
+    "as_of": "Oct 26 10:05a print",
     "url": "https://finance.yahoo.com/quote/%5ETNX/"
   },
   "SPX": {
-    "close": 7623.68,
-    "prior_close": 7663.43,
+    "close": 7681.35,
+    "prior_close": 7623.68,
     "tape": [
-      7629.46,
-      7648.8,
-      7654.42,
-      7637.46,
-      7631.95,
-      7623.68
+      7681.35
     ],
-    "as_of": "Oct 23 close",
+    "as_of": "Oct 26 10:20a print",
     "url": "https://finance.yahoo.com/quote/%5EGSPC/"
   },
   "QUOTES": [
     {
       "sym": "S&P 500",
-      "val": "7,623.68",
-      "chg": -0.52,
+      "val": "7,681.35",
+      "chg": 0.76,
       "unit": "%",
       "history": [
         7753.67,
@@ -144,15 +124,15 @@
         7669.08,
         7651.49,
         7641.06,
-        7663.43
+        7681.35
       ],
-      "as_of": "Oct 23 close",
+      "as_of": "Oct 26 10:20a print",
       "url": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
     {
       "sym": "NASDAQ",
-      "val": "25,955.34",
-      "chg": -0.21,
+      "val": "26,162.14",
+      "chg": 0.8,
       "unit": "%",
       "history": [
         27044.52,
@@ -238,15 +218,15 @@
         26136.05,
         26039.63,
         25972.09,
-        26008.86
+        26162.14
       ],
-      "as_of": "Oct 23 close",
+      "as_of": "Oct 26 10:20a print",
       "url": "https://finance.yahoo.com/quote/%5EIXIC/"
     },
     {
       "sym": "DOW",
-      "val": "52,215.16",
-      "chg": -1.23,
+      "val": "52,607.62",
+      "chg": 0.75,
       "unit": "%",
       "history": [
         51989.14,
@@ -332,15 +312,15 @@
         52809.54,
         52749.4,
         52715.78,
-        52867.98
+        52607.62
       ],
-      "as_of": "Oct 23 close",
+      "as_of": "Oct 26 10:20a print",
       "url": "https://finance.yahoo.com/quote/%5EDJI/"
     },
     {
       "sym": "WTI",
-      "val": 101.28,
-      "chg": -1.93,
+      "val": 100.95,
+      "chg": -2.25,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -435,9 +415,9 @@
         98.45,
         99.01,
         100.01,
-        99.34
+        100.95
       ],
-      "as_of": "Oct 26 8:56a print",
+      "as_of": "Oct 26 10:10a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
@@ -515,8 +495,8 @@
     },
     {
       "sym": "10-YR",
-      "val": "5.00%",
-      "chg": 4,
+      "val": "4.97%",
+      "chg": -3,
       "unit": " bp",
       "inverse": true,
       "history": [
@@ -596,9 +576,9 @@
         5.14,
         5.13,
         5.15,
-        4.96
+        4.97
       ],
-      "as_of": "Oct 23 close, per treasury.gov",
+      "as_of": "Oct 26 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5ETNX/"
     },
     {
@@ -633,8 +613,8 @@
     },
     {
       "sym": "30-YR",
-      "val": "5.31",
-      "chg": -1,
+      "val": "5.29",
+      "chg": -3,
       "unit": " bp",
       "history": [
         5.31,
@@ -718,15 +698,15 @@
         5.3,
         5.29
       ],
-      "as_of": "Oct 26 8:51a print",
+      "as_of": "Oct 26 10:05a print",
       "url": "https://finance.yahoo.com/quote/%5ETYX/"
     }
   ],
   "CURVE": {
     "two": 4.69,
-    "ten": 5.0,
-    "thirty": 5.33,
-    "as_of": "Oct 23 close, per treasury.gov"
+    "ten": 4.97,
+    "thirty": 5.29,
+    "as_of": "10-yr, 30-yr Oct 26 10:05a print; 2-yr Oct 23 close, per treasury.gov"
   },
   "CURVE_2S10S": {
     "history": [
@@ -826,9 +806,9 @@
     }
   ],
   "CALL_LINES": [
-    "The ten-year last closed at 5.00%, 50 bp wide of our 4.50 percent underwriting base: price off that print until the open says otherwise.",
-    "Crude is near 101 ahead of the open, 6 dollars over the 95 tripwire: oil keeps the long end under pressure.",
+    "The ten-year is at 4.97% this morning, 47 bp wide of our 4.50 percent underwriting base: price off that print.",
+    "Crude is near 101, 6 dollars over the 95 tripwire: oil keeps the long end under pressure.",
     "The Fed decides Wednesday and FedWatch last had a hike at 17 percent: cost of capital is the story, keep the 20 bp lock trigger in view."
   ],
-  "FOOT_LINE": "Cost of capital sets our basis: the ten-year last closed at 5.00 percent, 50 basis points over our base, with crude near 101 ahead of Wednesday's Fed decision."
+  "FOOT_LINE": "Cost of capital sets our basis: the ten-year is at 4.97 percent, 47 basis points over our base, with crude near 101 ahead of Wednesday's Fed decision."
 }
