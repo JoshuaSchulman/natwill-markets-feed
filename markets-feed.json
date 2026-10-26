@@ -1,5 +1,5 @@
 {
-  "GENERATED_AT": "2026-10-26T07:06:47-04:00",
+  "GENERATED_AT": "2026-10-26T08:28:46-04:00",
   "UNDERWRITING_BASE_10YR": 4.5,
   "LOCK_TRIGGER_BP": 20,
   "TAPE_TIMES": [
@@ -339,8 +339,8 @@
     },
     {
       "sym": "WTI",
-      "val": 100.99,
-      "chg": -2.21,
+      "val": 101.0,
+      "chg": -2.2,
       "unit": "%",
       "inverse": true,
       "history": [
@@ -437,7 +437,7 @@
         100.01,
         99.34
       ],
-      "as_of": "Oct 26 6:55a print",
+      "as_of": "Oct 26 8:18a print",
       "url": "https://finance.yahoo.com/quote/CL%3DF/"
     },
     {
